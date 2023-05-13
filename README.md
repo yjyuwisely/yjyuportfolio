@@ -7,6 +7,9 @@ I developed this portfolio between March 31, 2023, and April 16, 2023 and update
 On the frontend, I have used HTML, CSS, and Bootstrap to create a visually appealing and responsive design. 
 Additionally, I have incorporated Vanilla JavaScript and jQuery to add interactivity to the site.
 <br><br>
+On the backend, I have used Spring Boot to create a scalable and modular architecture. 
+I have implemented Spring Security for authentication and authorization. Maven has been used for dependency management, and MySQL has been used as the database.
+<br><br>
 However, I have removed the backend part of the portfolio, which previously included the use of Spring Boot, Spring Security, Maven, and MySQL so that I can deploy a website from GitHub.
 This is my link below.<br>
 https://github.com/yjyuwisely/Full-Stack-Web-Developer-Portfolio <br><br>

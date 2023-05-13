@@ -1,12 +1,15 @@
 <h1>Full Stack Developer Portfolio: Showcasing My Skills and Projects</h1>
 <p align="justify">This is my first portfolio, which showcases my skills as a full stack developer. 
-I developed this portfolio between March 31, 2023, and April 16, 2023.</p>
+I developed this portfolio between March 31, 2023, and April 16, 2023 and updated it on May 14, 2013.</p>
 
 <h2>Project Overview</h2>
 <p align="justify">In this portfolio, I have showcased my skills and projects as a full stack developer. 
 On the frontend, I have used HTML, CSS, and Bootstrap to create a visually appealing and responsive design. 
 Additionally, I have incorporated Vanilla JavaScript and jQuery to add interactivity to the site.
 <br>
+However, I have removed the backend part of the portfolio, which previously included the use of Spring Boot, Spring Security, Maven, and MySQL so that I can deploy a website from GitHub.
+This is my link below.
+https://github.com/yjyuwisely/Full-Stack-Web-Developer-Portfolio <br>
 Overall, this portfolio demonstrates my proficiency in a range of frontend and backend technologies 
 and serves as a testament to my abilities as a full stack developer.</p>
 

@@ -23,4 +23,4 @@ and serves as a testament to my abilities as a full stack developer.</p>
 
 <h2>Page Screenshot</h2>
 Here's a screenshot of the introduction section:
-<img src="https://user-images.githubusercontent.com/124529023/232427968-02552d68-039c-4c5a-a8e4-b0c512721b05.png">
+<img src="https://github.com/yjyuwisely/MyPortfolio/assets/124529023/39566b53-4cdb-47be-89ba-d633e10ac5d7">

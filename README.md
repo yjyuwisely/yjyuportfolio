@@ -7,9 +7,6 @@ I developed this portfolio between March 31, 2023, and April 16, 2023.</p>
 On the frontend, I have used HTML, CSS, and Bootstrap to create a visually appealing and responsive design. 
 Additionally, I have incorporated Vanilla JavaScript and jQuery to add interactivity to the site.
 <br>
-On the backend, I have used Spring Boot to create a scalable and modular architecture. 
-I have implemented Spring Security for authentication and authorization. Maven has been used for dependency management, and MySQL has been used as the database.
-<br>
 Overall, this portfolio demonstrates my proficiency in a range of frontend and backend technologies 
 and serves as a testament to my abilities as a full stack developer.</p>
 

@@ -32,7 +32,7 @@
 }
 
 .container.outer { /* .을 붙여써야 작동한다.*/ /*컨테이너 겉 테두리*/
-/*   background: linear-gradient(345deg, #FFFFCC , #FFF3F9, #C8F9FE);    */
+/*   background: linear-gradient(45deg,#ffebff, #ffffdb ,  #ffebff, #FFF3F9, #C8F9FE);       */
   border-left: solid #CCFFFF 1px;
   border-top: solid #CCFFFF 1px;
   border-right: solid black 2px;
@@ -11275,6 +11275,7 @@ html {
 
 #windowTitle {
 	color: white;
+	text-shadow: 1px 1px 2px #ffcdfa;
 }
 
 #windowMenu:hover{

@@ -121,13 +121,14 @@ button {
   max-height: 50px;
   min-height: 400px; */
   position: relative;
-  
-  /* background-image:url("../assets/images/bgSkyblue.png"); */
+/*   background-color: transparent; */
+/*    background-image:url("../assets/images/bgSkyblueDark.png"); 
   background-size:cover;
-  background-attachment: fixed;
-/*   background: rgba(0, 0, 0, 0.5);   */
+  background-attachment: fixed;   */
+/*   opacity:0.5;  */
+/*  background: rgba(0, 0, 0, 0.5);   */
 /* background:white; */
-/*   background:black;   */
+/*    background:black;    */
 /*   background: linear-gradient(45deg, #FFFFCC , #FFF3F9, #C8F9FE);   */
   
 /* padding:1.6rem 2rem 0 2rem; */

@@ -37,21 +37,11 @@ to generate dynamic content on your web page.  -->
 </head>
 
 <body id="page-top">
-	<!-- <div class="container d-flex align-items-center flex-column"> 생략한 것 -->
-	<!-- 탑 버튼 아이콘 Top Button Icon -->
 	<a href="#page-top" id="gotop" title="Top">
 		<button class="btn btn_auto">TOP</button>
 	</a>
-
-	<!-- Navigation-->
-	<!-- 	<header class="mp-0"> -->
-
 	<nav class="navbar navbar-expand-lg text-uppercase bs-light fixed-top"
 		id="mainNav">
-		<!-- fixed-top  -->
-		<!-- 		   <div class=" navbar-header"> -->
-		<!-- 			<div class="navbar-header"> -->
-
 		<button
 			class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
 			type="button" data-bs-toggle="collapse"
@@ -59,12 +49,6 @@ to generate dynamic content on your web page.  -->
 			aria-expanded="false" aria-label="Toggle navigation">
 			Menu <i class="fas fa-bars"></i>
 		</button>
-		<!-- 		</div> -->
-		<!-- 		</nav> -->
-		<!-- 		<nav
-			class="navbar navbar-expand-lg bs-light text-uppercase fixed-top"
-			id="mainNav"> -->
-		<!-- fixed-top  -->
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav fs-4" style="margin-left: 10px;">
 				<li class="nav-item my-2 "><a
@@ -75,7 +59,7 @@ to generate dynamic content on your web page.  -->
 						기술 목록</a></li>
 				<li class="nav-item my-2 "><a
 					class="nav-link px-0 px-lg-2 rounded text-light" href="#projects">
-						프로젝트</a></li>
+						프로젝트 목록</a></li>
 				<li class="nav-item my-2 "><a
 					class="nav-link px-0 px-lg-2 rounded text-light" href="#archiving">
 						블로그/깃허브</a></li>
@@ -87,15 +71,9 @@ to generate dynamic content on your web page.  -->
 					href="#achievements"> 수상 내역 </a></li>
 				<li class="nav-item mt-1"><a class="navbar-brand fs-6 mb-0"
 					href="#page-top" id="TopTitle"> Yeongjin's portfolio</a></li>
-				<!-- <li class="nav-item mx-3">
-					<a class="nav-link px-0 px-lg-2 rounded text-light" href="#contact">
-					연락</a></li>
-										      <li class="nav-item mx-3"><a class="nav-link px-0 px-lg-3 rounded text-dark" href="#contact">English</a></li> -->
 			</ul>
 		</div>
-		<!-- 			</div> -->
 	</nav>
-	<!-- 	</header> -->
 
 	<!-- [1] About 섹션: About Section-->
 	<!-- About: A section where you can talk about yourself, your background, and your interests.
@@ -112,26 +90,7 @@ to generate dynamic content on your web page.  -->
 					<span class="title-bar__title"><a href="#page-top"
 						id="windowTitle">Yeongjin's portfolio</a></span>
 				</div>
-				<!-- top-right buttons -->
-				<!-- 					<div class="title-bar__controls" style="font-family:'Silkscreen', cursive;">
-					 <button class="btn">- 버튼
-						<svg width="19" height="3" viewBox="0 0 19 3" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-         				 <rect width="19" height="3" fill="#353535" />
-       					 </svg>
-					</button>
-
-					<button class="btn">- 창 확대 축소 버튼
-						<svg width="19" height="16" viewBox="0 0 19 16" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-          				<rect x="1.5" y="1.5" width="16" height="13"
-								stroke="#353535" stroke-width="3" />
-       					 </svg>
-					</button>
-					<button class="btn">x</button>x 버튼 
-				</div>-->
 			</div>
-
 			<div class="container">
 				<!-- 컨텐츠 내용 시작 -->
 				<div class="display">
@@ -262,13 +221,14 @@ to generate dynamic content on your web page.  -->
 			</div>
 			<div class="container">
 				<!-- 컨텐츠 내용 시작 -->
-				<div class="display">
-<!-- 					<video id="background-video" autoplay loop muted>
+				<div class="display" style="background-color: rgba(0, 0, 0, 0.2);">
+					<!-- 					<video id="background-video" autoplay loop muted>
 						<source src="videos/tunnel.mp4" type="video/mp4">
 					</video> -->
 					<!-- Project Section Heading-->
 					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">프로젝트</h2>
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">프로젝트
+						1</h2>
 					<!--  팀 프로젝트 시작 -->
 					<h2
 						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">프로젝트
@@ -283,7 +243,7 @@ to generate dynamic content on your web page.  -->
 										alt="Project1" height=200px width=200px /></td>
 							<td>
 								<div class="lead text-start rounded text-white mx-2 my-3"
-									style="background-color: rgba(0, 0, 0, 0.4); word-break: break-word;">
+									style="word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
 									그린컴퓨터아카데미 울산캠퍼스에서 진행 예정인 팀프로젝트입니다. 4월 17일에서 6월 30일까지 진행 완료 후 적을
 									예정입니다.<br> <br>
 									<ul class="pl-3" style="list-style-type: square;">
@@ -298,8 +258,41 @@ to generate dynamic content on your web page.  -->
 							</td>
 						</tr>
 					</table>
+				</div>
+			</div>
+			<a class="navbar-brand  fs-6 text-light text-uppercase"
+				href="#page-top" id="TopTitle"
+				style="float: left; margin-left: 0.3rem; margin-top: 0.5rem;">
+				Projects </a>
+			<div class="controls">
+				<a href="#skills"><button class="btn btn_auto">Prev</button></a> <a
+					href="#archiving"><button class="btn btn_auto">Next</button></a>
+			</div>
+	</section>
 
-					<!--  [3.1] 포트폴리오 시작 -->
+	<!-- [3.2] 프로젝트 섹션: Project Section-->
+	<!-- Projects: A section where you can showcase your projects, including descriptions, screenshots, and preferably links 
+		to the live versions(live demos) or Github repositories -->
+		<section class="page-section skills" id="projects">
+		<div class="container outer">
+			<div class="title-bar">
+				<div>
+					<!-- 레트로 윈도우 창 -->
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle">Yeongjin's portfolio</a></span>
+				</div>
+			</div>
+			<div class="container">
+				<!-- 컨텐츠 내용 시작 -->
+				<div class="display" style="background-color: rgba(0, 0, 0, 0.2);">
+					<!-- 					<video id="background-video" autoplay loop muted>
+						<source src="videos/tunnel.mp4" type="video/mp4">
+					</video> -->
+					<!-- Project Section Heading-->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">프로젝트
+						1</h2>
+<!--  [3.1] 포트폴리오 시작 -->
 					<h2
 						class="page-section-heading text-center text-uppercase text-secondary py-3 text-light">포트폴리오
 						웹사이트</h2>
@@ -320,11 +313,13 @@ to generate dynamic content on your web page.  -->
 						</tr>
 						<tr>
 							<td>
-								<div class="lead text-start rounded text-white mx-2 my-1"
-									style="background-color: rgba(0, 0, 0, 0.3); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
+								<div class="lead text-start rounded text-white"
+									style="word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
 									<p class="lead text-start">
 										포트폴리오 용도로 제작한 지금 보고 있는 웹사이트입니다. 반응형 웹페이지와 Bootstrap을 처음 사용할 수
 										있던 좋은 기회였습니다. 디자인은 90년대 레트로 스타일의 윈도우에 영감을 받아서 만들었습니다. <br>
+										하단의 깃허브 링크에는 백엔드 페이지로 Spring Boot, Spring Security, Maven,
+										MySQL를 이용해서 회원가입, 로그인, 로그아웃, 회원 정보 수정을 구현한 웹페이지를 담았습니다.
 									</p>
 									<!-- Make sure to include any other relevant details or achievements related to this project 
 									that you think could be useful for potential employers or clients to know. -->
@@ -336,15 +331,50 @@ to generate dynamic content on your web page.  -->
 											title="깃허브로 이동"> <b>github.com/yjyuwisely/Full-Stack-Developer-Portfolio.git</b></a></li>
 										<li class="silkscreen">Frontend: HTML, CSS, Bootstrap,
 											Vanilla JS, jQuery</li>
-										<!--  <li  class="silkscreen">Backend: Spring Boot, Spring Security, MySQL, Java </li>  -->
+										<li class="silkscreen">Backend: Spring Boot, Spring
+											Security, MySQL, Java</li>
 									</ul>
 								</div>
 							</td>
 						</tr>
 					</table>
+				</div>
+			</div>
+			<a class="navbar-brand  fs-6 text-light text-uppercase"
+				href="#page-top" id="TopTitle"
+				style="float: left; margin-left: 0.3rem; margin-top: 0.5rem;">
+				Projects </a>
+			<div class="controls">
+				<a href="#skills"><button class="btn btn_auto">Prev</button></a> <a
+					href="#archiving"><button class="btn btn_auto">Next</button></a>
+			</div>
+	</section>
+
+	<!-- [3.3] 프로젝트 섹션: Project Section-->
+	<!-- Projects: A section where you can showcase your projects, including descriptions, screenshots, and preferably links 
+		to the live versions(live demos) or Github repositories -->
+	<section class="page-section skills" id="projects">
+		<div class="container outer">
+			<div class="title-bar">
+				<div>
+					<!-- 레트로 윈도우 창 -->
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle">Yeongjin's portfolio</a></span>
+				</div>
+			</div>
+			<div class="container">
+				<!-- 컨텐츠 내용 시작 -->
+				<div class="display" style="background-color: rgba(0, 0, 0, 0.2);">
+					<!-- 					<video id="background-video" autoplay loop muted>
+						<source src="videos/tunnel.mp4" type="video/mp4">
+					</video> -->
+					<!-- Project Section Heading-->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">프로젝트
+						3</h2>
 					<!--  [3.2] 포트폴리오 시작 -->
 					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 my-5 text-light">울산
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">울산
 						울주군 여행 웹사이트</h2>
 					<p
 						style="margin: 0; padding: 0; font-weight: bold; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
@@ -391,7 +421,7 @@ to generate dynamic content on your web page.  -->
 							</td>
 							<td>
 								<div class="lead text-start rounded text-white mx-1 my-2 "
-									style="background-color: rgba(0, 0, 0, 0.3); word-break: break-word; text-shadow: 1px 1px 2px black;">
+									style="word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
 									<p class="lead text-start">
 										울산 울주군 여행 웹사이트를 진행하게 된 계기는 저도 몰랐던 고향의 여러 여행 장소에 대해 자세히 알고
 										싶었었고, 울산에 거주 중임에도 불구하고 저는 울산 시티 투어와 울산 관광 택시가 있는 줄 몰랐기 때문입니다.
@@ -421,7 +451,6 @@ to generate dynamic content on your web page.  -->
 					href="#archiving"><button class="btn btn_auto">Next</button></a>
 			</div>
 	</section>
-
 
 	<!-- [4] 블로그/깃허브 섹션: Blog & Github Section-->
 	<!-- Blog and Github: A section where you can link to your blog and Github profile 
@@ -489,7 +518,8 @@ to generate dynamic content on your web page.  -->
 								프로젝트의 소스 코드 저장소입니다.
 							</p>
 							<ul style="list-style-type: square; font-size: 0.9rem;">
-								<li>포트폴리오 소스 코드</li>
+								<li>팀 프로젝트 소스 코드</li>
+								<li>포트폴리오 웹사이트 소스 코드</li>
 								<li>울산 울주군 개인 프로젝트 소스 코드</li>
 								<!-- 								<li> 팀 프로젝트 소스 코드</li>  -->
 							</ul>
@@ -524,7 +554,7 @@ to generate dynamic content on your web page.  -->
 
 			<div class="container">
 				<!-- 컨텐츠 내용 시작 -->
-				<div class="display">
+				<div class="display" style="background-color: rgba(0, 0, 0, 0.4)">
 					<video id="background-video" autoplay loop muted>
 						<source src="videos/tunnel2.mp4" type="video/mp4">
 					</video>
@@ -532,7 +562,7 @@ to generate dynamic content on your web page.  -->
 					<h2
 						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">훈련/교육</h2>
 					<ul class="lead text-start rounded text-white mx-2 my-3"
-						style="list-style-type: square; background-color: rgba(0, 0, 0, 0.4); text-shadow: 1px 1px 2px #9B28BF;">
+						style="list-style-type: square; text-shadow: 1px 1px 2px #9B28BF;">
 						<li><b class="silkscreen">[K-디지털 트레이닝] IoT 기반 스마트 헬스케어 웹
 								서비스 개발 과정 (그린컴퓨터아카데미 울산 캠퍼스 (22.12.29-23.07.04))</b><br> 개인
 							프로젝트와 팀 프로젝트를 진행했으며 아래 과정들을 학습했습니다.<br> <b
@@ -589,7 +619,7 @@ to generate dynamic content on your web page.  -->
 				</div>
 			</div>
 
-			<div class="container">
+			<div class="container" >
 				<!-- 컨텐츠 내용 시작 -->
 				<div class="display">
 					<video id="background-video" autoplay loop muted>
@@ -636,111 +666,6 @@ to generate dynamic content on your web page.  -->
 			</div>
 		</div>
 	</section>
-
-	<!-- <!-- 	[7] 연락처 섹션: Contact Section
-    A section where you can provide your contact information, 
-		including email address, phone number, and links to your social media profiles.
-		for potential employers or collaborators to get in touch with you.
-        <section class="page-section" id="contact">
-            <div class="container outer">
-                Contact Section Heading
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">연락</h2>
-                Contact Section Form
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        * * * * * * * * * * * * * * *
-                        * * SB Forms Contact Form * *
-                        * * * * * * * * * * * * * * *
-                        This form is pre-integrated with SB Forms.
-                        To make this form functional, sign up at
-                        https://startbootstrap.com/solution/contact-forms
-                        to get an API token!
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            Name input
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            Email address input
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            Phone number input
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            Message input
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." 
-                                style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            Submit success message
-                           
-                            This is what your users will see when the form
-                            has successfully submitted
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            Submit error message
-                           
-                            This is what your users will see when there is
-                            an error submitting the form
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            Submit Button
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">SEND</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-	<!--         Footer
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    Footer Location
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
-                    Footer Social Icons
-                    동그란 SNS 아이콘들
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    Footer About Text
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer> -->
 	<!-- Copyright Section-->
 	<div class="copyright text-center text-white">
 		<small style="font-family: 'Silkscreen';">&copy 2023

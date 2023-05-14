@@ -138,16 +138,12 @@ line-height:200%;
 .nav-link:hover {
   color: #FF66FF/* #57F5A6  *//* #A312B9 */ !important;
 }
-
-/* .nav-link:hover {
-    color: #57F5A6;
-}
- */
  
 /* .nav-link.active {
     color: #62FF62 !important;
 }
  */
+ 
 a { /* 윈도우 네비게이션바 */
   color: var(--bs-link-color); 
 /*   color:#353535;  */ /* inherit; */
@@ -11300,6 +11296,14 @@ z-index:10;
   .masthead-avatar {
     width: 100%;
     height: auto;
-    max-width: 350px;
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .portImg {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
   }
 }

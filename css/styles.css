@@ -60,7 +60,7 @@
 }
  
 body {
-  background-image: url("../assets/images/bgSkyblue.png");  
+  background-image: url("../assets/images/bgSkyblueBlur.png");  
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
@@ -3967,7 +3967,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
-  background-image: url(../assets/images/bgSkyblue.png)!important;  
+  background-image: url(../assets/images/bgSkyblueBlur.png)!important;  
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11122,7 +11122,7 @@ html {
   font-family: "Silkscreen", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   background:white;
-  background-image:url("../image/bgSkyblue.png");
+  background-image:url("../image/bgSkyblueBlur.png");
   background-size:cover;   
   background-attachment: fixed;
 }

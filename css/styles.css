@@ -60,14 +60,12 @@
 }
  
 body {
-  background-image:url("../assets/images/bgSkyblue.png");
-  background-size:cover;
+  background-image: url("../assets/images/bgSkyblue.png");
+  background-size: cover;
   background-attachment: fixed;
-  margin:0;
-  padding:0;
-  font-family:"IBM Plex Sans KR";
-
-/*   font-family: var(--bs-body-font-family); */
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans KR";
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -76,6 +74,12 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: contain;
+  }
 }
 
 h2{

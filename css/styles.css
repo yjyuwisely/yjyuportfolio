@@ -11300,7 +11300,7 @@ z-index:10;
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 420px) { 
   .portImg {
     width: 100%;
     height: auto;

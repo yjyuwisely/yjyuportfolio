@@ -11,8 +11,14 @@ On the backend, I have used Spring Boot to create a scalable and modular archite
 I have implemented Spring Security for authentication and authorization. Maven has been used for dependency management, and MySQL has been used as the database.
 <br><br>
 However, I have removed the backend part of the portfolio, which previously included the use of Spring Boot, Spring Security, Maven, and MySQL so that I can deploy a website from GitHub.
-This is my link below.<br>
+  
+The portfolio can be viewed at the following URL: <br>
+https://yjyuwisely.github.io/yjyuportfolio/<br><br>
+  
+Click here to see my full stack web developer portfolio.<br>
 https://github.com/yjyuwisely/Full-Stack-Web-Developer-Portfolio <br><br>
+  
+  
 Overall, this portfolio demonstrates my proficiency in a range of frontend and backend technologies 
 and serves as a testament to my abilities as a full stack developer.</p>
 

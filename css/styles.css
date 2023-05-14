@@ -215,33 +215,6 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   }
 }
 
-#windowTitle {
-	font-family: Silkscreen;
-	font-size:0.8rem;
-	color: white;
-}
-
-#windowTitle:hover{
-	color: #57F5A6;
-}
-
-#windowTitle {
-	color: white;
-	text-shadow: 1px 1px 2px #ffcdfa;
-}
-
-#windowMenu:hover{
-	color: #57F5A6;
-}
-
-#gotop{
-/* display:none; */
-position:fixed;
-bottom:5px;
-right:5px;
-z-index:10;
-}
-
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11292,5 +11265,41 @@ html {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
+
+
+#windowTitle {
+	font-family: Silkscreen;
+	font-size:0.8rem;
+	color: white;
+}
+
+#windowTitle:hover{
+	color: #57F5A6;
+}
+
+#windowTitle {
+	color: white;
+	text-shadow: 1px 1px 2px #ffcdfa;
+}
+
+#windowMenu:hover{
+	color: #57F5A6;
+}
+
+#gotop{
+/* display:none; */
+position:fixed;
+bottom:5px;
+right:5px;
+z-index:10;
+}
+
+@media only screen and (max-width: 390px) {
+  .masthead-avatar {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
   }
 }

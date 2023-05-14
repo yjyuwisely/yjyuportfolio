@@ -32,7 +32,7 @@
 }
 
 .container.outer { /* .을 붙여써야 작동한다.*/ /*컨테이너 겉 테두리*/
-/*   background: linear-gradient(45deg,#ffebff, #ffffdb ,  #ffebff, #FFF3F9, #C8F9FE);       */
+  background: linear-gradient(45deg,#ffebff, #ffffdb ,  #ffebff, #FFF3F9, #C8F9FE);       
   border-left: solid #CCFFFF 1px;
   border-top: solid #CCFFFF 1px;
   border-right: solid black 2px;
@@ -101,6 +101,7 @@ ul {
   font-size:200%;
 }
  */
+ 
 .silkscreen {
   font-family: "Silkscreen","IBM Plex Sans KR", sans-serif;
   font-weight: normal;
@@ -133,7 +134,6 @@ line-height:200%;
 	font-weight: bold;	
 	margin:0;
 }
-
 
 .nav-link:hover {
   color: #FF66FF/* #57F5A6  *//* #A312B9 */ !important;
@@ -213,6 +213,33 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+}
+
+#windowTitle {
+	font-family: Silkscreen;
+	font-size:0.8rem;
+	color: white;
+}
+
+#windowTitle:hover{
+	color: #57F5A6;
+}
+
+#windowTitle {
+	color: white;
+	text-shadow: 1px 1px 2px #ffcdfa;
+}
+
+#windowMenu:hover{
+	color: #57F5A6;
+}
+
+#gotop{
+/* display:none; */
+position:fixed;
+bottom:5px;
+right:5px;
+z-index:10;
 }
 
 :root {
@@ -11265,31 +11292,4 @@ html {
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
-}
-
-#windowTitle {
-	font-family: Silkscreen;
-	font-size:0.8rem;
-	color: white;
-}
-
-#windowTitle:hover{
-	color: #57F5A6;
-}
-
-#windowTitle {
-	color: white;
-	text-shadow: 1px 1px 2px #ffcdfa;
-}
-
-#windowMenu:hover{
-	color: #57F5A6;
-}
-
-#gotop{
-/* display:none; */
-position:fixed;
-bottom:5px;
-right:5px;
-z-index:10;
 }

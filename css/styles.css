@@ -78,8 +78,9 @@ body {
 
 @media only screen and (max-width: 400px) {
   body {
+  background-image: url("../assets/images/bgShort.jpg");  
   background-size: contain;
-background-repeat: repeat;
+  background-repeat: repeat;
 /*     background-position: 30% bottom;
     background-size: auto 40%; 
     background-repeat: repeat; */
@@ -88,8 +89,9 @@ background-repeat: repeat;
 
 @media only screen and (max-width: 1100px) {
   body {
+  background-image: url("../assets/images/bgShort.jpg");  
   background-size: contain;
-background-repeat: repeat;
+  background-repeat: repeat;
 /*     background-position: 20% bottom;
     background-size: auto 60%; 
     background-repeat: repeat; */

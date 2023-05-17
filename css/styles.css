@@ -76,11 +76,21 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   body {
-    background-size: contain;
+    background-position: 30% bottom;
+    background-size: auto 40%; 
+    background-repeat: repeat;
   }
-} */
+} 
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-position: 20% bottom;
+    background-size: auto 60%; 
+    background-repeat: repeat;
+  }
+} 
 
 h2{
  	padding-top: 2rem; 
@@ -3938,6 +3948,28 @@ textarea.form-control-lg {
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
   background-image: url(../assets/images/bgSkyblueBlur.png)!important;  
 }
+
+/* Responsive 반응형 */
+@media only screen and (max-width: 400px) {
+  .navbar {
+    /* Styles for screens up to 400px */
+    background-image: url(../assets/images/bgSkyblueBlur.png)!important;  
+    background-position: 30% bottom;
+    background-size: auto 40%;
+    background-repeat: repeat;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .navbar {
+    /* Styles for screens up to 1100px */
+    background-image: url(../assets/images/bgSkyblueBlur.png)!important;  
+    background-position: 20% bottom;
+    background-size: auto 60%;
+    background-repeat: repeat;
+  }
+}
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,

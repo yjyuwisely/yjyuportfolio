@@ -61,7 +61,7 @@
  
 body {
   background-image: url("../assets/images/bgSkyblueBlur.png");  
-  background-size: cover;
+  background-size: cover; 
   background-attachment: fixed;
   margin: 0;
   padding: 0;
@@ -78,17 +78,21 @@ body {
 
 @media only screen and (max-width: 400px) {
   body {
-    background-position: 30% bottom;
+  background-size: contain;
+background-repeat: repeat;
+/*     background-position: 30% bottom;
     background-size: auto 40%; 
-    background-repeat: repeat;
+    background-repeat: repeat; */
   }
 } 
 
 @media only screen and (max-width: 1100px) {
   body {
-    background-position: 20% bottom;
+  background-size: contain;
+background-repeat: repeat;
+/*     background-position: 20% bottom;
     background-size: auto 60%; 
-    background-repeat: repeat;
+    background-repeat: repeat; */
   }
 } 
 
@@ -3954,19 +3958,23 @@ textarea.form-control-lg {
   .navbar {
     /* Styles for screens up to 400px */
     background-image: url(../assets/images/bgSkyblueBlur.png)!important;  
-    background-position: 30% bottom;
+    background-size: 40%;
+    background-repeat: no-repeat;
+/*     background-position: 30% bottom;
     background-size: auto 40%;
-    background-repeat: repeat;
+    background-repeat: repeat; */
   }
 }
 
 @media only screen and (max-width: 1100px) {
   .navbar {
     /* Styles for screens up to 1100px */
-    background-image: url(../assets/images/bgSkyblueBlur.png)!important;  
-    background-position: 20% bottom;
+    background-image: url(../assets/images/bgSkyblueBlur.png)!important; 
+    background-size: 60%;
+    background-repeat: no-repeat; 
+/*     background-position: 20% bottom;
     background-size: auto 60%;
-    background-repeat: repeat;
+    background-repeat: repeat; */
   }
 }
 

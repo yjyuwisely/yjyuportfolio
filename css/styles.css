@@ -78,9 +78,10 @@ body {
 
 @media only screen and (max-width: 400px) {
   body {
-  background-image: url("../assets/images/bgLong.jpg");  
+  background-image: url("../assets/images/bgSkyblueBlur.png");  
   background-size: contain;
   background-repeat: repeat;
+  background-attachment: fixed;
 /*     background-position: 30% bottom;
     background-size: auto 40%; 
     background-repeat: repeat; */
@@ -89,23 +90,23 @@ body {
 
 @media only screen and (max-width: 1100px) {
   body {
-  background-image: url("../assets/images/bgLong.jpg");  
+  background-image: url("../assets/images/bgSkyblueBlur.png");  
   background-size: cover; 
   background-repeat: repeat;
+  background-attachment: fixed;
 /*     background-position: 20% bottom;
     background-size: auto 60%; 
     background-repeat: repeat; */
   }
 } 
 
-
-
 /* Responsive 반응형 */
 @media only screen and (max-width: 400px) {
   .navbar {
     /* Styles for screens up to 400px */
-    background-image: url(../assets/images/bgShort.jpg)!important;  
-     background-size: cover; 
+    background-image: url(../assets/images/bgSkyblueBlur.png)!important;  
+     background-size: cover;  
+     background-attachment: fixed;
 /*     background-size: 40%;
     background-repeat: no-repeat; */
 /*     background-position: 30% bottom;
@@ -117,8 +118,9 @@ body {
 @media only screen and (max-width: 1100px) {
   .navbar {
     /* Styles for screens up to 1100px */
-    background-image: url(../assets/images/bgLong.jpg)!important; 
+    background-image: url(../assets/images/bgSkyblueBlur.png)!important; 
     background-size: cover; 
+    background-attachment: fixed;
 /*     background-size: 60%;
     background-repeat: no-repeat;  */
 /*     background-position: 20% bottom;

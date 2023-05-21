@@ -11326,7 +11326,8 @@ html {
 
 #windowTitle {
 	color: white;
-	text-shadow: 1px 1px 2px #ffcdfa;
+	font-weight:900;
+	text-shadow: 1px 1px 2px #C041F7 /*#ffcdfa*/;
 }
 
 #windowMenu:hover{

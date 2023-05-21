@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@600&display=swap'); /* font-family: 'Hahmlet', serif; */
 
-
 /* body {
   background-image:url("../image/bg3_3.png");
   background-size:cover;
@@ -16,7 +15,6 @@
   align-items: center;
   justify-content: center;
 } */
-
 
 * {
   font-family: "IBM Plex Sans KR";
@@ -73,13 +71,13 @@ button {
 }
 
 .title-bar { /*제목*/
-/*   background-color: #a5a5ff;; */
+/*   background-color: #a5a5ff; */
 /*   padding: 2px 8px 0 6px;  */
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 3px 0 3px;
-  opacity:0.9;
+/*   opacity:0.9; */
 }
 .title-bar__title {/*제목 글자*/
   padding: 10px;

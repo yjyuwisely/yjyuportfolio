@@ -32,4 +32,4 @@ and serves as a testament to my abilities as a full stack developer.</p>
 
 <h2>Page Screenshot</h2>
 Here's a screenshot of the introduction section:
-<img src="https://github.com/yjyuwisely/MyPortfolio/assets/124529023/39566b53-4cdb-47be-89ba-d633e10ac5d7">
+<img src="https://github.com/yjyuwisely/yjyuportfolio/assets/124529023/2ad73329-fd61-4118-8db3-010d8296d1a7">

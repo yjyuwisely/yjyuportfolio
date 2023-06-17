@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<!-- use Thymeleaf's functionality, such as dynamic expressions and conditionals, 
-to generate dynamic content on your web page.  -->
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,7 +8,7 @@ to generate dynamic content on your web page.  -->
 <meta name="author" content="" />
 <title>Yeongjin's Portfolio</title>
 <!-- Favicon-->
-<!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
 <!-- Font Awesome icons (free version)-->
 <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
 	crossorigin="anonymous"></script>
@@ -21,7 +19,7 @@ to generate dynamic content on your web page.  -->
 <link href="css/window.css" rel="stylesheet" />
 <!--탑버튼 Top button -->
 <script type="text/javascript">
-	$(function() { 
+	$(function() {
 		$("#gotop").hide();
 		$(window).scroll(function() {
 			if ($(this).scrollTop() > 1000) {
@@ -73,8 +71,8 @@ to generate dynamic content on your web page.  -->
 		</div>
 	</nav>
 
-<!-- [1] About 섹션: About Section-->
-<!-- About: A section where you can talk about yourself, your background, and your interests.
+	<!-- [1] About 섹션: About Section-->
+	<!-- About: A section where you can talk about yourself, your background, and your interests.
 	& where you introduce yourself and your background. -->
 	<section class="page-section skills mt-5" id="about"
 		style="padding-top: 1.5rem; padding-bottom: 5rem;">
@@ -133,7 +131,9 @@ to generate dynamic content on your web page.  -->
 										사용할 수 있는 사용자 친화적인 서비스를 만드는 개발자가 되고 싶습니다. 이를 위해 UX에 대한 이해를 높이고,
 										최신 기술과 트렌드를 지속적으로 습득하여 보다 나은 사용자 친화적인 서비스를 만드는 개발자가 되도록 하겠습니다.
 										더 나아가 앞으로는 전 세계 사람들에게 더 나은 서비스를 제공하는 프로그램을 만들고 싶은 열정을 가지고 있으며
-										이러한 열정을 바탕으로 지속적인 학습과 성장을 이루어 나가고 싶습니다.</p>
+										이러한 열정을 바탕으로 지속적인 학습과 성장을 이루어 나가고 싶습니다.<img
+											src="assets/images/favicon.ico" />
+									</p>
 								</td>
 							</tr>
 						</table>
@@ -150,8 +150,8 @@ to generate dynamic content on your web page.  -->
 		</div>
 	</section>
 
-<!-- [2] 스킬 섹션: Skills Section-->
-<!-- Skills: A section where you can list the technical skills you possess, 
+	<!-- [2] 스킬 섹션: Skills Section-->
+	<!-- Skills: A section where you can list the technical skills you possess, 
 	including programming languages, frameworks, libraries, and tools & proficiency in various tools and technologies. -->
 	<section class="page-section skills" id="skills">
 		<div class="container outer">
@@ -172,13 +172,13 @@ to generate dynamic content on your web page.  -->
 						기술 목록</h2>
 					<ul class="rounded py-3"
 						style="background-color: rgba(0, 0, 0, 0.2); list-style-type: square; color: white; font-size: 0.8rem; text-shadow: 1px 1px 2px #5D2FDA;">
-						<li class="silkscreen">Frontend: HTML, CSS, JavaScript,
-							jQuery, Bootstrap</li>
+						<li class="silkscreen">Frontend: JavaScript, Bootstrap, CSS3,
+							HTML5</li>
 						<li class="silkscreen">Backend: Spring, Java, JSP, MySQL,
 							Python</li>
 						<li class="silkscreen">Version Control: GitHub</li>
 						<br>
-						<li class="silkscreen">Statistical computing and graphics : R
+						<li class="silkscreen">Statistical computing and graphics: R
 							(Used for data analysis and visualization)</li>
 						<li class="silkscreen">Visual Design and Communication: Figma
 							(UI Design), Canva (Presentation Design)</li>
@@ -197,8 +197,8 @@ to generate dynamic content on your web page.  -->
 		</div>
 	</section>
 
-<!-- [3] 프로젝트 섹션: Project Section-->
-<!-- Projects: A section where you can showcase your projects, including descriptions, screenshots, and preferably links 
+	<!-- [3] 프로젝트 섹션: Project Section-->
+	<!-- Projects: A section where you can showcase your projects, including descriptions, screenshots, and preferably links 
 	to the live versions(live demos) or Github repositories -->
 	<section class="page-section skills " id="projects">
 		<div class="container outer">
@@ -208,19 +208,19 @@ to generate dynamic content on your web page.  -->
 						id="windowTitle">Projects' list</a></span>
 				</div>
 			</div>
-<!-- Team project 2 section -->			
+			<!-- Team project 2 section -->
 			<div class="container">
 				<div class="display " style="background-color: rgba(0, 0, 0, 0.2);">
 					<video id="background-video" autoplay loop muted>
 						<source src="videos/purple.mp4" type="video/mp4">
 					</video>
 					<!-- Project Section Heading-->
-						<h2
+					<h2
 						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">프로젝트
 						목록</h2>
 					<h2
 						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
-						병원 내 구역(GPS) 이동 안내 반응형 웹 </h2>
+						병원 내 구역(GPS) 이동 안내 반응형 웹</h2>
 					<p
 						style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
 						2023.05 (K-디지털 트레이닝 3인 팀 프로젝트, 울산 그린컴퓨터아카데미)</p>
@@ -231,34 +231,39 @@ to generate dynamic content on your web page.  -->
 									src="assets/images/Team2Capture1.png" alt="TeamProject2Img1"
 									height=auto width=200px /> <img class="portImg px-1 mt-3 mb-0"
 									src="assets/images/Team2Capture2.png" alt="TeamProject2Img2"
-									height=auto width=200px />
-									<img class="portImg px-1 mt-3 mb-0"
+									height=auto width=200px /> <img class="portImg px-1 mt-3 mb-0"
 									src="assets/images/Team2Capture3.png" alt="TeamProject2Img3"
 									height=auto width=200px />
 							</p>
-							</p>
 							<div class="lead text-start rounded text-white pt-0 pb-1"
 								style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
-								<p class="lead text-start">병원 내 구역(GPS) 이동 안내 자동화 서비스 기능을 구현한 반응형 웹을 만들었습니다.</p>
+								<p class="lead text-start">병원 내 구역(GPS) 이동 안내 자동화 서비스 기능을
+									구현한 반응형 웹을 만들었습니다.</p>
 								<ul style="list-style-type: square;">
-									<li>주요 기능: GPS를 이용하여 사용자의 현재 위치 파악 후 사용자가 원하는 층별 병원 부서 및 편의 시설의 위치 파악 </li>
-									<li>맡은 역할: 반응형 웹 페이지 구현 (일부 Start Bootstrap) 및 프론트엔드 개발,
-										Kakao Maps API 커스터마이징 및 기능 추가,
-										피그마 UI 디자인 및 기획</li>
-									<li>프로젝트 경과 기록: <a
-										href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/Team%20Project%202%EF%B8%8F⃣"
-										title="티스토리 블로그로 이동" target="_blank"> 티스토리 블로그로 이동</a></li>
-									<li class="silkscreen">구현 동영상 및 스크린샷: <a
-										href="https://yjyuwisely.tistory.com/entry/230523-팀-프로젝트-2-12일-차-Tue-최종-화면-구현-스크린샷-반응형-웹"
-										title="동영상 및 스크린샷 링크로 이동" target="_blank"> 티스토리 블로그 글로 이동</a></li>
-										<br>
+									<li><b>주요 기능:</b> GPS를 이용하여 사용자의 현재 위치 파악 후 사용자가 원하는 층별 병원
+										부서 및 편의 시설의 위치 파악</li>
+									<li><b>맡은 역할:</b> 반응형 웹 페이지 구현 (일부 Start Bootstrap) 및
+										프론트엔드 개발, Kakao Maps API 커스터마이징 및 기능 추가, 피그마 UI 디자인 및 기획</li>
+									<li><b>프로젝트 경과 기록:</b> <a
+										href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/Team%20Project%20%28K-Digital%29%202%EF%B8%8F⃣"
+										title="티스토리 블로그로 이동" target="_blank">
+											https://yjyuwisely.tistory.com 프로젝트 섹션로 이동<img class="mb-1"
+											src="assets/images/newWindow.svg" />
+									</a></li>
+									<li class="silkscreen"><b>최종 구현 동영상 및 사용자 화면 스크린샷:</b> <a
+										href="https://yjyuwisely.tistory.com/entry/hospital-indoor-map-navigator"
+										title="동영상 및 스크린샷 링크로 이동" target="_blank">https://yjyuwisely.tistory.com/entry/hospital-indoor-map-navigator<img
+											class="mb-1" src="assets/images/newWindow.svg" /></a></li>
+									<br>
 									<li class="silkscreen">GitHub: <a
 										href="https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator"
 										title="깃허브로 이동" target="_blank">
-											https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator</a></li>
-									<li class="silkscreen">Frontend: HTML, CSS, Vanilla
-										JavaScript, Bootstrap</li>
-									<li class="silkscreen">Backend: Java, Spring, MySQL</li>
+											https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator<img
+											class="mb-1" src="assets/images/newWindow.svg" />
+									</a></li>
+									<li class="silkscreen">Frontend: Vanilla JavaScript,
+										Bootstrap, CSS3, HTML5</li>
+									<li class="silkscreen">Backend: Spring, Java, MySQL</li>
 								</ul>
 							</div>
 						</tr>
@@ -272,7 +277,7 @@ to generate dynamic content on your web page.  -->
 					</a></span>
 				</div>
 			</div>
-<!-- Team project 1 section -->	
+			<!-- Team project 1 section -->
 			<div class="container">
 				<div class="display " style="background-color: rgba(0, 0, 0, 0.2);">
 					<video id="background-video" autoplay loop muted>
@@ -290,13 +295,14 @@ to generate dynamic content on your web page.  -->
 							<p class="lead text-start text-center">
 								<img class="portImg px-1 mt-3 mb-0"
 									src="assets/images/Team1Capture1.png" alt="TeamProject1Img1"
-									height=auto width=400px /> 
-									<!-- <img class="portImg px-1 mt-3 mb-0"
+									height=auto width=400px />
+								<!-- <img class="portImg px-1 mt-3 mb-0"
 									src="assets/images/Team1Capture2.png" alt="TeamProject1Img2"
-									height=auto width=400px /> --> 
+									height=auto width=400px /> -->
 								<img class="portImg px-1 mt-3 mb-0"
 									src="assets/images/Team1Capture3.png" alt="TeamProject1Img3"
-									height=auto width=400px /> <!-- <img class="portImg px-1 mt-3 mb-0"
+									height=auto width=400px />
+								<!-- <img class="portImg px-1 mt-3 mb-0"
 									src="assets/images/Team1Capture4.png" alt="TeamProject1Img4"
 									height=auto width=400px />	 -->
 							</p>
@@ -304,32 +310,37 @@ to generate dynamic content on your web page.  -->
 								style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
 								<p class="lead text-start">진료 관련 증명서 출력 병원 웹사이트를 만들었습니다.</p>
 								<ul style="list-style-type: square;">
-									<li>주요 기능: 회원 가입 및 로그인 후 사용자(환자)의 진료 관련 증명서 출력 기능,
+									<li><b>주요 기능:</b> 회원 가입 및 로그인 후 사용자(환자)의 진료 관련 증명서 출력 기능,
 										관리자(의사)의 진단서 작성 및 수정 기능</li>
-									<li>맡은 역할: 온라인 증명서 발급 신청 후 증명서 상세 내역 미리 보기 및 다운로드 기능 구현,
-										회원가입 유효성 검사, Start Bootstrap 반응형 웹 페이지 구현 및 프론트엔드 개발, 피그마 UI
-										디자인 및 기획</li>
-									<li>프로젝트 경과 기록: <a
-										href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/Team%20Project%201%EF%B8%8F⃣"
-										title="티스토리 블로그로 이동" target="_blank"> 티스토리 블로그로 이동</a></li>
-									<li class="silkscreen">구현 동영상 및 스크린샷: <a
-										href="https://yjyuwisely.tistory.com/entry/24-230511-%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-1-24%EC%9D%BC-%EC%B0%A8-Thu-%EC%B5%9C%EC%A2%85-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7"
-										title="동영상 및 스크린샷 링크로 이동" target="_blank"> 티스토리 블로그 글로 이동</a></li>
+									<li><b>맡은 역할:</b> 온라인 증명서 발급 신청 후 증명서 상세 내역 미리 보기 및 다운로드
+										기능 구현, 회원가입 유효성 검사, Start Bootstrap 반응형 웹 페이지 구현 및 프론트엔드 개발,
+										피그마 UI 디자인 및 기획</li>
+									<li><b>프로젝트 경과 기록:</b> <a
+										href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/Team%20Project%20%28K-Digital%29%201%EF%B8%8F⃣"
+										title="티스토리 블로그 섹션으로 이동" target="_blank">
+											https://yjyuwisely.tistory.com 프로젝트 섹션로 이동<img class="mb-1"
+											src="assets/images/newWindow.svg" />
+									</a></li>
+									<li class="silkscreen"><b>최종 구현 동영상 및 사용자 화면 스크린샷:</b> <a
+										href="https://yjyuwisely.tistory.com/entry/medical-certificate-download-service"
+										title="최종 구현 동영상 및 사용자 화면 스크린샷 링크로 이동" target="_blank">https://yjyuwisely.tistory.com/entry/medical-certificate-download-service</a><img
+										src="assets/images/newWindow.svg" /></li>
 									<br>
 									<li class="silkscreen">GitHub: <a
 										href="https://github.com/yjyuwisely/Medical-Certificate-Download-Service"
 										title="깃허브로 이동" target="_blank">
-											https://github.com/yjyuwisely/Medical-Certificate-Download-Service</a></li>
-									<li class="silkscreen">Frontend: HTML, CSS, Vanilla
-										JavaScript, Bootstrap</li>
-									<li class="silkscreen">Backend: Java, Spring, MySQL</li>
+											https://github.com/yjyuwisely/Medical-Certificate-Download-Service</a><img
+										src="assets/images/newWindow.svg" /></li>
+									<li class="silkscreen">Frontend: Vanilla JavaScript,
+										Bootstrap, CSS3, HTML5</li>
+									<li class="silkscreen">Backend: Spring, Java, MySQL</li>
 								</ul>
 							</div>
 						</tr>
 					</table>
 				</div>
 			</div>
-<!-- Portfolio section -->	
+			<!-- Portfolio section -->
 			<div class="container">
 				<div class="display" style="background-color: rgba(0, 0, 0, 0.2);">
 					<video id="background-video" autoplay loop muted>
@@ -363,19 +374,27 @@ to generate dynamic content on your web page.  -->
 									<!-- Make sure to include any other relevant details or achievements related to this project 
 									that you think could be useful for potential employers or clients to know. -->
 									<ul style="list-style-type: square;">
-										<li>주요 기능: 자기소개, 기술 목록, 프로젝트, 블로그/깃허브, 훈련/교육, 수상 내역</li>
-										<li>프로젝트 경과 기록: <a
+										<li><b>주요 기능:</b> 자기소개, 기술 목록, 프로젝트, 블로그/깃허브, 훈련/교육, 수상
+											내역</li>
+										<li><b>프로젝트 경과 기록:</b> <a
 											href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/My%20Portfolio"
-											title="티스토리 블로그로 이동" target="_blank"> 티스토리 블로그로 이동</a></li>
+											title="티스토리 블로그로 이동" target="_blank">
+												https://yjyuwisely.tistory.com 프로젝트 섹션로 이동</a><img class="mb-1"
+											src="assets/images/newWindow.svg" /></li>
+										<li class="silkscreen"><b>사용자 화면 스크린샷:</b> <a
+											href="https://yjyuwisely.tistory.com/entry/full-stack-developer-portfolio"
+											title="스크린샷 링크로 이동" target="_blank">https://yjyuwisely.tistory.com/entry/full-stack-developer-portfolio</a><img
+											src="assets/images/newWindow.svg" /></li>
 										<br>
 										<li class="silkscreen">GitHub: <a
 											href="https://github.com/yjyuwisely/Full-Stack-Developer-Portfolio.git"
 											title="깃허브로 이동" target="_blank">
-												github.com/yjyuwisely/Full-Stack-Developer-Portfolio.git</a></li>
-										<li class="silkscreen">Frontend: HTML, CSS, Bootstrap,
-											Vanilla JS, jQuery</li>
+												github.com/yjyuwisely/Full-Stack-Developer-Portfolio.git</a><img
+											src="assets/images/newWindow.svg" /></li>
+										<li class="silkscreen">Frontend: Vanilla JavaScript, jQuery,
+											Bootstrap, CSS3, HTML5</li>
 										<li class="silkscreen">Backend: Spring Boot, Spring
-											Security, MySQL, Java</li>
+											Security, Java, MySQL</li>
 									</ul>
 								</div>
 							</td>
@@ -390,7 +409,7 @@ to generate dynamic content on your web page.  -->
 					</a></span>
 				</div>
 			</div>
-<!-- Individual project section -->	
+			<!-- Individual project section -->
 			<div class="container">
 				<div class="display" style="background-color: rgba(0, 0, 0, 0.2);">
 					<video id="background-video" autoplay loop muted>
@@ -415,21 +434,27 @@ to generate dynamic content on your web page.  -->
 								<div class="lead text-start rounded text-white pt-0 pb-1"
 									style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
 									<p class="lead text-start">울산 울주군 여행 웹사이트를 진행하게 된 계기는 저도
-										몰랐던 고향의 여러 여행 장소에 대해 자세히 알고 싶었었고, 울산에 거주 중임에도 불구하고 울산 시티
-										투어와 울산 관광 택시가 있는 줄 몰랐기 때문입니다. 그래서 사람들에게 울산 여행에 대해 공유하고자 만들게
-										되었습니다.</p>
+										몰랐던 고향의 여러 여행 장소에 대해 자세히 알고 싶었었고, 울산에 거주 중임에도 불구하고 울산 시티 투어와
+										울산 관광 택시가 있는 줄 몰랐기 때문입니다. 그래서 사람들에게 울산 여행에 대해 공유하고자 만들게 되었습니다.</p>
 									<ul class="pl-3" style="list-style-type: square;">
-										<li>주요 기능: 울산 시티 투어와 울산 관광 택시의 여행 장소와 경로 소개</li>
-										<li>프로젝트 경과 기록: <a
+										<li><b>주요 기능:</b> 울산 시티 투어와 울산 관광 택시의 여행 장소와 경로 소개</li>
+										<li><b>프로젝트 경과 기록:</b> <a
 											href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/Individual%20project%201%EF%B8%8F⃣"
-											title="티스토리 블로그로 이동" target="_blank"> 티스토리 블로그로 이동</a></li>
-											<br>
+											title="티스토리 블로그로 이동" target="_blank">
+												https://yjyuwisely.tistory.com 프로젝트 섹션로 이동</a><img class="mb-1"
+											src="assets/images/newWindow.svg" /></li>
+										<li class="silkscreen"><b>사용자 화면 스크린샷:</b> <a
+											href="https://yjyuwisely.tistory.com/entry/traveling-from-ulju-gun"
+											title="스크린샷 링크로 이동" target="_blank">https://yjyuwisely.tistory.com/entry/traveling-from-ulju-gun</a><img
+											src="assets/images/newWindow.svg" /></li>
+										<br>
 										<li class="silkscreen">GitHub: <a
 											href="https://github.com/yjyuwisely/My-First-Project-Traveling-from-Ulju-gun"
 											title="깃허브로 이동" target="_blank">
-												github.com/yjyuwisely/Traveling-from-Ulju-gun</a></li>
-										<li class="silkscreen">Frontend: HTML, CSS, Vanilla JS,
-											jQuery</li>
+												github.com/yjyuwisely/Traveling-from-Ulju-gun</a><img
+											src="assets/images/newWindow.svg" /></li>
+										<li class="silkscreen">Frontend: Vanilla Javascript,
+											jQuery, CSS3, HTML5</li>
 									</ul>
 								</div>
 							</td>
@@ -448,8 +473,8 @@ to generate dynamic content on your web page.  -->
 		</div>
 	</section>
 
-<!-- [4] 블로그/깃허브 섹션: Blog & Github Section-->
-<!-- Blog and Github: A section where you can link to your blog and Github profile 
+	<!-- [4] 블로그/깃허브 섹션: Blog & Github Section-->
+	<!-- Blog and Github: A section where you can link to your blog and Github profile 
 	for potential employers or collaborators to see your coding style and activity. -->
 	<section class="page-section skills" id="archiving">
 		<div class="container outer">
@@ -460,7 +485,7 @@ to generate dynamic content on your web page.  -->
 						id="windowTitle">Blog & Github</a></span>
 				</div>
 			</div>
-<!-- Contents -->
+			<!-- Contents -->
 			<div class="container">
 				<div class="display">
 					<video id="background-video" autoplay loop muted>
@@ -482,7 +507,8 @@ to generate dynamic content on your web page.  -->
 									src="assets/images/Tistory.png" height=100px width=200px
 									alt="Blog" /></a><br> <a
 									href="https://yjyuwisely.tistory.com" title="블로그로 이동"
-									target="_blank"> <b>yjyuwisely.tistory.com</b><br></a> 학습한
+									target="_blank"> <b>yjyuwisely.tistory.com</b><img class="mb-1"
+										src="assets/images/newWindow.svg" /><br></a> 학습한
 								내용을 저장하고 공유하기 위해 만든 블로그입니다. 아래 리스트들을 담았습니다.
 							</p>
 							<ul style="list-style-type: square; font-size: 0.9rem;">
@@ -505,8 +531,9 @@ to generate dynamic content on your web page.  -->
 									src="assets/images/GitHub_Logo.png" height=100px width=120px
 									alt="Github_Logo" style="margin: 2px;" /></a> <br> <a
 									href="https://www.github.com/yjyuwisely" title="깃허브로 이동"
-									target="_blank"> <b>github.com/yjyuwisely</b><br></a>
-								프로젝트의 소스 코드 저장소입니다.<br><br>
+									target="_blank"> <b>github.com/yjyuwisely</b><img class="mb-1"
+										src="assets/images/newWindow.svg" /><br></a>
+								프로젝트의 소스 코드 저장소입니다.<br> <br>
 							</p>
 							<ul style="list-style-type: square; font-size: 0.9rem;">
 								<li>팀 프로젝트 소스 코드</li>
@@ -528,8 +555,8 @@ to generate dynamic content on your web page.  -->
 		</div>
 	</section>
 
-<!-- [6] 훈련/교육 섹션: Training/Education Section-->
-<!-- A section where you can list your academic qualifications(education), including degrees, 
+	<!-- [6] 훈련/교육 섹션: Training/Education Section-->
+	<!-- A section where you can list your academic qualifications(education), including degrees, 
 	diplomas, certifications & any relevant coursework.-->
 	<section class="page-section skills" id="education">
 		<div class="container outer">
@@ -540,7 +567,7 @@ to generate dynamic content on your web page.  -->
 						id="windowTitle">Training & Education</a></span>
 				</div>
 			</div>
-<!-- Contents -->
+			<!-- Contents -->
 			<div class="container">
 				<div class="display" style="background-color: rgba(0, 0, 0, 0.4)">
 					<video id="background-video" autoplay loop muted>
@@ -555,9 +582,8 @@ to generate dynamic content on your web page.  -->
 							class="silkscreen"><img class="masthead-avatar px-1 mb-0"
 								src="assets/images/greenAcademy.png" alt="UlsanGreenAcademy"
 								height=auto width=200px />[K-디지털 트레이닝] IoT 기반 스마트 헬스케어 웹 서비스 개발
-								과정 (22.12.29-23.07.04)</b><br> 기술 목록 섹션에 있는 프론트엔드와 백엔드 언어를 모두
-							학습했으며, 웹 개발자로서 팀 프로젝트 부문과 개인 부문의 역량을 키워나가고 있습니다.<br>
-						<br></li>
+								과정 (2022.12.29-2023.07.04)</b><br> 기술 목록 섹션에 있는 프론트엔드와 백엔드 언어를
+							모두 학습했으며, 웹 개발자로서 팀 프로젝트 부문과 개인 부문의 역량을 키워나가고 있습니다.<br> <br></li>
 						<!-- 추천 이미지: Data visualization charts or graphs using R 
 								examples of charts or graphs you have created in R or other programs.
 								Code snippets, Screenshots of projects
@@ -567,8 +593,7 @@ to generate dynamic content on your web page.  -->
 								src="assets/images/uow.png" alt="UOW" height=auto width=150px />Completed
 								coursework for Master of Statistics</b> 통계학 석사 코스 워크 완료<br>
 							통계학과 석사 과정을 진행하며 고급 통계 이론과 인공지능, 수치해석학 수업을 들었습니다. R 언어를 이용하여 인공위성
-							빅데이터 분석 연구에 참여하며 전문성을 높였습니다. <br>
-						<br></li>
+							빅데이터 분석 연구에 참여하며 전문성을 높였습니다. <br> <br></li>
 						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
 							class="silkscreen"> <img class="masthead-avatar px-1 mb-0"
 								src="assets/images/uwa.png" alt="UWA" height=auto width=150px />Bachelor
@@ -594,8 +619,8 @@ to generate dynamic content on your web page.  -->
 		</div>
 	</section>
 
-<!-- [6] 수상 내역 섹션: Achievements Section-->
-<!-- A section where you can list your professional experience, including internships, part-time jobs, and freelance work.
+	<!-- [6] 수상 내역 섹션: Achievements Section-->
+	<!-- A section where you can list your professional experience, including internships, part-time jobs, and freelance work.
 	& any relevant work experience or bootcamp programs you've completed. -->
 	<section class="page-section skills" id="achievements">
 		<div class="container outer">
@@ -606,7 +631,7 @@ to generate dynamic content on your web page.  -->
 						id="windowTitle">Achievements</a></span>
 				</div>
 			</div>
-<!-- Contents -->
+			<!-- Contents -->
 			<div class="container">
 				<div class="display">
 					<video id="background-video" autoplay loop muted>
@@ -620,12 +645,12 @@ to generate dynamic content on your web page.  -->
 							height=200px width=200px alt="Prize" /><br> -->
 					<div class="text-white rounded"
 						style="background-color: rgba(0, 0, 0, 0.3); text-shadow: 1px 1px 2px #9B28BF;">
-						<p class="lead text-start text-center mx-2 pb-0 mb-0 fs-3" id="TopTitle">
-							'MOBAO AWARD'
-						</p>
+						<p class="lead text-start text-center mx-2 pb-0 mb-0 fs-3"
+							id="TopTitle">'MOBAO AWARD'</p>
 						<p class="lead text-start text-center mx-2 pb-0">
-							<b class="silkscreen">Outstanding Performance in the Field<br> International
-							Studio of Art and Culture</b>
+							<b class="silkscreen">Outstanding Performance in the Field<br>
+								International Studio of Art and Culture
+							</b>
 						</p>
 						<p class="lead text-start lh-lg mx-2" style="text-indent: 1rem;">학부
 							때 인도네시아 발리에서 건축 및 디자인 학부의 아트와 문화의 국제 스튜디오 수업(International Studio
@@ -657,7 +682,7 @@ to generate dynamic content on your web page.  -->
 			</div>
 		</div>
 	</section>
-<!-- Copyright Section-->
+	<!-- Copyright Section-->
 	<div class="copyright text-center text-white">
 		<small style="font-family: 'Silkscreen';">&copy 2023
 			Yeongjin's portfolio. All Rights Reserved.</small>

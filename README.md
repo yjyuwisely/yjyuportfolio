@@ -1,34 +1,34 @@
 <h1>NLP AI Engineer Portfolio: Showcasing My Expertise and Projects</h1>
-<p align="justify">This is my first portfolio, which showcases my skills as a full stack developer. 
-I developed this portfolio between March 31, 2023, and April 16, 2023 and updated it on May 14, 2013.</p>
+<p align="justify">
+  This is the beginning of my portfolio, where I aim to chronicle my journey and growth in the expansive domain of Natural Language Processing (NLP) and Artificial Intelligence (AI). This portfolio was initiated on March 31, 2023, and I will be continually updating it as I delve deeper into the NLP world.</p>
 
 <h2>Project Overview</h2>
-<p align="justify">In this portfolio, I have showcased my skills and projects as a full stack developer. 
-On the frontend, I have used HTML, CSS, and Bootstrap to create a visually appealing and responsive design. 
-Additionally, I have incorporated Vanilla JavaScript and jQuery to add interactivity to the site.
-<br><br>
-On the backend, I have used Spring Boot to create a scalable and modular architecture. 
-I have implemented Spring Security for authentication and authorization. Maven has been used for dependency management, and MySQL has been used as the database.
-<br><br>
-However, I have removed the backend part of the portfolio, which previously included the use of Spring Boot, Spring Security, Maven, and MySQL so that I can deploy a website from GitHub.
+<p align="justify">
+  While I've previously immersed myself in web development—showcasing skills from frontend technologies like HTML, CSS, Bootstrap, JavaScript, and jQuery, to backend frameworks like Spring Boot and MySQL—I am currently pivoting towards a passionate pursuit in AI and NLP.<br><br>
   
-The portfolio can be viewed at the following URL: <br>
+  Although I have yet to add specific AI projects, this space is reserved for the exciting and innovative NLP implementations I will embark on in the coming days. I invite you to join me on this transformative journey as I navigate through the complexities of linguistic patterns, algorithms, and the magic of machine learning.<br><br>
+
+All projects, both past and upcoming, can be accessed through my portfolio at the following URL: <br>
 https://yjyuwisely.github.io/yjyuportfolio/<br><br>
-  
-Click here to see my full stack web developer portfolio.<br>
+
+The previous web-focused version of my full stack web developer portfolio can still be accessed here:
 https://github.com/yjyuwisely/Full-Stack-Web-Developer-Portfolio <br><br>
   
-  
-Overall, this portfolio demonstrates my proficiency in a range of frontend and backend technologies 
-and serves as a testament to my abilities as a full stack developer.</p>
+<h2>Upcoming Focus Areas in NLP</h2>
+<p align="justify">
+<li>Exploring popular NLP Libraries/Frameworks such as TensorFlow, PyTorch, HuggingFace</li>
+<li>Machine Learning Algorithms and their application in language processing</li>
+<li>Deep Learning Architectures tailored for text and linguistic patterns</li>
+Stay Tuned!<br><br>
 
 <h2>Technologies Used</h2>
-<h3>Frontend</h3>
-<li>HTML</li>
-<li>CSS</li>
-<li>Bootstrap</li>
-<li>Vanilla JavaScript</li>
-<li>jQuery</li>
+<li>NLP Libraries/Frameworks (Upcoming: TensorFlow, PyTorch, HuggingFace, etc.)</li>
+<li>Machine Learning Algorithms (Upcoming)</li>
+<li>Deep Learning Architectures (Upcoming)</li>
+<li>Frontend: HTML, CSS, Bootstrap, Vanilla JavaScript, jQuery</li><br>
+
+<h2>Stay Tuned!</h2>
+While the AI and NLP journey is in its infancy, I am dedicated, excited, and ready to plunge into the deep end. Watch this space for updates, learnings, and breakthroughs!<br><br>
 
 <h2>Page Screenshot</h2>
 Here's a screenshot of the introduction section:

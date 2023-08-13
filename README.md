@@ -1,6 +1,6 @@
 <h1>NLP AI Engineer Portfolio: Showcasing My Expertise and Projects</h1>
 <p align="justify">
-  This is the beginning of my portfolio, where I aim to chronicle my journey and growth in the expansive domain of Natural Language Processing (NLP) and Artificial Intelligence (AI). This portfolio was initiated on March 31, 2023, and I will be continually updating it as I delve deeper into the NLP world.</p>
+  This is the beginning of my portfolio, where I aim to chronicle my journey and growth in the expansive domain of Natural Language Processing (NLP) and Artificial Intelligence (AI). This portfolio was initiated on March 31, 2023, and I will be continually updating it as I delve deeper into the NLP world.</p><br>
 
 <h2>Project Overview</h2>
 <p align="justify">

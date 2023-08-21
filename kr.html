@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="ko-KR" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- , shrink-to-fit=no -->
+<meta name="description" content="" />
+<meta name="author" content="" />
+<title>Yeongjin's Portfolio</title>
+<!-- Favicon-->
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+<!-- Font Awesome icons (free version)-->
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+	crossorigin="anonymous"></script>
+<!-- Core theme CSS (includes Bootstrap)-->
+<!-- CSS 경로 추가 -->
+<link href="css/styles.css" rel="stylesheet" />
+<!-- Retro style window 레트로 윈도우 창 효과 CSS -->
+<link href="css/window.css" rel="stylesheet" />
+<!--탑버튼 Top button -->
+<script type="text/javascript">
+	$(function() {
+		$("#gotop").hide();
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 1000) {
+				$("#gotop").fadeIn();
+			} else {
+				$("#gotop").fadeOut();
+			}
+		});
+	});
+</script>
+</head>
+
+<body id="page-top">
+	<a href="#page-top" id="gotop" title="Top">
+		<button class="btn btn_auto">TOP</button>
+	</a>
+	<nav class="navbar navbar-expand-lg text-uppercase bs-light fixed-top"
+		id="mainNav">
+		<button
+			class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+			type="button" data-bs-toggle="collapse"
+			data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+			aria-expanded="false" aria-label="Toggle navigation">
+			Menu <i class="fas fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav fs-4" style="margin-left: 10px;">
+				<li class="nav-item my-2 "><a
+					class="nav-link px-0 px-lg-2 rounded text-light " href="#about">
+						자기소개</a></li>
+				<li class="nav-item my-2 "><a
+					class="nav-link px-0 px-lg-2 rounded text-light" href="#skills">
+						기술 목록</a></li>
+				<li class="nav-item my-2 "><a
+					class="nav-link px-0 px-lg-2 rounded text-light" href="#archiving">
+						블로그/깃허브</a></li>
+				<li class="nav-item my-2 "><a
+					class="nav-link px-0 px-lg-2 rounded text-light" href="#projects">
+						프로젝트 목록</a></li>
+				<li class="nav-item my-2"><a
+					class="nav-link px-0 px-lg-2 rounded text-light" href="#education">
+						훈련/교육</a></li>
+				<li class="nav-item my-2"><a
+					class="nav-link px-0 px-lg-2 rounded text-light"
+					href="#achievements"> 수상 내역 </a></li>
+				<li class="nav-item my-2"><a
+					class="nav-link px-0 px-lg-2 rounded text-light" href="index.html"
+					title="English version"> 🇺🇸 </a></li>
+				<li class="nav-item mt-1"><a class="navbar-brand fs-6 mb-0"
+					href="#page-top" id="TopTitle"> Yeongjin's portfolio</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- [1] About 섹션: About Section-->
+	<!-- About: A section where you can talk about yourself, your background, and your interests.
+	& where you introduce yourself and your background. -->
+	<section class="page-section skills mt-5" id="about"
+		style="padding-top: 1.5rem; padding-bottom: 5rem;">
+		<div class="container outer" style="margin-top: 0.8rem;">
+			<div class="title-bar">
+				<div>
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle">Introduction</a></span>
+				</div>
+			</div>
+			<div class="container">
+				<div class="display">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/road.mp4" type="video/mp4">
+					</video>
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">자기소개</h2>
+					<div class="table-responsive">
+						<table>
+							<tr>
+								<td><p class="lead text-start">
+										<img class="masthead-avatar ms-4 "
+											src="assets/images/profile.png" alt="프로필" height=190px
+											width=190px /></td>
+								<td><p class="lead text-start text-white fw-bold"
+										style="text-shadow: 1px 1px 2px #842A99;">
+										<img class="me-1" src="assets/images/moonStars.svg" /> 유영진 <span
+											class="fw-light">|</span> AI 개발자 <br> <img class="me-1"
+											src="assets/images/moonStars.svg" /> 대한민국<br> <img
+											class="me-1" src="assets/images/checkCircle.svg" />
+										yjyuwisely@gmail.com <br> <b class="silkscreen"
+											style="text-shadow: 1px 1px 2px #5D2FDA;"> Junior AI
+											engineer with a fervor for NLP, on a continuous quest to
+											embrace and master new technologies.😊</b>
+									</p></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<p class="lead text-start text-light rounded lh-lg mx-2"
+										style="text-indent: 1rem; background-color: rgba(0, 0, 0, 0.4); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA">
+										안녕하세요! 개발자 유영진입니다.
+										<!-- 새로운 기술을 학습하는 열정과 사용자들이 알아보기 쉬운 직관적인 사용자
+										인터페이스를 만드는 것에 큰 관심을 가지고 있습니다. -->
+										개발을 통해 도움이 필요한 사람들을 지원하는 가치를 중요하게 생각하며, 끊임없이 새로운 것을 배우고 기술을
+										적용하여 성장하고자 합니다.
+										<!-- 웹과 앱을 사용하면서
+										사용자로서 겪었던 불편함을 바탕으로 UX의 중요성을 더욱 깨달았고, 이런 경험을 토대로 사용자가 편하고 쉽게
+										사용할 수 있는 사용자 친화적인 서비스를 만드는 개발자가 되고 싶습니다. -->
+										이를 위해
+										<!-- UX에 대한 이해를 높이고,-->
+										최신 기술과 트렌드를 지속적으로 습득하여 보다 나은 사용자 친화적인 서비스를 만드는 개발자가 되도록 하겠습니다.
+										더 나아가 앞으로는 전 세계 사람들에게 더 나은 서비스를 제공하는 프로그램을 만들고 싶은 열정을 가지고 있으며
+										이러한 열정을 바탕으로 지속적인 학습과 성장을 이루어 나가고 싶습니다.<img
+											src="assets/images/favicon.ico" />
+									</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<a href="#skills"><button class="btn btn_auto">Next</button></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- [2] 스킬 섹션: Skills Section-->
+	<!-- Skills: A section where you can list the technical skills you possess, 
+	including programming languages, frameworks, libraries, and tools & proficiency in various tools and technologies. -->
+	<section class="page-section skills" id="skills">
+		<div class="container outer">
+			<div class="title-bar">
+				<div>
+					<span class="navbar-brand title-bar__title"><a
+						href="#page-top" id="windowTitle">Skills</a></span>
+				</div>
+			</div>
+			<div class="container">
+				<div class="display">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/tunnel.mp4" type="video/mp4">
+					</video>
+					<!-- Skills Section Heading-->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
+						기술 목록</h2>
+					<div class="row mx-3 mb-3 rounded"
+						style="background-color: rgba(0, 0, 0, 0.2); color: white; font-size: 0.8rem; text-shadow: 1px 1px 2px #5D2FDA;">
+						<div class="col-md-5 col-sm-12 mb-1">
+							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Machine
+								Learning & AI</b>
+						</div>
+						<div class="col-md-7 col-sm-12 mb-1">
+							Python,
+							<!-- (Frameworks/libraries: [mention any specific ones you've worked with e.g., TensorFlow, PyTorch, Scikit-learn]) -->
+							R (Used for data analysis and visualization)
+						</div>
+						<div class="col-md-5 col-sm-12 mb-1">
+							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Frontend</b>
+						</div>
+						<div class="col-md-7 col-sm-12 mb-1">JavaScript, Bootstrap,
+							CSS3, HTML5</div>
+						<div class="col-md-5 col-sm-12 mb-1">
+							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Backend</b>
+						</div>
+						<div class="col-md-7 col-sm-12 mb-1">Spring, Java, JSP,
+							MySQL</div>
+						<div class="col-md-5 col-sm-12 mb-1">
+							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Version
+								Control</b>
+						</div>
+						<div class="col-md-7 col-sm-12 mb-1">GitHub</div>
+						<div class="col-md-5 col-sm-12 mb-1">
+							<img class="me-2" src="assets/images/moonStars.svg" /><b>Visual
+								Design and Communication</b>
+						</div>
+						<div class="col-md-7 col-sm-12 mb-1">Figma (UI Design),
+							Canva (Presentation Design)</div>
+						<div class="col-md-5 col-sm-12">
+							<img class="me-2" src="assets/images/moonStars.svg" /><b>Team
+								Communications</b>
+						</div>
+						<div class="col-md-7 col-sm-12">Notion</div>
+					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<a href="#about"><button class="btn btn_auto">Prev</button></a> <a
+					href="#projects"><button class="btn btn_auto">Next</button></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- [4] 블로그/깃허브 섹션: Blog & Github Section-->
+	<!-- Blog and Github: A section where you can link to your blog and Github profile 
+	for potential employers or collaborators to see your coding style and activity. -->
+	<section class="page-section skills" id="archiving">
+		<div class="container outer">
+			<div class="title-bar">
+				<div>
+					<!-- 레트로 윈도우 창 -->
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle">Blog & Github</a></span>
+				</div>
+			</div>
+			<!-- Contents -->
+			<div class="container">
+				<div class="display">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/purple.mp4" type="video/mp4">
+					</video>
+					<!-- Blog Section Heading-->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">블로그/깃허브</h2>
+					<!-- Project Grid Items-->
+					<div class="row justify-content-center"
+						style="text-shadow: 1px 1px 2px #5D2FDA;">
+						<!-- #9B28BF -->
+						<!-- Blog-->
+						<div class="col-md-6 col-lg-5 my-3 mx-3 text-white rounded"
+							style="background-color: rgba(0, 0, 0, 0.1);">
+							<p class="lead text-start">
+								<a href="https://yjyuwisely.tistory.com" title="블로그로 이동"
+									target="_blank"> <img class="img-fluid"
+									src="assets/images/Tistory.png" height=100px width=200px
+									alt="Blog" /></a><br> <a
+									href="https://yjyuwisely.tistory.com" title="블로그로 이동"
+									target="_blank"> <b>yjyuwisely.tistory.com</b><img
+									class="mb-1" src="assets/images/newWindow.svg" /><br></a> 학습한
+								내용을 저장하고 공유하기 위해 만든 블로그입니다. 아래 리스트들을 담았습니다.
+							</p>
+							<ul style="list-style-type: square; font-size: 0.9rem;">
+								<li><a
+									href="https://yjyuwisely.tistory.com/category/💻Self-Study%20Revision✨"
+									title="티스토리 블로그로 이동" target="_blank"><b>Self-Study
+											Revision</b><img class="mb-1" src="assets/images/newWindow.svg" /><br>프로젝트를
+										진행하면서 새로 알게 된 내용 및 학습하면서 다시 찾아보게 되는 것 </a></li>
+								<li><a
+									href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨"
+									title="티스토리 블로그로 이동" target="_blank"><b>My Projects
+											Diary</b><img class="mb-1" src="assets/images/newWindow.svg" />
+										<br>프로젝트 경과 과정 기록 </a></li>
+								<li><a
+									href="https://yjyuwisely.tistory.com/category/🌳K-Digital%20Revision%202023✨"
+									title="티스토리 블로그로 이동" target="_blank"><b>K-Digital
+											Revision 2023</b><img class="mb-1"
+										src="assets/images/newWindow.svg" /><br>강의 수강 후 복습한 내용 </a></li>
+								<li><a
+									href="https://yjyuwisely.tistory.com/category/🌳AI%20Engineer%27s%20Journey😊🍀"
+									title="티스토리 블로그로 이동" target="_blank"><b>AI Engineer's
+											Journey</b><img class="mb-1" src="assets/images/newWindow.svg" /><br>도서
+										리뷰, 기억하고 싶은 개발 칼럼 등 여러 도움이 되는 링크들 </a></li>
+								<li><a
+									href="https://yjyuwisely.tistory.com/category/🌳List%20of%20Materials✨"
+									title="티스토리 블로그로 이동" target="_blank"><b>List of
+											Materials</b><img class="mb-1" src="assets/images/newWindow.svg" /><br>개발
+										공부 및 기술 스택 관련 링크들 </a></li>
+							</ul>
+						</div>
+						<!-- Github-->
+						<div class="col-md-6 col-lg-5 my-3 mx-3 text-white rounded"
+							style="background-color: rgba(0, 0, 0, 0.1);">
+							<p class="lead text-start">
+								<a href="https://www.github.com/yjyuwisely" title="깃허브로 이동"
+									target="_blank"> <img class="img-fluid"
+									src="assets/images/github-mark.png" height=30px width=50px
+									alt="github-mark" /> <img class="img-fluid"
+									src="assets/images/GitHub_Logo.png" height=100px width=120px
+									alt="Github_Logo" style="margin: 2px;" /></a> <br> <a
+									href="https://www.github.com/yjyuwisely" title="깃허브로 이동"
+									target="_blank"> <b>github.com/yjyuwisely</b><img
+									class="mb-1" src="assets/images/newWindow.svg" /><br></a>
+								프로젝트의 소스 코드 저장소입니다.<br> <br>
+							</p>
+							<ul style="list-style-type: square; font-size: 0.9rem;">
+								<li>팀 프로젝트 소스 코드</li>
+								<li>포트폴리오 웹사이트 소스 코드</li>
+								<li>개인 프로젝트 소스 코드</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<a href="#projects"><button class="btn btn_auto">Prev</button></a> <a
+					href="#education"><button class="btn btn_auto">Next</button></a>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- [3] 프로젝트 섹션: Project Section-->
+	<!-- Projects: A section where you can showcase your projects, including descriptions, screenshots, and preferably links 
+	to the live versions(live demos) or Github repositories -->
+	<section class="page-section skills " id="projects">
+		<div class="container outer">
+			<div class="title-bar">
+				<div>
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle">Project List</a></span>
+				</div>
+			</div>
+
+			<!-- AI project 1 section -->
+			<div class="container">
+				<div class="display " style="background-color: rgba(0, 0, 0, 0.2);">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/purple.mp4" type="video/mp4">
+					</video>
+					<!-- Project Section Heading-->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">AI
+						프로젝트 목록</h2>
+					<div class="lead text-start rounded text-white pt-0 pb-1"
+						style="word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
+						<p class="lead text-start">현재 인공지능 프로젝트 진행중이며, 2023년 10월 전
+							업데이트 예정입니다.</p>
+					</div>
+
+					<table>
+						<tr>
+							<!-- <p class="lead text-start text-center">
+									<img class="portImg px-1 mt-3 mb-0"
+										src="assets/images/Team3Capture4.png" alt="Team3Capture1"
+										height=auto width=400px /> <img
+										class="portImg px-1 mt-3 mb-0"
+										src="assets/images/Team3Capture1.png" alt="Team3Capture2"
+										height=auto width=400px />
+								</p> -->
+							<div class="lead text-start rounded text-white pt-0 pb-1"
+								style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
+								<p class="lead text-start">
+									<!-- A website was created to
+										implement the medical supplies procurement process from a
+										hospital's perspective. -->
+								</p>
+								<div class="row mx-3 mb-3">
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>주요
+											기능</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">업데이트 예정입니다.</div>
+									<!-- 									<div class="col-md-3 col-sm-12 mb-2">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>프로젝트
+											경과 기록</b>
+									</div> 
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/Team%20Project%20%28K-Digital%29%202%EF%B8%8F⃣"
+											title="티스토리 블로그로 이동" target="_blank">
+											https://yjyuwisely.tistory.com 프로젝트 섹션로 이동<img class="mb-1"
+											src="assets/images/newWindow.svg" />
+										</a>
+									</div>-->
+
+									<!-- <div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/checkCircle.svg" /> <b>Slides
+												(KR)</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">
+											<a
+												href="https://www.canva.com/design/DAFlkWXD5LY/2-d_Gex81kgq6jMMvCjbAw/view?utm_content=DAFlkWXD5LY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+												title="Go to the presentation slideshow" target="_blank">https://www.canva.com/design
+												Go to the presentation slideshow<img class="mb-1"
+												src="assets/images/newWindow.svg" />
+											</a>
+										</div> -->
+
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>동영상
+											및 스크린샷<span title="In English">🇺🇸</span>
+										</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										업데이트 예정입니다.
+										<!-- <a
+												href="https://yjyuwisely.tistory.com/entry/medical-supplies-procurement"
+												title="View details here" target="_blank">https://yjyuwisely.tistory.com/entry/medical-supplies-procurement<img
+												class="mb-1" src="assets/images/newWindow.svg" /></a> -->
+									</div>
+
+									<br>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub
+											<span title="In English">🇺🇸</span>
+										</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										업데이트 예정입니다.
+										<!-- <a href="https://github.com/yjyuwisely/MedEquipXProject"
+												title="GitHub repository" target="_blank">
+												https://github.com/yjyuwisely/MedEquipXProject<img
+												class="mb-1" src="assets/images/newWindow.svg" />
+											</a> -->
+									</div>
+									<br>
+									<!-- <div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub
+											(EN)</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator"
+											title="깃허브로 이동" target="_blank">
+											https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator<img
+											class="mb-1" src="assets/images/newWindow.svg" />
+										</a>
+									</div> -->
+									<!-- <div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/moonStars.svg" /> <b>Frontend</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">Vanilla JavaScript,
+											Bootstrap, CSS3, HTML5</div>
+										<div class="col-md-3 col-sm-12">
+											<img class="me-1" src="assets/images/moonStars.svg" /> <b>Backend</b>
+										</div>
+										<div class="col-md-9 col-sm-12">Spring, Java, MySQL</div> -->
+								</div>
+							</div>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="title-bar">
+				<div>
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle"> <!-- Yeongjin's portfolio -->
+					</a></span>
+				</div>
+			</div>
+
+
+			<!-- Team project 3 section -->
+			<div class="container">
+				<div class="display " style="background-color: rgba(0, 0, 0, 0.2);">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/purple.mp4" type="video/mp4">
+					</video>
+					<!-- Project Section Heading-->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">웹
+						프로젝트 목록</h2>
+					<div class="lead text-start rounded text-white pt-0 pb-1"
+						style="word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
+						<p class="lead" style="text-align: justify;">하단의 웹 프로젝트들은
+							2023년 1월부터 2023년 7월까지 K-디지털 트레이닝 과정인 'IoT 기반 스마트 헬스케어 웹 서비스 개발
+							과정' 중 진행되었습니다.</p>
+					</div>
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
+						병원 관점 의료용품 입고 프로세스 구현</h2>
+					<p
+						style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
+						2023.05-2023.06 (K-디지털 트레이닝 3인 팀 프로젝트, 울산 그린컴퓨터아카데미)</p>
+					<table>
+						<tr>
+							<p class="lead text-start text-center">
+								<img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/Team3Capture4.png" alt="Team3Capture1"
+									height=auto width=400px /> <img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/Team3Capture1.png" alt="Team3Capture2"
+									height=auto width=400px />
+								<!-- <img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/Team3Capture3.png" alt="Team3Capture3"
+									height=auto width=200px /> -->
+							</p>
+							<div class="lead text-start rounded text-white pt-0 pb-1"
+								style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
+								<p class="lead text-start">병원 관점 의료용품 입고 프로세스를 구현한 웹사이트를
+									만들었습니다.</p>
+								<div class="row mx-3 mb-3">
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>주요
+											기능</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">전체 물품 리스트, 물품 상세 보기,
+										사용 중지 물품 리스트, 입고 등록, 신규 물품 등록, 출고 등록, 출고 내역, 관리자 로그인 및 계정 생성</div>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>맡은
+											역할</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">물품 상세 보기 페이지, 사용 중지
+										물품 리스트 페이지, 출고 내역 페이지 기능 구현 및 신규 물품 등록 페이지의 사진 등록 구현, 피그마 UI
+										디자인 및 기획, 발표 슬라이드쇼 제작</div>
+									<!-- 									<div class="col-md-3 col-sm-12 mb-2">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>프로젝트
+											경과 기록</b>
+									</div> 
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/Team%20Project%20%28K-Digital%29%202%EF%B8%8F⃣"
+											title="티스토리 블로그로 이동" target="_blank">
+											https://yjyuwisely.tistory.com 프로젝트 섹션로 이동<img class="mb-1"
+											src="assets/images/newWindow.svg" />
+										</a>
+									</div>-->
+
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>발표
+											슬라이드쇼</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://www.canva.com/design/DAFlkWXD5LY/2-d_Gex81kgq6jMMvCjbAw/view?utm_content=DAFlkWXD5LY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+											title="발표 슬라이드쇼로 이동" target="_blank">https://www.canva.com/design
+											발표 슬라이드쇼로 이동<img class="mb-1"
+											src="assets/images/newWindow.svg" />
+										</a>
+									</div>
+
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>동영상
+											및 스크린샷</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://yjyuwisely.tistory.com/entry/medical-supplies-procurement"
+											title="동영상 및 스크린샷 링크로 이동" target="_blank">https://yjyuwisely.tistory.com/entry/medical-supplies-procurement<img
+											class="mb-1" src="assets/images/newWindow.svg" /></a>
+									</div>
+
+									<br>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a href="https://github.com/yjyuwisely/MedEquipXProject"
+											title="깃허브로 이동" target="_blank">
+											https://github.com/yjyuwisely/MedEquipXProject<img
+											class="mb-1" src="assets/images/newWindow.svg" />
+										</a>
+									</div>
+									<br>
+									<!-- <div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub
+											(EN)</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator"
+											title="깃허브로 이동" target="_blank">
+											https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator<img
+											class="mb-1" src="assets/images/newWindow.svg" />
+										</a>
+									</div> -->
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Frontend</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">Vanilla JavaScript,
+										Bootstrap, CSS3, HTML5</div>
+									<div class="col-md-3 col-sm-12">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Backend</b>
+									</div>
+									<div class="col-md-9 col-sm-12">Spring, Java, MySQL</div>
+								</div>
+							</div>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="title-bar">
+				<div>
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle"> <!-- Yeongjin's portfolio -->
+					</a></span>
+				</div>
+			</div>
+			<!-- Team project 2 section -->
+			<div class="container">
+				<div class="display " style="background-color: rgba(0, 0, 0, 0.2);">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/purple.mp4" type="video/mp4">
+					</video>
+					<!-- Project Section Heading-->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
+						병원 내 구역(GPS) 이동 안내 반응형 웹</h2>
+					<p
+						style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
+						2023.05 (K-디지털 트레이닝 3인 팀 프로젝트, 울산 그린컴퓨터아카데미)</p>
+					<table>
+						<tr>
+							<p class="lead text-start text-center">
+								<img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/Team2Capture1.png" alt="TeamProject2Img1"
+									height=auto width=200px /> <img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/Team2Capture2.png" alt="TeamProject2Img2"
+									height=auto width=200px /> <img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/Team2Capture3.png" alt="TeamProject2Img3"
+									height=auto width=200px />
+							</p>
+							<div class="lead text-start rounded text-white pt-0 pb-1"
+								style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
+								<p class="lead text-start">병원 내 구역(GPS) 이동 안내 자동화 서비스 기능을
+									구현한 반응형 웹을 만들었습니다.</p>
+								<div class="row mx-3 mb-3">
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>주요
+											기능</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">GPS를 이용하여 사용자의 현재 위치
+										파악 후 사용자가 원하는 층별 병원 부서 및 편의 시설의 위치 파악</div>
+
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>맡은
+											역할</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">반응형 웹 페이지 구현 (일부
+										Start Bootstrap) 및 프론트엔드 개발, Kakao Maps API 커스터마이징 및 기능 추가,
+										피그마 UI 디자인 및 기획, 발표 슬라이드쇼 제작</div>
+
+									<div class="col-md-3 col-sm-12 mb-2">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>프로젝트
+											경과 기록</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/Team%20Project%20%28K-Digital%29%202%EF%B8%8F⃣"
+											title="티스토리 블로그로 이동" target="_blank">
+											https://yjyuwisely.tistory.com 프로젝트 섹션로 이동<img class="mb-1"
+											src="assets/images/newWindow.svg" />
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>발표
+											슬라이드쇼</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://www.canva.com/design/DAFl614BXq4/mUcLWhtB0eM7qJg3ITFuew/view?utm_content=DAFl614BXq4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+											title="발표 슬라이드쇼로 이동" target="_blank">https://www.canva.com/design
+											발표 슬라이드쇼로 이동<img class="mb-1"
+											src="assets/images/newWindow.svg" />
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>동영상
+											및 스크린샷</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://yjyuwisely.tistory.com/entry/hospital-indoor-map-navigator"
+											title="동영상 및 스크린샷 링크로 이동" target="_blank">https://yjyuwisely.tistory.com/entry/hospital-indoor-map-navigator<img
+											class="mb-1" src="assets/images/newWindow.svg" /></a>
+									</div>
+									<br>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a href="https://github.com/yjyuwisely/SpringGeoProject"
+											title="깃허브로 이동" target="_blank">
+											https://github.com/yjyuwisely/SpringGeoProject<img
+											class="mb-1" src="assets/images/newWindow.svg" />
+										</a>
+									</div>
+									<br>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub
+											<span title="In English">🇺🇸</span>
+										</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator"
+											title="깃허브로 이동" target="_blank">
+											https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator<img
+											class="mb-1" src="assets/images/newWindow.svg" />
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Frontend</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">Vanilla JavaScript,
+										Bootstrap, CSS3, HTML5</div>
+									<div class="col-md-3 col-sm-12">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Backend</b>
+									</div>
+									<div class="col-md-9 col-sm-12">Spring, Java, MySQL</div>
+								</div>
+							</div>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="title-bar">
+				<div>
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle"> <!-- Yeongjin's portfolio -->
+					</a></span>
+				</div>
+			</div>
+			<!-- Team project 1 section -->
+			<div class="container">
+				<div class="display " style="background-color: rgba(0, 0, 0, 0.2);">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/purple.mp4" type="video/mp4">
+					</video>
+					<!-- Project Section Heading-->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">진료
+						관련 증명서 출력 병원 웹사이트</h2>
+					<p
+						style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
+						2023.04-2023.05 (K-디지털 트레이닝 3인 팀 프로젝트, 울산 그린컴퓨터아카데미)</p>
+					<table>
+						<tr>
+							<p class="lead text-start text-center">
+								<img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/Team1Capture1.png" alt="TeamProject1Img1"
+									height=auto width=400px /> <img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/Team1Capture3.png" alt="TeamProject1Img3"
+									height=auto width=400px />
+							</p>
+							<div class="lead text-start rounded text-white pt-0 pb-1"
+								style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
+								<p class="lead text-start">진료 관련 증명서 출력 병원 웹사이트를 만들었습니다.</p>
+								<div class="row mx-3 mb-3">
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>주요
+											기능</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">회원 가입 및 로그인 후
+										사용자(환자)의 진료 관련 증명서 출력 기능, 관리자(의사)의 진단서 작성 및 수정 기능</div>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>맡은
+											역할</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">온라인 증명서 발급 신청 후 증명서
+										상세 내역 미리 보기 및 다운로드 기능 구현, 회원가입 유효성 검사, Start Bootstrap 반응형 웹
+										페이지 구현 및 프론트엔드 개발, 피그마 UI 디자인 및 기획, 발표 슬라이드쇼 제작</div>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>프로젝트
+											경과 기록</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/Team%20Project%20%28K-Digital%29%201%EF%B8%8F⃣"
+											title="티스토리 블로그 섹션으로 이동" target="_blank">
+											https://yjyuwisely.tistory.com 프로젝트 섹션로 이동<img class="mb-1"
+											src="assets/images/newWindow.svg" />
+										</a>
+									</div>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>발표
+											슬라이드쇼</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://www.canva.com/design/DAFl675D1XU/zlFPwMEx7atc7YZ5xq6RJA/view?utm_content=DAFl675D1XU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+											title="캔바로 이동" target="_blank">https://www.canva.com/design
+											발표 슬라이드쇼로 이동 </a><img src="assets/images/newWindow.svg" />
+									</div>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>동영상
+											및 스크린샷</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://yjyuwisely.tistory.com/entry/medical-certificate-download-service"
+											title="최종 구현 동영상 및 사용자 화면 스크린샷 링크로 이동" target="_blank">https://yjyuwisely.tistory.com/entry/medical-certificate-download-service</a><img
+											src="assets/images/newWindow.svg" />
+									</div>
+									<br>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a href="https://github.com/yjyuwisely/SpringCertProject"
+											title="깃허브로 이동" target="_blank">
+											https://github.com/yjyuwisely/SpringCertProject</a><img
+											src="assets/images/newWindow.svg" />
+									</div>
+									<br>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub
+											<span title="In English">🇺🇸</span>
+										</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">
+										<a
+											href="https://github.com/yjyuwisely/Medical-Certificate-Download-Service"
+											title="깃허브로 이동" target="_blank">
+											https://github.com/yjyuwisely/Medical-Certificate-Download-Service</a><img
+											src="assets/images/newWindow.svg" />
+									</div>
+									<div class="col-md-3 col-sm-12 mb-1">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Frontend</b>
+									</div>
+									<div class="col-md-9 col-sm-12 mb-1">Vanilla JavaScript,
+										Bootstrap, CSS3, HTML5</div>
+									<div class="col-md-3 col-sm-12">
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Backend</b>
+									</div>
+									<div class="col-md-9 col-sm-12">Spring, Java, MySQL</div>
+								</div>
+							</div>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<!-- Portfolio section -->
+			<div class="container">
+				<div class="display" style="background-color: rgba(0, 0, 0, 0.2);">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/road.mp4" type="video/mp4">
+					</video>
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary text-light">포트폴리오
+						웹사이트</h2>
+					<p
+						style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
+						2023.04 (1인 개인 프로젝트)</p>
+					<table>
+						<tr>
+							<p class="lead text-start text-center">
+								<img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/portCapture1.png" alt="Project2Img1"
+									height=auto width=400px /> <img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/portCapture2.png" alt="Project2Img2"
+									height=auto width=400px />
+							</p>
+						</tr>
+						<tr>
+							<td>
+								<div class="lead text-start rounded text-white pt-0 pb-1"
+									style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
+									<p class="lead text-start">포트폴리오 용도로 제작한 지금 보고 있는 웹사이트입니다.
+										반응형 웹페이지와 Bootstrap을 처음 사용할 수 있던 좋은 기회였습니다. 디자인은 90년대 레트로 스타일의
+										윈도우에 영감을 받아서 만들었습니다. 하단의 깃허브 링크에는 Spring Boot, Spring
+										Security, Maven, MySQL를 이용해서 회원가입, 로그인 및 회원 정보 수정을 구현한 백엔드
+										웹페이지를 담았습니다.</p>
+									<!-- Make sure to include any other relevant details or achievements related to this project 
+									that you think could be useful for potential employers or clients to know. -->
+									<div class="row mx-3 mb-3">
+										<div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/moonStars.svg" /> <b>주요
+												기능</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">자기소개, 기술 목록, 프로젝트
+											목록, 블로그/깃허브 링크, 훈련/교육 설명, 수상 내역 설명과 백엔드 웹페이지의 회원가입, 로그인 및 회원
+											정보 수정 기능</div>
+										<div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/checkCircle.svg" /> <b>프로젝트
+												경과 기록</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">
+											<a
+												href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/My%20Portfolio"
+												title="티스토리 블로그로 이동" target="_blank">
+												https://yjyuwisely.tistory.com 프로젝트 섹션로 이동</a><img class="mb-1"
+												src="assets/images/newWindow.svg" />
+										</div>
+										<div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/checkCircle.svg" /> <b>화면
+												스크린샷</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">
+											<a
+												href="https://yjyuwisely.tistory.com/entry/full-stack-developer-portfolio"
+												title="스크린샷 링크로 이동" target="_blank">https://yjyuwisely.tistory.com/entry/full-stack-developer-portfolio</a><img
+												src="assets/images/newWindow.svg" />
+										</div>
+										<br>
+										<div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub
+												<span title="In English">🇺🇸</span>
+											</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">
+											<a
+												href="https://github.com/yjyuwisely/Full-Stack-Developer-Portfolio.git"
+												title="깃허브로 이동" target="_blank">
+												github.com/yjyuwisely/Full-Stack-Developer-Portfolio.git</a><img
+												src="assets/images/newWindow.svg" />
+										</div>
+										<div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/moonStars.svg" /> <b>Frontend</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">Vanilla JavaScript,
+											jQuery, Bootstrap, CSS3, HTML5</div>
+										<div class="col-md-3 col-sm-12">
+											<img class="me-1" src="assets/images/moonStars.svg" /> <b>Backend</b>
+										</div>
+										<div class="col-md-9 col-sm-12">Spring Boot, Spring
+											Security, Java, MySQL</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="title-bar">
+				<div>
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle"> <!-- Yeongjin's portfolio -->
+					</a></span>
+				</div>
+			</div>
+			<!-- Individual project section -->
+			<div class="container">
+				<div class="display" style="background-color: rgba(0, 0, 0, 0.2);">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/tunnel.mp4" type="video/mp4">
+					</video>
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">울산
+						울주군 여행 웹사이트</h2>
+					<p
+						style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
+						2023.01-02 (1인 개인 프로젝트)</p>
+					<table>
+						<tr>
+							<p class="lead text-center">
+								<img class="portImg px-3 mt-3 mb-0"
+									src="assets/images/uljuCapture1.png" alt="Project1Img1"
+									height=auto width=400px /> <img class="portImg px-3 mt-3 mb-0"
+									src="assets/images/uljuCapture3.png" alt="Project1Img2"
+									height=auto width=400px />
+							</p>
+							<td>
+								<div class="lead text-start rounded text-white pt-0 pb-1"
+									style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
+									<p class="lead text-start">울산 울주군 여행 웹사이트를 진행하게 된 계기는 저도
+										몰랐던 고향의 여러 여행 장소에 대해 자세히 알고 싶었었고, 울산에 거주 중임에도 불구하고 울산 시티 투어와
+										울산 관광 택시가 있는 줄 몰랐기 때문입니다. 그래서 사람들에게 울산 여행에 대해 공유하고자 만들게 되었습니다.</p>
+									<div class="row mx-3 mb-3">
+										<div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/moonStars.svg" /> <b>주요
+												기능</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">울산 시티 투어와 울산 관광 택시의
+											여행 장소와 경로 소개</div>
+										<div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/checkCircle.svg" /> <b>프로젝트
+												경과 기록</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">
+											<a
+												href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨/Individual%20project%201%EF%B8%8F⃣"
+												title="티스토리 블로그로 이동" target="_blank">
+												https://yjyuwisely.tistory.com 프로젝트 섹션로 이동</a><img class="mb-1"
+												src="assets/images/newWindow.svg" />
+										</div>
+										<div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/checkCircle.svg" /> <b>화면
+												스크린샷</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">
+											<a
+												href="https://yjyuwisely.tistory.com/entry/traveling-from-ulju-gun"
+												title="스크린샷 링크로 이동" target="_blank">https://yjyuwisely.tistory.com/entry/traveling-from-ulju-gun</a><img
+												src="assets/images/newWindow.svg" />
+										</div>
+										<br>
+										<div class="col-md-3 col-sm-12 mb-1">
+											<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub
+												<span title="In English">🇺🇸</span>
+											</b>
+										</div>
+										<div class="col-md-9 col-sm-12 mb-1">
+											<a
+												href="https://github.com/yjyuwisely/My-First-Project-Traveling-from-Ulju-gun"
+												title="깃허브로 이동" target="_blank">
+												github.com/yjyuwisely/Traveling-from-Ulju-gun</a><img
+												src="assets/images/newWindow.svg" />
+										</div>
+										<div class="col-md-3 col-sm-12">
+											<img class="me-1" src="assets/images/moonStars.svg" /> <b>Frontend</b>
+										</div>
+										<div class="col-md-9 col-sm-12">Vanilla JavaScript,
+											jQuery, Bootstrap, CSS3, HTML5</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="controls">
+				<a href="#skills"><button class="btn btn_auto">Prev</button></a> <a
+					href="#archiving"><button class="btn btn_auto">Next</button></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- [6] 훈련/교육 섹션: Training/Education Section-->
+	<!-- A section where you can list your academic qualifications(education), including degrees, 
+	diplomas, certifications & any relevant coursework.-->
+	<section class="page-section skills" id="education">
+		<div class="container outer">
+			<div class="title-bar">
+				<div>
+					<!-- 레트로 윈도우 창 -->
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle">Training & Education</a></span>
+				</div>
+			</div>
+			<!-- Contents -->
+			<div class="container">
+				<div class="display" style="background-color: rgba(0, 0, 0, 0.4)">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/books.mp4" type="video/mp4">
+					</video>
+					<!-- Trainig/Experience Section Heading -->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">훈련/교육</h2>
+					<ul class="lead text-start rounded text-white mx-2 my-3"
+						style="list-style-type: square; text-shadow: 1px 1px 2px #9B28BF;">
+						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
+							class="silkscreen"><img class="masthead-avatar px-1 mb-0"
+								src="assets/images/greenAcademy.png" alt="UlsanGreenAcademy"
+								height=auto width=200px />[K-디지털 트레이닝] IoT 기반 스마트 헬스케어 웹 서비스 개발
+								과정 (2022.12.29-2023.07.04)</b><br> 기술 목록 섹션에 있는 프론트엔드와 백엔드 언어를
+							모두 학습했으며, 개발자로서 팀 프로젝트 부문과 개인 부문의 역량을 키웠습니다.<br> <br></li>
+						<!-- 추천 이미지: Data visualization charts or graphs using R 
+								examples of charts or graphs you have created in R or other programs.
+								Code snippets, Screenshots of projects
+								-->
+						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
+							class="silkscreen"><img class="masthead-avatar px-1 mb-0"
+								src="assets/images/uow.png" alt="UOW" height=auto width=150px />
+								Graduate Diploma in Mathematical Studies </b>준석사 수학 연구<br> 고급
+							통계 이론과 인공지능, 수치해석학, 선형대수학 수업을 들었습니다. R 언어를 이용하여 인공위성 빅데이터 분석 연구에
+							참여하며 전문성을 높였습니다. 관련 논문으로 Bayesian Identifiability with
+							Application to CO₂ Flux Inversion를 작성하였습니다. <br> <br></li>
+						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
+							class="silkscreen"> <img class="masthead-avatar px-1 mb-0"
+								src="assets/images/uwa.png" alt="UWA" height=auto width=150px />Bachelor
+								of Science in Quantitative Methods
+						</b> 이학사 - 양적분석과<br> <!-- 숫자로 분석하는
+							것에 재미를 느껴 --> 대학에서는 데이터 분석을 전공하여 관련된 수업을 이수하였으며, R 언어를 이용한 코딩을
+							배웠습니다. 또한, 교양 수업으로 Python과 Java를 수강하여 프로그래밍 언어에도 익숙해졌습니다. 데이터 분석과
+							데이터 시각화에 대한 경험을 쌓았으며, 실제 데이터 분석을 위해 코딩을 직접 수행하는 경험을 통해 코딩 능력을
+							향상했습니다. 이와 함께, 통계 이론 과목들과 수학적 기반인 미적분과 같은 수학 과목들도 공부하여 데이터 분석의
+							수학적 이해를 향상했습니다. 또한, 학부 졸업 논문으로 병원 환자 데이터 분석 논문인 Determining
+							Factors Affecting First-Time Peripheral Intravenous Cannulation
+							Success in the Emergency Department (응급실에서 말초정맥내관삽입술의 일차 성공에 영향을
+							미치는 결정적 요인)를 작성하였습니다.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="controls">
+				<a href="#archiving"><button class="btn btn_auto">Prev</button></a>
+				<a href="#achievements"><button class="btn btn_auto">Next</button></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- [6] 수상 내역 섹션: Achievements Section-->
+	<!-- A section where you can list your professional experience, including internships, part-time jobs, and freelance work.
+	& any relevant work experience or bootcamp programs you've completed. -->
+	<section class="page-section skills" id="achievements">
+		<div class="container outer">
+			<div class="title-bar">
+				<div>
+					<!-- 레트로 윈도우 창 -->
+					<span class="title-bar__title"><a href="#page-top"
+						id="windowTitle">Achievements</a></span>
+				</div>
+			</div>
+			<!-- Contents -->
+			<div class="container">
+				<div class="display">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/discolights.mp4" type="video/mp4">
+					</video>
+					<!-- Experience Section Heading -->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">수상
+						내역</h2>
+					<div class="text-white rounded"
+						style="background-color: rgba(0, 0, 0, 0.3); text-shadow: 1px 1px 2px #9B28BF;">
+						<p class="lead text-start text-center mx-2 pb-0 mb-0 fs-3"
+							id="TopTitle">'MOBAO AWARD'</p>
+						<p class="lead text-start text-center mx-2 pb-0">
+							<b class="silkscreen">Outstanding Performance in the Field<br>
+								International Studio of Art and Culture
+							</b>
+						</p>
+						<p class="lead text-start lh-lg mx-2" style="text-indent: 1rem;">학부
+							때 인도네시아 발리에서 건축 및 디자인 학부의 아트와 문화의 국제 스튜디오 수업(International Studio
+							of Art and Culture)을 수강하며, 그 지역의 새로운 문화를 배우며 사진 및 그림을 배웠습니다. 한 해에
+							한 명에게 주어지는 주변 학생들에게 좋은 영향을 주는 가장 실력이 뛰어난 우수 학생으로 전공자들을 제치고 뽑혀서
+							Mobao Award라는 상을 받았습니다. 교수님이 제 전공을 물어보시더니 전공 분야가 디자인 쪽이 아님을 상당히
+							신기해하셨던 기억이 납니다. 제 탐구심을 바탕으로 새로운 도전을 시도하는 이런 경험들이 개발에 있어서 새로운 기술을
+							배우고 적용하는데 더 열정적이고 적극적인 태도를 갖추게 했고 제가 개발자로 전향하게 된 계기도 되었습니다.</p>
+						<!-- If you would like to expand on your experience or provide more details, 
+					you could consider including any specific projects or tasks that you completed during the course or
+					any challenges you overcame to receive the award. -->
+						<!-- Yes, it would be appropriate to include this achievement in the experience section of your portfolio, 
+					especially if it demonstrates your creativity, determination, and ability to excel in areas outside your major. 
+					It could also show your potential to bring unique perspectives and ideas to your work as a full stack developer. 
+					Winning a prize for your creativity and artistic skills can certainly be a valuable asset in any field, including web development. 
+					While it may not be directly related to full-stack development, 
+					it can still demonstrate your ability to think creatively and pay attention to detail. 
+					-->
+					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<a href="#education"><button class="btn btn_auto">Prev</button></a>
+			</div>
+		</div>
+	</section>
+	<!-- Copyright Section-->
+	<div class="copyright text-center text-white">
+		<small style="font-family: 'Silkscreen';">&copy 2023
+			Yeongjin's portfolio. All Rights Reserved.</small>
+	</div>
+	<!-- Copyright © Your Website 2023 -->
+	<!-- Bootstrap core JS-->
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Core theme JS-->
+	<script src="js/scripts.js"></script>
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+	<!-- * *                               SB Forms JS                               * *-->
+	<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+	<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>

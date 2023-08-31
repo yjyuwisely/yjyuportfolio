@@ -13,11 +13,10 @@
 <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
 	crossorigin="anonymous"></script>
 <!-- Core theme CSS (includes Bootstrap)-->
-<!-- CSS 경로 추가 -->
 <link href="css/styles.css" rel="stylesheet" />
-<!-- Retro style window 레트로 윈도우 창 효과 CSS -->
+<!-- Retro style window -->
 <link href="css/window.css" rel="stylesheet" />
-<!--탑버튼 Top button -->
+<!--Top button -->
 <script type="text/javascript">
 	$(function() {
 		$("#gotop").hide();
@@ -49,18 +48,18 @@
 			<ul class="navbar-nav fs-4" style="margin-left: 10px;">
 				<li class="nav-item my-2 "><a
 					class="nav-link px-0 px-lg-2 rounded text-light " href="#about">About</a></li>
+				<li class="nav-item my-2"><a
+					class="nav-link px-0 px-lg-2 rounded text-light" href="#education">
+						Education</a></li>
+				<li class="nav-item my-2 "><a
+					class="nav-link px-0 px-lg-2 rounded text-light" href="#projects">
+						Projects</a></li>
 				<li class="nav-item my-2 "><a
 					class="nav-link px-0 px-lg-2 rounded text-light" href="#skills">
 						Skills</a></li>
 				<li class="nav-item my-2 "><a
 					class="nav-link px-0 px-lg-2 rounded text-light" href="#archiving">
 						Blog/GitHub</a></li>
-				<li class="nav-item my-2 "><a
-					class="nav-link px-0 px-lg-2 rounded text-light" href="#projects">
-						Projects</a></li>
-				<li class="nav-item my-2"><a
-					class="nav-link px-0 px-lg-2 rounded text-light" href="#education">
-						Education</a></li>
 				<li class="nav-item my-2"><a
 					class="nav-link px-0 px-lg-2 rounded text-light"
 					href="#achievements"> Awards </a></li>
@@ -73,7 +72,7 @@
 		</div>
 	</nav>
 
-	<!-- [1] About 섹션: About Section-->
+	<!-- [1] About Section-->
 	<!-- About: A section where you can talk about yourself, your background, and your interests.
 	& where you introduce yourself and your background. -->
 	<section class="page-section skills mt-5" id="about"
@@ -102,35 +101,36 @@
 								<td><p class="lead text-start text-white fw-bold"
 										style="text-shadow: 1px 1px 2px #842A99;">
 										<img class="me-2" src="assets/images/moonStars.svg" />Yeongjin
-										Yu<span class="fw-light"> |</span> AI engineer <br> <img
+										Yu<span class="fw-light"> |</span> NLP Engineer <br> <img
 											class="me-2" src="assets/images/moonStars.svg" />South Korea
-										<span title="The Korean flag">🇰🇷</span><br> <img
+										<span title="The Korean flag">🇰🇷</span><br> <a
+											href="mailto:yjyuwisely@gmail.com" class="fw-bold"><img
 											class="me-1" src="assets/images/checkCircle.svg" />
-										yjyuwisely@gmail.com <br> <b class="silkscreen"
-											style="text-shadow: 1px 1px 2px #5D2FDA;"> Junior AI
-											engineer with a fervor for NLP, on a continuous quest to
-											embrace and master new technologies.😊</b>
+											yjyuwisely@gmail.com</a> <br> <b class="silkscreen"
+											style="text-shadow: 1px 1px 2px #5D2FDA;"> Junior NLP
+											engineer with a fervor for language technologies, on a
+											continuous quest to embrace and master new innovations.😊 </b>
 									</p></td>
 							</tr>
 							<tr>
 								<td colspan="2">
 									<p class="lead text-light rounded lh-lg mx-2"
 										style="text-indent: 1rem; text-align: justify; background-color: rgba(0, 0, 0, 0.4); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA">
-										Hello, I'm Yeongjin Yu, a developer driven by a passion for
-										harnessing technology's potential for meaningful change. My
-										background in mathematics and statistics has steered me toward
-										Artificial Intelligence (AI), where I'm drawn to merging human
-										psychology with programming to create intricate AI-driven
-										interactions. My goal extends beyond mastering technology; I
-										aspire to wield AI as a tool for impactful societal
-										advancements, contributing to a world where individuals can
-										access AI applications to enrich their lives. With an affinity
-										for learning and growth, I'm dedicated to creating
-										user-friendly services that transcend borders. I aspire to
-										contribute to a world where AI-driven solutions uplift lives
-										and break language barriers. With my commitment to ethical AI
-										and a passion for meaningful impact, I am excited to showcase
-										my journey through this portfolio. <img
+										Hello, I'm Yeongjin Yu, an NLP engineer driven by a passion
+										for harnessing technology's potential for meaningful change.
+										My background in mathematics and statistics has steered me
+										toward Artificial Intelligence (AI), where I'm drawn to
+										merging human psychology with programming to create intricate
+										AI-driven interactions. My goal extends beyond mastering
+										technology; I aspire to wield AI as a tool for impactful
+										societal advancements, contributing to a world where
+										individuals can access AI applications to enrich their lives.
+										With an affinity for learning and growth, I'm dedicated to
+										creating user-friendly services that transcend borders. I
+										aspire to contribute to a world where AI-driven solutions
+										uplift lives and break language barriers. With my commitment
+										to ethical AI and a passion for meaningful impact, I am
+										excited to showcase my journey through this portfolio. <img
 											src="assets/images/favicon.ico" />
 									</p>
 								</td>
@@ -140,180 +140,103 @@
 				</div>
 			</div>
 			<div class="controls">
-				<a href="#skills"><button class="btn btn_auto">Next</button></a>
+				<a href="#education"><button class="btn btn_auto">Next</button></a>
 			</div>
 		</div>
 	</section>
 
-	<!-- [2] 스킬 섹션: Skills Section-->
-	<!-- Skills: A section where you can list the technical skills you possess, 
-	including programming languages, frameworks, libraries, and tools & proficiency in various tools and technologies. -->
-	<section class="page-section skills" id="skills">
-		<div class="container outer">
-			<div class="title-bar">
-				<div>
-					<span class="navbar-brand title-bar__title"><a
-						href="#page-top" id="windowTitle">Skills</a></span>
-				</div>
-			</div>
-			<div class="container">
-				<div class="display">
-					<video id="background-video" autoplay loop muted>
-						<source src="videos/tunnel.mp4" type="video/mp4">
-					</video>
-					<!-- Skills Section Heading-->
-					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
-						Skills</h2>
-					<div class="row mx-3 mb-3 rounded"
-						style="background-color: rgba(0, 0, 0, 0.2); color: white; font-size: 0.8rem; text-shadow: 1px 1px 2px #5D2FDA;">
-						<div class="col-md-5 col-sm-12 mb-1">
-							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Machine
-								Learning & AI</b>
-						</div>
-						<div class="col-md-7 col-sm-12 mb-1">
-							Python,
-							<!-- (Frameworks/libraries: [mention any specific ones you've worked with e.g., TensorFlow, PyTorch, Scikit-learn]) -->
-							R (Used for data analysis and visualization)
-						</div>
-						<div class="col-md-5 col-sm-12 mb-1">
-							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Frontend</b>
-						</div>
-						<div class="col-md-7 col-sm-12 mb-1">JavaScript, Bootstrap,
-							CSS3, HTML5</div>
-						<div class="col-md-5 col-sm-12 mb-1">
-							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Backend</b>
-						</div>
-						<div class="col-md-7 col-sm-12 mb-1">Spring, Java, JSP,
-							MySQL</div>
-						<div class="col-md-5 col-sm-12 mb-1">
-							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Version
-								Control</b>
-						</div>
-						<div class="col-md-7 col-sm-12 mb-1">GitHub</div>
-						<div class="col-md-5 col-sm-12 mb-1">
-							<img class="me-2" src="assets/images/moonStars.svg" /><b>Visual
-								Design and Communication</b>
-						</div>
-						<div class="col-md-7 col-sm-12 mb-1">Figma (UI Design),
-							Canva (Presentation Design)</div>
-						<div class="col-md-5 col-sm-12">
-							<img class="me-2" src="assets/images/moonStars.svg" /><b>Team
-								Communications</b>
-						</div>
-						<div class="col-md-7 col-sm-12">Notion</div>
-					</div>
-				</div>
-			</div>
-			<div class="controls">
-				<a href="#about"><button class="btn btn_auto">Prev</button></a> <a
-					href="#projects"><button class="btn btn_auto">Next</button></a>
-			</div>
-		</div>
-	</section>
-
-	<!-- [4] 블로그/깃허브 섹션: Blog & Github Section-->
-	<!-- Blog and Github: A section where you can link to your blog and Github profile 
-	for potential employers or collaborators to see your coding style and activity. -->
-	<section class="page-section skills" id="archiving">
+	<!-- [6] Training/Education Section-->
+	<!-- A section where you can list your academic qualifications(education), including degrees, 
+	diplomas, certifications & any relevant coursework.-->
+	<!-- A section where you can list your professional experience, including internships, part-time jobs, and freelance work.
+	& any relevant work experience or bootcamp programs you've completed. -->
+	<section class="page-section skills" id="education">
 		<div class="container outer">
 			<div class="title-bar">
 				<div>
 					<!-- 레트로 윈도우 창 -->
 					<span class="title-bar__title"><a href="#page-top"
-						id="windowTitle">Blog & Github</a></span>
+						id="windowTitle">Training & Education</a></span>
 				</div>
 			</div>
 			<!-- Contents -->
 			<div class="container">
-				<div class="display">
+				<div class="display" style="background-color: rgba(0, 0, 0, 0.4)">
 					<video id="background-video" autoplay loop muted>
-						<source src="videos/purple.mp4" type="video/mp4">
+						<source src="videos/books.mp4" type="video/mp4">
 					</video>
-					<!-- Blog Section Heading-->
+					<!-- Trainig/Experience Section Heading -->
 					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Blog
-						& Github</h2>
-					<!-- Project Grid Items-->
-					<div class="row justify-content-center"
-						style="text-shadow: 1px 1px 2px #5D2FDA;">
-						<!-- #9B28BF -->
-						<!-- Blog-->
-						<div class="col-md-6 col-lg-5 my-3 mx-3 text-white rounded"
-							style="background-color: rgba(0, 0, 0, 0.1);">
-							<p class="lead" style="text-align: justify;">
-								<a href="https://yjyuwisely.tistory.com" title="Go to the blog"
-									target="_blank"> <img class="img-fluid"
-									src="assets/images/Tistory.png" height=100px width=200px
-									alt="Blog" /></a><br> <a
-									href="https://yjyuwisely.tistory.com" title="Go to the blog"
-									target="_blank"> <b>yjyuwisely.tistory.com</b><img
-									class="mb-1" src="assets/images/newWindow.svg" /><br></a> I
-								created this blog to store and share what I've learned. It
-								contains the following lists. Some contents are written in
-								Korean at the moment.
-							</p>
-							<ul style="list-style-type: square; font-size: 0.9rem;">
-								<li><a
-									href="https://yjyuwisely.tistory.com/category/💻Self-Study%20Revision✨"
-									title="Go to the Tistory blog." target="_blank"><b>Self-Study
-											Revision</b><img class="mb-1" src="assets/images/newWindow.svg" /><br>Things
-										newly learned or revisited during project progress</a></li>
-								<li><a
-									href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨"
-									title="Go to the Tistory blog." target="_blank"><b>My
-											Projects Diary</b><img class="mb-1"
-										src="assets/images/newWindow.svg" /> <br>A record of the
-										progress and processes of my projects</a></li>
-								<li><a
-									href="https://yjyuwisely.tistory.com/category/🌳K-Digital%20Revision%202023✨"
-									title="Go to the Tistory blog." target="_blank"><b>K-Digital
-											Revision 2023</b><img class="mb-1"
-										src="assets/images/newWindow.svg" /><br>Content reviewed
-										after attending lectures in the K-Digital training program
-										(Web Bootcamp)</a></li>
-								<li><a
-									href="https://yjyuwisely.tistory.com/category/🌳AI%20Engineer%27s%20Journey😊🍀"
-									title="Go to the Tistory blog." target="_blank"><b>AI
-											Engineer's Journey</b><img class="mb-1"
-										src="assets/images/newWindow.svg" /><br>Book reviews,
-										development columns I want to remember, and various helpful
-										links</a></li>
-								<li><a
-									href="https://yjyuwisely.tistory.com/category/🌳List%20of%20Materials✨"
-									title="Go to the Tistory blog." target="_blank"><b>List
-											of Materials</b><img class="mb-1"
-										src="assets/images/newWindow.svg" /><br>Links related to
-										development studies and technology stacks</a></li>
-							</ul>
-						</div>
-						<!-- Github-->
-						<div class="col-md-6 col-lg-5 my-3 mx-3 text-white rounded"
-							style="background-color: rgba(0, 0, 0, 0.1);">
-							<p class="lead text-start">
-								<a href="https://www.github.com/yjyuwisely" title="Go to GitHub"
-									target="_blank"> <img class="img-fluid"
-									src="assets/images/github-mark.png" height=30px width=50px
-									alt="github-mark" /> <img class="img-fluid"
-									src="assets/images/GitHub_Logo.png" height=100px width=120px
-									alt="Github_Logo" style="margin: 2px;" /></a> <br> <a
-									href="https://www.github.com/yjyuwisely" title="Go to GitHub"
-									target="_blank"> <b>github.com/yjyuwisely</b><img
-									class="mb-1" src="assets/images/newWindow.svg" /><br></a>
-								This is the repository for project source codes. <br> <br>
-							</p>
-							<ul style="list-style-type: square; font-size: 0.9rem;">
-								<li>Team project source code</li>
-								<li>Portfolio website source code</li>
-								<li>Individual project source code</li>
-							</ul>
-						</div>
-					</div>
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Training/Education</h2>
+					<ul class="lead rounded text-white mx-2 my-3 mb-0"
+						style="list-style-type: square; text-shadow: 1px 1px 2px #9B28BF;">
+						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
+							class="silkscreen"><img class="masthead-avatar px-1 mb-0"
+								src="assets/images/greenAcademy.png"
+								alt="UlsanGreenComputerAcademy"
+								title="Ulsan Green Computer Academy" height=auto width=200px />
+								Ulsan Green Computer Academy <span class="fw-light"> |</span>
+								December 2022 - July 2023 <br> [K-Digital Training]
+								IoT-Based Smart Healthcare Web Service Development Bootcamp</b> <br>
+							<p class="lead" style="text-indent: 1rem; text-align: justify;">This
+								intensive bootcamp deepened my knowledge of key frontend and
+								backend technologies, as detailed in the Skills section of my
+								portfolio. The curriculum's hands-on approach emphasized
+								practical application, bolstering my teamwork and
+								problem-solving abilities. Beyond technical expertise, the
+								program honed vital skills in project management, communication,
+								and creative thinking. This experience has been instrumental,
+								laying a foundation for my pursuit of a career as an AI
+								engineer.</p></li>
+						<!-- 추천 이미지: Data visualization charts or graphs using R 
+								examples of charts or graphs you have created in R or other programs.
+								Code snippets, Screenshots of projects
+								-->
+						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
+							class="silkscreen"><img class="masthead-avatar px-1 mb-0"
+								src="assets/images/uow.png" alt="UOW" height=auto width=150px />
+								Graduate Diploma in Mathematical Studies </b><br>
+							<p class="lead" style="text-indent: 1rem; text-align: justify;">
+								I delved into advanced statistical theories, artificial
+								intelligence, numerical analysis, and linear algebra. My
+								coursework included subjects like Data Mining and Knowledge
+								Discovery, Statistical Inference, Linear and Generalised Linear
+								Models, Probability, and Research Methods. I engaged in a
+								research project using R programming to analyze satellite big
+								data. This research led to my thesis, <b>"Bayesian
+									Identifiability with Application to CO₂ Flux Inversion,"</b> where
+								I estimated CO₂ fluxes, using advanced mathematical techniques
+								such as Bayes’ theorem, hierarchical models, and
+								Kullback-Leibler divergence. These academic pursuits underscored
+								the importance of advanced statistics and analytical techniques
+								in the realm of artificial intelligence.
+							</p></li>
+						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
+							class="silkscreen"> <img class="masthead-avatar px-1 mb-0"
+								src="assets/images/uwa.png" alt="UWA" height=auto width=150px />
+								Bachelor of Science in Quantitative Methods
+						</b><br>
+							<p class="lead" style="text-indent: 1rem; text-align: justify;">
+								I majored in data analysis, giving me a foundational
+								understanding of both the theoretical and practical aspects
+								essential for artificial intelligence. I became proficient in
+								using R for data processing and visualization. Additionally,
+								through elective courses, I familiarized myself with Python and
+								Java. My studies also delved into mathematical subjects like
+								Calculus, reinforcing my grasp of the mathematical concepts
+								crucial for AI algorithms. For a significant research project, I
+								authored a paper titled <b>"Determining Factors Affecting
+									First-Time Peripheral Intravenous Cannulation Success in the
+									Emergency Department,"</b> where I applied advanced statistical
+								techniques, including logistic regression and the ROC Curve, to
+								address real-world healthcare challenges.
+							</p></li>
+					</ul>
 				</div>
 			</div>
 			<div class="controls">
-				<a href="#projects"><button class="btn btn_auto">Prev</button></a> <a
-					href="#education"><button class="btn btn_auto">Next</button></a>
+				<a href="#about"><button class="btn btn_auto">Prev</button></a>
+				<a href="#projects"><button class="btn btn_auto">Next</button></a>
 			</div>
 		</div>
 	</section>
@@ -343,7 +266,8 @@
 					<div class="lead text-start rounded text-white pt-0 pb-1"
 						style="word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
 						<p class="lead text-start">
-							Upcoming NLP projects will be showcased here.<img src="assets/images/favicon.ico" />
+							Upcoming NLP projects will be showcased here.<img
+								src="assets/images/favicon.ico" />
 						</p>
 					</div>
 					<h2
@@ -351,7 +275,7 @@
 						NLP PROJECT</h2>
 					<p
 						style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
-						Aug - Sep 2023 (Individual project)</p>
+						Sep 2023 (Individual project)</p>
 					<table>
 						<tr>
 							<!-- <p class="lead text-start text-center">
@@ -364,10 +288,10 @@
 								</p> -->
 							<div class="lead text-start rounded text-white pt-0 pb-1"
 								style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
-								<p class="lead text-start"> 
+								<p class="lead text-start">
 									I'm currently working on an exciting AI project.😊 Details will
 									be updated by October 2023.<img src="assets/images/favicon.ico" />
-								</p> 
+								</p>
 								<div class="row mx-3 mb-3">
 									<div class="col-md-3 col-sm-12 mb-1">
 										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Key
@@ -1084,104 +1008,181 @@
 				</div>
 			</div>
 			<div class="controls">
-				<a href="#skills"><button class="btn btn_auto">Prev</button></a> <a
+				<a href="#education"><button class="btn btn_auto">Prev</button></a> <a
+					href="#skills"><button class="btn btn_auto">Next</button></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- [2] Skills Section-->
+	<!-- Skills: A section where you can list the technical skills you possess, 
+	including programming languages, frameworks, libraries, and tools & proficiency in various tools and technologies. -->
+	<section class="page-section skills" id="skills">
+		<div class="container outer">
+			<div class="title-bar">
+				<div>
+					<span class="navbar-brand title-bar__title"><a
+						href="#page-top" id="windowTitle">Skills</a></span>
+				</div>
+			</div>
+			<div class="container">
+				<div class="display">
+					<video id="background-video" autoplay loop muted>
+						<source src="videos/tunnel.mp4" type="video/mp4">
+					</video>
+					<!-- Skills Section Heading-->
+					<h2
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
+						Skills</h2>
+					<div class="row mx-3 mb-3 rounded"
+						style="background-color: rgba(0, 0, 0, 0.2); color: white; font-size: 0.8rem; text-shadow: 1px 1px 2px #5D2FDA;">
+						<div class="col-md-5 col-sm-12 mb-1">
+							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Machine
+								Learning & AI</b>
+						</div>
+						<div class="col-md-7 col-sm-12 mb-1">
+							Python,
+							<!-- (Frameworks/libraries: [mention any specific ones you've worked with e.g., TensorFlow, PyTorch, Scikit-learn]) -->
+							R (Used for data analysis and visualization)
+						</div>
+						<div class="col-md-5 col-sm-12 mb-1">
+							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Frontend</b>
+						</div>
+						<div class="col-md-7 col-sm-12 mb-1">JavaScript, Bootstrap,
+							CSS3, HTML5</div>
+						<div class="col-md-5 col-sm-12 mb-1">
+							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Backend</b>
+						</div>
+						<div class="col-md-7 col-sm-12 mb-1">Spring, Java, JSP,
+							MySQL</div>
+						<div class="col-md-5 col-sm-12 mb-1">
+							<img class="me-2" src="assets/images/checkCircle.svg" /><b>Version
+								Control</b>
+						</div>
+						<div class="col-md-7 col-sm-12 mb-1">GitHub</div>
+						<div class="col-md-5 col-sm-12 mb-1">
+							<img class="me-2" src="assets/images/moonStars.svg" /><b>Visual
+								Design and Communication</b>
+						</div>
+						<div class="col-md-7 col-sm-12 mb-1">Figma (UI Design),
+							Canva (Presentation Design)</div>
+						<div class="col-md-5 col-sm-12">
+							<img class="me-2" src="assets/images/moonStars.svg" /><b>Team
+								Communications</b>
+						</div>
+						<div class="col-md-7 col-sm-12">Notion</div>
+					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<a href="#projects"><button class="btn btn_auto">Prev</button></a> <a
 					href="#archiving"><button class="btn btn_auto">Next</button></a>
 			</div>
 		</div>
 	</section>
 
-	<!-- [6] 훈련/교육 섹션: Training/Education Section-->
-	<!-- A section where you can list your academic qualifications(education), including degrees, 
-	diplomas, certifications & any relevant coursework.-->
-	<!-- A section where you can list your professional experience, including internships, part-time jobs, and freelance work.
-	& any relevant work experience or bootcamp programs you've completed. -->
-	<section class="page-section skills" id="education">
+	<!-- [4] Blog & Github Section-->
+	<!-- Blog and Github: A section where you can link to your blog and Github profile 
+	for potential employers or collaborators to see your coding style and activity. -->
+	<section class="page-section skills" id="archiving">
 		<div class="container outer">
 			<div class="title-bar">
 				<div>
 					<!-- 레트로 윈도우 창 -->
 					<span class="title-bar__title"><a href="#page-top"
-						id="windowTitle">Training & Education</a></span>
+						id="windowTitle">Blog & Github</a></span>
 				</div>
 			</div>
 			<!-- Contents -->
 			<div class="container">
-				<div class="display" style="background-color: rgba(0, 0, 0, 0.4)">
+				<div class="display">
 					<video id="background-video" autoplay loop muted>
-						<source src="videos/books.mp4" type="video/mp4">
+						<source src="videos/purple.mp4" type="video/mp4">
 					</video>
-					<!-- Trainig/Experience Section Heading -->
+					<!-- Blog Section Heading-->
 					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Training/Education</h2>
-					<ul class="lead rounded text-white mx-2 my-3 mb-0"
-						style="list-style-type: square; text-shadow: 1px 1px 2px #9B28BF;">
-						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
-							class="silkscreen"><img class="masthead-avatar px-1 mb-0"
-								src="assets/images/greenAcademy.png"
-								alt="UlsanGreenComputerAcademy"
-								title="Ulsan Green Computer Academy" height=auto width=200px />
-								Ulsan Green Computer Academy <span class="fw-light"> |</span>
-								December 2022 - July 2023 <br> [K-Digital Training]
-								IoT-Based Smart Healthcare Web Service Development Bootcamp</b> <br>
-							<p class="lead" style="text-indent: 1rem; text-align: justify;">This
-								intensive bootcamp deepened my knowledge of key frontend and
-								backend technologies, as detailed in the Skills section of my
-								portfolio. The curriculum's hands-on approach emphasized
-								practical application, bolstering my teamwork and
-								problem-solving abilities. Beyond technical expertise, the
-								program honed vital skills in project management, communication,
-								and creative thinking. This experience has been instrumental,
-								laying a foundation for my pursuit of a career as an AI
-								engineer.</p></li>
-						<!-- 추천 이미지: Data visualization charts or graphs using R 
-								examples of charts or graphs you have created in R or other programs.
-								Code snippets, Screenshots of projects
-								-->
-						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
-							class="silkscreen"><img class="masthead-avatar px-1 mb-0"
-								src="assets/images/uow.png" alt="UOW" height=auto width=150px />
-								Graduate Diploma in Mathematical Studies </b><br>
-							<p class="lead" style="text-indent: 1rem; text-align: justify;">
-								I delved into advanced statistical theories, artificial
-								intelligence, numerical analysis, and linear algebra. My
-								coursework included subjects like Data Mining and Knowledge
-								Discovery, Statistical Inference, Linear and Generalised Linear
-								Models, Probability, and Research Methods. I engaged in a
-								research project using R programming to analyze satellite big
-								data. This research led to my thesis, <b>"Bayesian
-									Identifiability with Application to CO₂ Flux Inversion,"</b> where
-								I estimated CO₂ fluxes, using advanced mathematical techniques
-								such as Bayes’ theorem, hierarchical models, and
-								Kullback-Leibler divergence. These academic pursuits underscored
-								the importance of advanced statistics and analytical techniques
-								in the realm of artificial intelligence.
-							</p></li>
-						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
-							class="silkscreen"> <img class="masthead-avatar px-1 mb-0"
-								src="assets/images/uwa.png" alt="UWA" height=auto width=150px />
-								Bachelor of Science in Quantitative Methods
-						</b><br>
-							<p class="lead" style="text-indent: 1rem; text-align: justify;">
-								I majored in data analysis, giving me a foundational
-								understanding of both the theoretical and practical aspects
-								essential for artificial intelligence. I became proficient in
-								using R for data processing and visualization. Additionally,
-								through elective courses, I familiarized myself with Python and
-								Java. My studies also delved into mathematical subjects like
-								Calculus, reinforcing my grasp of the mathematical concepts
-								crucial for AI algorithms. For a significant research project, I
-								authored a paper titled <b>"Determining Factors Affecting
-									First-Time Peripheral Intravenous Cannulation Success in the
-									Emergency Department,"</b> where I applied advanced statistical
-								techniques, including logistic regression and the ROC Curve, to
-								address real-world healthcare challenges.
-							</p></li>
-					</ul>
+						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Blog
+						& Github</h2>
+					<!-- Project Grid Items-->
+					<div class="row justify-content-center"
+						style="text-shadow: 1px 1px 2px #5D2FDA;">
+						<!-- #9B28BF -->
+						<!-- Blog-->
+						<div class="col-md-6 col-lg-5 my-3 mx-3 text-white rounded"
+							style="background-color: rgba(0, 0, 0, 0.1);">
+							<p class="lead" style="text-align: justify;">
+								<a href="https://yjyuwisely.tistory.com" title="Go to the blog"
+									target="_blank"> <img class="img-fluid"
+									src="assets/images/Tistory.png" height=100px width=200px
+									alt="Blog" /></a><br> <a
+									href="https://yjyuwisely.tistory.com" title="Go to the blog"
+									target="_blank"> <b>yjyuwisely.tistory.com</b><img
+									class="mb-1" src="assets/images/newWindow.svg" /><br></a> I
+								created this blog to store and share what I've learned. It
+								contains the following lists. Some contents are written in
+								Korean at the moment.
+							</p>
+							<ul style="list-style-type: square; font-size: 0.9rem;">
+								<li><a
+									href="https://yjyuwisely.tistory.com/category/💻Self-Study%20Revision✨"
+									title="Go to the Tistory blog." target="_blank"><b>Self-Study
+											Revision</b><img class="mb-1" src="assets/images/newWindow.svg" /><br>Things
+										newly learned or revisited during project progress</a></li>
+								<li><a
+									href="https://yjyuwisely.tistory.com/category/💖My%20Projects%20Diary✨"
+									title="Go to the Tistory blog." target="_blank"><b>My
+											Projects Diary</b><img class="mb-1"
+										src="assets/images/newWindow.svg" /> <br>A record of the
+										progress and processes of my projects</a></li>
+								<li><a
+									href="https://yjyuwisely.tistory.com/category/🌳K-Digital%20Revision%202023✨"
+									title="Go to the Tistory blog." target="_blank"><b>K-Digital
+											Revision 2023</b><img class="mb-1"
+										src="assets/images/newWindow.svg" /><br>Content reviewed
+										after attending lectures in the K-Digital training program
+										(Web Bootcamp)</a></li>
+								<li><a
+									href="https://yjyuwisely.tistory.com/category/🌳AI%20Engineer%27s%20Journey😊🍀"
+									title="Go to the Tistory blog." target="_blank"><b>AI
+											Engineer's Journey</b><img class="mb-1"
+										src="assets/images/newWindow.svg" /><br>Book reviews,
+										development columns I want to remember, and various helpful
+										links</a></li>
+								<li><a
+									href="https://yjyuwisely.tistory.com/category/🌳List%20of%20Materials✨"
+									title="Go to the Tistory blog." target="_blank"><b>List
+											of Materials</b><img class="mb-1"
+										src="assets/images/newWindow.svg" /><br>Links related to
+										development studies and technology stacks</a></li>
+							</ul>
+						</div>
+						<!-- Github-->
+						<div class="col-md-6 col-lg-5 my-3 mx-3 text-white rounded"
+							style="background-color: rgba(0, 0, 0, 0.1);">
+							<p class="lead text-start">
+								<a href="https://www.github.com/yjyuwisely" title="Go to GitHub"
+									target="_blank"> <img class="img-fluid"
+									src="assets/images/github-mark.png" height=30px width=50px
+									alt="github-mark" /> <img class="img-fluid"
+									src="assets/images/GitHub_Logo.png" height=100px width=120px
+									alt="Github_Logo" style="margin: 2px;" /></a> <br> <a
+									href="https://www.github.com/yjyuwisely" title="Go to GitHub"
+									target="_blank"> <b>github.com/yjyuwisely</b><img
+									class="mb-1" src="assets/images/newWindow.svg" /><br></a>
+								This is the repository for project source codes. <br> <br>
+							</p>
+							<ul style="list-style-type: square; font-size: 0.9rem;">
+								<li>Team project source code</li>
+								<li>Portfolio website source code</li>
+								<li>Individual project source code</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="controls">
-				<a href="#archiving"><button class="btn btn_auto">Prev</button></a>
-				<a href="#achievements"><button class="btn btn_auto">Next</button></a>
+				<a href="#skills"><button class="btn btn_auto">Prev</button></a> <a
+					href="#achievements"><button class="btn btn_auto">Next</button></a>
 			</div>
 		</div>
 	</section>
@@ -1236,7 +1237,7 @@
 				</div>
 			</div>
 			<div class="controls">
-				<a href="#education"><button class="btn btn_auto">Prev</button></a>
+				<a href="#archiving"><button class="btn btn_auto">Prev</button></a>
 			</div>
 		</div>
 	</section>

@@ -34,4 +34,4 @@ With the AI and NLP expedition just beginning, my commitment and enthusiasm are 
 
 <h2>Snapshot of the Journey</h2>
 Here's a screenshot of the introduction section:
-<img src="https://github.com/yjyuwisely/yjyuportfolio/assets/124529023/b7ea5dc0-7f78-42bc-9987-e064f288e75b">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FC1M7O%2FbtsxrZOSqws%2FC8DtpCTzByGDc4jKuQ4Ew0%2Fimg.png">

@@ -32,6 +32,6 @@ https://github.com/yjyuwisely/Full-Stack-Web-Developer-Portfolio </p> <br><br>
 <p align="justify">
 With the AI and NLP expedition just beginning, my commitment and enthusiasm are unwavering. While the AI and NLP journey is in its infancy, I am dedicated, excited, and ready to plunge into the deep end. Watch this space for updates, learnings, and breakthroughs!</p><br>
 
-<h2>Snapshot of the Journey</h2>
+<h2>Snapshot of the Journey</h2> 
 Here's a screenshot of the introduction section:
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FC1M7O%2FbtsxrZOSqws%2FC8DtpCTzByGDc4jKuQ4Ew0%2Fimg.png">

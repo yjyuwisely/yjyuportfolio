@@ -1,36 +1,36 @@
-<h1>NLP AI Engineer Portfolio: Showcasing My Expertise and Projects</h1>
+<h1>AI Research Scientist Portfolio: Showcasing My Aspirations and Evolving Expertise</h1>
 <p align="justify">
-  Embarking on March 31, 2023, this portfolio captures the essence of my transition from web development into the vast universe of Natural Language Processing (NLP) and Artificial Intelligence (AI). As my expertise grows, so will this space, reflecting my evolving skills and contributions within the NLP sphere.</p><br>
+  Welcome to my portfolio, a dynamic reflection of my journey towards becoming an AI research scientist. Since embarking on this path on March 31, 2023, I have been exploring the vast and diverse field of Artificial Intelligence, seeking to discover and specialize in areas that resonate with my interests and expertise. As my expertise grows, so will this space, reflecting my evolving skills and contributions across the diverse spectrum of Artificial Intelligence.</p><br>
 
 <h2>Project Overview</h2>
 <p align="justify">
-  Having originally rooted myself in web development, I've demonstrated expertise ranging from frontend staples like HTML, CSS, Bootstrap, JavaScript, and jQuery to backend powerhouses such as Spring Boot and MySQL. Today, I am fueled by a growing passion for AI and NLP.
 
-While specific AI endeavors are on the horizon, I've dedicated this portfolio to showcase my upcoming NLP projects.<br><br>
+  This portfolio is a canvas where I illustrate my exploration and growth in AI. As I delve into various branches of AI, I am excited to share my developments, experiments, and learnings. While specific AI endeavors are on the horizon, I've dedicated this portfolio to showcase my upcoming AI projects.<br><br>
 
 Access all projects, spanning my past endeavors and future pursuits, via my portfolio:<br>
-https://yjyuwisely.github.io/yjyuportfolio/<br><br>
+https://www.yeongjinyu.com/<br><br>
 
-My foundational web development portfolio can be explored here:<br>
-https://github.com/yjyuwisely/Full-Stack-Web-Developer-Portfolio </p> <br><br>
-  
-<h2>NLP Focus: Upcoming Project</h2>
+<h2>Focus Areas in AI</h2>
 <p align="justify">
+  While I am currently exploring various domains within AI, my portfolio will showcase a range of projects that reflect my learning curve and contributions to different areas of AI. From potential ventures into Computer Vision to exploratory projects in other AI fields, this space will evolve as I solidify my research interests.
 <!--  <li>Exploring popular NLP Libraries/Frameworks such as TensorFlow, PyTorch, HuggingFace</li> -->
-  <li><b>Multilingual Real-Time Translation</b>: My prime endeavor delves into the pioneering domain of multilingual real-time translation technology. Using advanced NLP libraries and frameworks, I aim to bridge linguistic divides and create seamless communication experiences across multiple languages.</li>
+<!--   <li><b>Multilingual Real-Time Translation</b>: My prime endeavor delves into the pioneering domain of multilingual real-time translation technology. Using advanced NLP libraries and frameworks, I aim to bridge linguistic divides and create seamless communication experiences across multiple languages.</li> -->
 <!-- <li>Machine Learning Algorithms and their application in language processing</li>
 <li>Deep Learning Architectures tailored for text and linguistic patterns</li> --></p>
 <br><br>
 
 <h2>Technologies Used</h2>
-<li><b>NLP & AI</b>: (Upcoming) TensorFlow, PyTorch, HuggingFace, etc.</li>
+<li><b>AI Research</b>: Technologies and tools to be determined as projects evolve.</li>
+<li><b>AI Developement</b>: TensorFlow, PyTorch, HuggingFace, etc.</li>
 <!-- <li>Machine Learning Algorithms (Upcoming)</li>
 <li>Deep Learning Architectures (Upcoming)</li> -->
 <li><b>Web Development</b>: HTML, CSS, Bootstrap, Vanilla JavaScript, jQuery.</li><br><br>
 
 <h2>Stay Tuned!</h2>
 <p align="justify">
-With the AI and NLP expedition just beginning, my commitment and enthusiasm are unwavering. While the AI and NLP journey is in its infancy, I am dedicated, excited, and ready to plunge into the deep end. Watch this space for updates, learnings, and breakthroughs!</p><br>
+As I navigate through the exciting field of AI, my commitment to contributing meaningful research and innovation and enthusiasm remains unwavering.  While the AI journey is in its infancy, I am dedicated, excited, and ready to plunge into the deep end. Watch this space for updates on my journey, new project additions, and breakthroughs in AI research!</p><br>
+
+
 
 <h2>Snapshot of the Journey</h2> 
 Here's a screenshot of the introduction section:

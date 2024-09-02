@@ -116,13 +116,13 @@
 							<tr>
 								<td colspan="2">
 									<p class="lead text-light rounded lh-lg mx-2"
-										style="text-indent: 1rem; text-align: justify; background-color: rgba(0, 0, 0, 0.4); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA">
+									   style="text-indent: 1rem; text-align: justify; background-color: rgba(0, 0, 0, 0.4); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA">
 										Hello! I'm Yeongjin Yu, an AI research scientist specializing
-										in computer vision and driven by a passion for harnessing
+										in computer vision and natural language processing, driven by a passion for harnessing
 										technology's potential for meaningful change. With a solid
 										foundation in mathematics and statistics, I am driven to
-										explore how AI can revolutionize our interaction with the
-										visual world. My goal extends beyond mastering technology; I
+										explore how AI can revolutionize our interaction both the visual and linguistic worlds.
+										My goal extends beyond mastering technology; I
 										aspire to wield AI as a tool for impactful societal
 										advancements. My focus lies in developing AI-powered visual
 										systems that are not only technically proficient but also
@@ -397,91 +397,128 @@
 					<h2
 						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">AI
 						Development Project List</h2>
-					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
-						MovieSense: Empowering Movie Reviews with AI</h2>
-					<p
-						style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
-						Oct 2023 (Individual project)</p>
+					<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
+						MovieSense: Empowering Movie Reviews with AI
+					</h2>
+					<p style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
+						Aug - Sep 2024 Enhancements
+						(Individual Project)
+					</p>
 					<table>
 						<tr>
 							<p class="lead text-start text-center">
 								<img class="portImg px-1 mt-3 mb-0"
-									src="assets/images/nlpProject1_1.png" alt="nlpProject1_1"
+									src="assets/images/AI1_positive.png" alt="nlpProject1_1"
 									height=auto width=400px /> <img class="portImg px-1 mt-3 mb-0"
-									src="assets/images/nlpProject1_2.png" alt="nlpProject1_2"
+									src="assets/images/AI1_negative.png" alt="nlpProject1_2"
 									height=auto width=400px />
 							</p>
 							<div class="lead text-start rounded text-white pt-0 pb-1"
 								style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
-								<p class="lead" style="text-align: justify;">In this
-									project, I aimed to practice and deepen my understanding of NLP
-									(Natural Language Processing) techniques. MovieSense is an
-									advanced NLP-driven tool designed to analyze the sentiments of
-									movie reviews. It offers concise summaries and facilitates
-									understanding across languages by translating reviews from
-									English to French. Utilizing cutting-edge algorithms and
-									models, MovieSense is crafted to enrich users’ engagement with
-									movie critiques.</p>
+								<p class="lead" style="text-align: justify;">
+									In this project, I focused on deepening my understanding of various NLP 
+									(Natural Language Processing) techniques by developing <b>MovieSense</b>, 
+									a tool that leverages state-of-the-art models to analyze and enhance movie reviews. 
+									<b>MovieSense</b> combines sentiment analysis, summarization, translation, and text generation 
+									to enrich user engagement with movie critiques across different languages.
+								</p>
 								<div class="row mx-3 mb-3">
 									<div class="col-md-4 col-sm-12 mb-1">
-										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Key
-											Features: </b>
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>
+											Key
+											Features:
+										</b>
 									</div>
 									<div class="col-md-8 col-sm-12 mb-1"
-										style="text-align: justify;">
-										<li><b>Sentiment Analysis:</b> Employs the Naive Bayes
-											Classifier to determine whether movie reviews are positive or
-											negative, using datasets from Rotten Tomatoes.</li>
-										<li><b>Dynamic Summarisation:</b> Incorporates Facebook's
-											BART model to distill lengthy reviews into short,
-											comprehensible summaries.</li>
-										<li><b> Translation:</b> Enables a broader audience reach
-											by seamlessly translating reviews from English to French
-											using the Helsinki-NLP model.</li>
+										 style="text-align: justify;">
+										<li>
+											<b>Sentiment Analysis:</b> <br>
+											Utilizes a pre-trained <b>BERT</b> model
+											(<b>`distilbert-base-uncased-finetuned-sst-2-english`</b>)
+											for accurate sentiment classification, improving on the initial Naive Bayes approach.
+										</li>
+										<li>
+											<b>Dynamic Summarisation:</b> <br>
+											Generates concise summaries using Facebook's <b>BART</b> model,
+											effectively capturing the essence of lengthy reviews.
+										</li>
+										<li>
+											<b>Translation:</b> <br>
+											Translates reviews seamlessly reviews from English to French
+											using the <b>mBART</b> model, handling multilingual NLP tasks more robustly
+											compared to the initial Helsinki-NLP model.
+										</li>
+										<li>
+											<b>Text Generation:</b> <br>
+											Produces coherent movie reviews based on user prompts using the <b>GPT-2</b> model
+											and the enhanced <b>GPT-3.5-turbo</b> with <b>Retrieval-Augmented Generation (RAG)</b>
+											for greater contextual accuracy.
+										</li>
 									</div>
 									<br>
 									<div class="col-md-4 col-sm-12 mb-1">
-										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>GitHub
+										<img class="me-1" src="assets/images/checkCircle.svg" /> <b>
+											GitHub
 											<span title="In English">🇺🇸</span>
 										</b>
 									</div>
 									<div class="col-md-8 col-sm-12 mb-1">
 										<a href="https://github.com/yjyuwisely/MovieSense_NLP"
-											title="GitHub repository" target="_blank">
+										   title="GitHub repository" target="_blank">
 											https://github.com/yjyuwisely/MovieSense_NLP<img class="mb-1"
-											src="assets/images/newWindow.svg" />
+																							 src="assets/images/newWindow.svg" />
 										</a>
 									</div>
 									<br>
 									<div class="col-md-4 col-sm-12 mb-1">
-										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Primary
-											Language</b>
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>
+											Primary
+											Language
+										</b>
 									</div>
 									<div class="col-md-8 col-sm-12 mb-1">Python</div>
 
 									<div class="col-md-4 col-sm-12">
-										<img class="me-1" src="assets/images/moonStars.svg" /> <b>NLP
-											Techniques & Models</b>
+										<img class="me-1" src="assets/images/moonStars.svg" /> <b>
+											NLP
+											Techniques & Models
+										</b>
 									</div>
 									<div class="col-md-8 col-sm-12">
-										<li><b>Sentiment Analysis:</b> Naive Bayes Classifier
-											using NLTK</li>
-										<li><b>Summarisation:</b> BART (Hugging Face's
-											Transformers)</li>
-										<li><b>Translation:</b> Helsinki-NLP's model (Hugging
-											Face's Transformers)</li>
+										<li>
+											<b>Sentiment Analysis: BERT</b>
+											(<b>`distilbert-base-uncased-finetuned-sst-2-english`</b>)
+										</li>
+										<li>
+											<b>Summarisation: BART</b> (Hugging Face's
+											Transformers)
+										</li>
+										<li>
+											<b>Translation: mBART</b> (Hugging Face's
+											Transformers)
+										</li>
+										<li>
+											<b>Text Generation: GPT-2</b>, <b>GPT-3.5-turbo</b> with Retrieval-Augmented Generation (RAG)
+										</li>
 									</div>
 									<div class="col-md-4 col-sm-12 mb-1">
 										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Frameworks/Libraries</b>
 									</div>
-									<div class="col-md-8 col-sm-12 mb-1">NLTK, Transformers
-										(Hugging Face), Flask (Backend Development)</div>
+									<div class="col-md-8 col-sm-12 mb-1">
+										NLTK, Transformers
+										(Hugging Face), Flask (Backend Development)
+									</div>
 									<div class="col-md-4 col-sm-12 mb-1">
 										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Frontend</b>
 									</div>
-									<div class="col-md-8 col-sm-12 mb-1">Vanilla JavaScript,
-										Bootstrap, CSS3, HTML5</div>
+									<div class="col-md-8 col-sm-12 mb-1">
+										Vanilla JavaScript,
+										Bootstrap, CSS3, HTML5
+									</div>
+									<p class="lead" style="text-align: justify;">
+										Check out the GitHub repository to explore the code, 
+										experiment with the models, or contribute to further development.
+									</p>
 						</tr>
 					</table>
 				</div>

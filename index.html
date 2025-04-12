@@ -1,71 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<!-- , shrink-to-fit=no -->
-<meta name="description" content="" />
-<meta name="author" content="" />
-<title>Yeongjin's Portfolio</title>
-<!-- Favicon-->
-<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-<!-- Font Awesome icons (free version)-->
-<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
-	crossorigin="anonymous"></script>
-<!-- Core theme CSS (includes Bootstrap)-->
-<link href="css/styles.css" rel="stylesheet" />
-<!-- Retro style window -->
-<link href="css/window.css" rel="stylesheet" />
-<!--Top button -->
-<script type="text/javascript">
-	$(function() {
-		$("#gotop").hide();
-		$(window).scroll(function() {
-			if ($(this).scrollTop() > 1000) {
-				$("#gotop").fadeIn();
-			} else {
-				$("#gotop").fadeOut();
-			}
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- , shrink-to-fit=no -->
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Yeongjin's Portfolio</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="css/styles.css" rel="stylesheet" />
+	<!-- Retro style window -->
+	<link href="css/window.css" rel="stylesheet" />
+	<!--Top button -->
+	<script type="text/javascript">
+		$(function () {
+			$("#gotop").hide();
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 1000) {
+					$("#gotop").fadeIn();
+				} else {
+					$("#gotop").fadeOut();
+				}
+			});
 		});
-	});
-</script>
+	</script>
 </head>
 
 <body id="page-top">
 	<a href="#page-top" id="gotop" title="Top">
 		<button class="btn btn_auto">TOP</button>
 	</a>
-	<nav class="navbar navbar-expand-lg text-uppercase bs-light fixed-top"
-		id="mainNav">
-		<button
-			class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
-			type="button" data-bs-toggle="collapse"
-			data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+	<nav class="navbar navbar-expand-lg text-uppercase bs-light fixed-top" id="mainNav">
+		<button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+			data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
 			aria-expanded="false" aria-label="Toggle navigation">
 			Menu <i class="fas fa-bars"></i>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav fs-3" style="margin-left: 10px;">
-				<li class="nav-item my-2 "><a
-					class="nav-link px-0 px-lg-2 rounded text-light " href="#about">About</a></li>
-				<li class="nav-item my-2"><a
-					class="nav-link px-0 px-lg-2 rounded text-light" href="#education">
+				<li class="nav-item my-2 "><a class="nav-link px-0 px-lg-2 rounded text-light " href="#about">About</a>
+				</li>
+				<li class="nav-item my-2"><a class="nav-link px-0 px-lg-2 rounded text-light" href="#education">
 						Education</a></li>
-				<li class="nav-item my-2 "><a
-					class="nav-link px-0 px-lg-2 rounded text-light" href="#skills">
+				<li class="nav-item my-2 "><a class="nav-link px-0 px-lg-2 rounded text-light" href="#skills">
 						Skills</a></li>
-				<li class="nav-item my-2 "><a
-					class="nav-link px-0 px-lg-2 rounded text-light" href="#projects">
+				<li class="nav-item my-2 "><a class="nav-link px-0 px-lg-2 rounded text-light" href="#projects">
 						Projects</a></li>
-				<li class="nav-item my-2 "><a
-					class="nav-link px-0 px-lg-2 rounded text-light" href="#archiving">
+				<li class="nav-item my-2 "><a class="nav-link px-0 px-lg-2 rounded text-light" href="#archiving">
 						Blog/GitHub</a></li>
-				<li class="nav-item my-2"><a
-					class="nav-link px-0 px-lg-2 rounded text-light"
-					href="#achievements"> Awards </a></li>
+				<li class="nav-item my-2"><a class="nav-link px-0 px-lg-2 rounded text-light" href="#achievements">
+						Awards </a></li>
 
-				<li class="nav-item mt-1"><a class="navbar-brand fs-6 mb-0"
-					href="#page-top" id="TopTitle"> Yeongjin's portfolio</a></li>
+				<li class="nav-item mt-1"><a class="navbar-brand fs-6 mb-0" href="#page-top" id="TopTitle"> Yeongjin's
+						portfolio</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -73,13 +65,11 @@
 	<!-- [1] About Section-->
 	<!-- About: A section where you can talk about yourself, your background, and your interests.
 	& where you introduce yourself and your background. -->
-	<section class="page-section skills mt-5" id="about"
-		style="padding-top: 1.5rem; padding-bottom: 5rem;">
+	<section class="page-section skills mt-5" id="about" style="padding-top: 1.5rem; padding-bottom: 5rem;">
 		<div class="container outer" style="margin-top: 0.8rem;">
 			<div class="title-bar">
 				<div>
-					<span class="title-bar__title"><a href="#page-top"
-						id="windowTitle">Introduction</a></span>
+					<span class="title-bar__title"><a href="#page-top" id="windowTitle">Introduction</a></span>
 				</div>
 			</div>
 			<div class="container">
@@ -87,51 +77,52 @@
 					<video id="background-video" autoplay loop muted>
 						<source src="videos/road.mp4" type="video/mp4">
 					</video>
-					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">About</h2>
+					<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">About
+					</h2>
 					<div class="table-responsive">
 						<table>
 							<tr>
-								<td><p class="lead text-start">
-										<img class="masthead-avatar ms-4 "
-											src="assets/images/profile.png" alt="Profile" height=190px
-											width=190px /></td>
-								<td><p class="lead text-start text-white fw-bold"
+								<td>
+									<p class="lead text-start">
+										<img class="masthead-avatar ms-4 " src="assets/images/profile.png" alt="Profile"
+											height=190px width=190px />
+								</td>
+								<td>
+									<p class="lead text-start text-white fw-bold"
 										style="text-shadow: 1px 1px 2px #842A99;">
 										<img class="me-2" src="assets/images/moonStars.svg" />Yeongjin
-										Yu<span class="fw-light"> |</span> Junior AI research
-										scientist <br> <img class="me-2"
-											src="assets/images/moonStars.svg" />South Korea <span
-											title="The Korean flag">🇰🇷</span><br> <a
-											href="mailto:yjyuwisely@gmail.com" class="fw-bold"><img
-											class="me-1" src="assets/images/checkCircle.svg" />
+										Yu<span class="fw-light"> |</span> Aspiring AI research
+										scientist <br> <img class="me-2" src="assets/images/moonStars.svg" />Australia<br>
+										<!--<span title="The Korean flag">🇰🇷</span>--> <a
+											href="mailto:yjyuwisely@gmail.com" class="fw-bold"><img class="me-1"
+												src="assets/images/checkCircle.svg" />
 											yjyuwisely@gmail.com<img class="mb-1"
-											src="assets/images/newWindow.svg" /></a> <br> <b
-											class="silkscreen" style="text-shadow: 1px 1px 2px #5D2FDA;">
-											As a junior AI research scientist, I am deeply passionate
+												src="assets/images/newWindow.svg" /></a> <br> <b class="silkscreen"
+											style="text-shadow: 1px 1px 2px #5D2FDA;">
+											As a aspiring AI research scientist, I am deeply passionate
 											about computer vision and continuously seek to embrace and
 											master new innovations.😊</b>
-									</p></td>
+									</p>
+								</td>
 							</tr>
 							<tr>
 								<td colspan="2">
 									<p class="lead text-light rounded lh-lg mx-2"
-									   style="text-indent: 1rem; text-align: justify; background-color: rgba(0, 0, 0, 0.4); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA">
-										Hello! I'm Yeongjin Yu, an AI research scientist specializing
-										in computer vision and natural language processing, driven by a passion for harnessing
-										technology's potential for meaningful change. With a solid
-										foundation in mathematics and statistics, I am driven to
-										explore how AI can revolutionize our interaction both the visual and linguistic worlds.
-										My goal extends beyond mastering technology; I
-										aspire to wield AI as a tool for impactful societal
-										advancements. My focus lies in developing AI-powered visual
-										systems that are not only technically proficient but also
-										ethically sound and socially beneficial. I aim to contribute
-										to computer vision applications that enhance user experiences
-										and provide meaningful solutions to real-world problems. With
-										my commitment to ethical AI and a passion for making a
-										meaningful impact, this portfolio is a showcase of my journey
-										and projects in AI. <img src="assets/images/favicon.ico" />
+										style="text-indent: 1rem; text-align: justify; background-color: rgba(0, 0, 0, 0.4); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA">
+										Hello! I’m Yeongjin Yu, a master’s student in data science currently exploring
+										computer vision and NLP through coursework and self-directed learning.
+										With a strong foundation in
+										mathematics and statistics, I’m passionate about exploring how AI can reshape
+										the way we interact with both visual and linguistic data.
+
+										My long-term goal is to become an AI research scientist who develops innovative,
+										ethical, and socially beneficial AI systems. I am particularly focused on
+										building AI-powered visual systems that enhance user experiences and provide
+										meaningful solutions to real-world problems.
+
+										With a commitment to ethical AI and a drive to contribute to impactful research,
+										this portfolio showcases my academic journey, projects, and future direction in
+										artificial intelligence. 🌱 <img src="assets/images/favicon.ico" />
 									</p>
 								</td>
 							</tr>
@@ -155,8 +146,7 @@
 			<div class="title-bar">
 				<div>
 					<!-- 레트로 윈도우 창 -->
-					<span class="title-bar__title"><a href="#page-top"
-						id="windowTitle">Education</a></span>
+					<span class="title-bar__title"><a href="#page-top" id="windowTitle">Education</a></span>
 				</div>
 			</div>
 			<!-- Contents -->
@@ -166,17 +156,17 @@
 						<source src="videos/books.mp4" type="video/mp4">
 					</video>
 					<!-- Trainig/Experience Section Heading -->
-					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Education</h2>
+					<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Education
+					</h2>
 					<ul class="lead rounded text-white mx-2 my-3 mb-0"
 						style="list-style-type: square; text-shadow: 1px 1px 2px #9B28BF;">
 						<!-- 추천 이미지: Data visualization charts or graphs using R 
 								examples of charts or graphs you have created in R or other programs.
 								Code snippets, Screenshots of projects
 								-->
-						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
-							class="silkscreen"><img class="masthead-avatar px-1 mb-0"
-								src="assets/images/uow.png" alt="UOW" height=auto width=150px />
+						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b class="silkscreen"><img
+									class="masthead-avatar px-1 mb-0" src="assets/images/uow.png" alt="UOW" height=auto
+									width=150px />
 								University of Wollongong (UOW) <span class="fw-light"> |</span>
 								Graduate Diploma in Mathematical Studies <!-- <span class="fw-light"> |</span> 
 								2023</b><br> -->
@@ -195,14 +185,15 @@
 									Kullback-Leibler divergence to estimate CO₂ fluxes. These
 									academic pursuits highlighted the importance of advanced
 									statistics and analytical techniques in AI.
-								</p></li>
-						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
-							class="silkscreen"> <img class="masthead-avatar px-1 mb-0"
-								src="assets/images/uwa.png" alt="UWA" height=auto width=150px />
+								</p>
+						</li>
+						<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b class="silkscreen"> <img
+									class="masthead-avatar px-1 mb-0" src="assets/images/uwa.png" alt="UWA" height=auto
+									width=150px />
 								University of Western Australia (UWA) <span class="fw-light">
 									|</span> Bachelor of Science in Quantitative Methods <!-- <span class="fw-light"> |</span>
 								2016 -->
-						</b><br>
+							</b><br>
 							<p class="lead" style="text-indent: 1rem; text-align: justify;">
 								I majored in Quantitative Methods, gaining a solid foundation in
 								the theoretical and practical aspects of data analysis crucial
@@ -216,14 +207,15 @@
 									Success in the Emergency Department"</b> utilized advanced
 								statistical techniques, such as logistic regression and ROC
 								Curve analysis, to explore real-world healthcare challenges.
-							</p></li>
+							</p>
+						</li>
 					</ul>
 				</div>
 				<div class="title-bar">
 					<div>
-						<span class="title-bar__title"><a href="#page-top"
-							id="windowTitle"> <!-- Yeongjin's portfolio -->
-						</a></span>
+						<span class="title-bar__title"><a href="#page-top" id="windowTitle">
+								<!-- Yeongjin's portfolio -->
+							</a></span>
 					</div>
 				</div>
 				<div class="display" style="background-color: rgba(0, 0, 0, 0.4)">
@@ -234,8 +226,8 @@
 					<div class="container">
 
 						<!-- Trainig/Experience Section Heading -->
-						<h2
-							class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Continuing
+						<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
+							Continuing
 							Education & Training</h2>
 						<ul class="lead rounded text-white mx-2 my-3 mb-0"
 							style="list-style-type: square; text-shadow: 1px 1px 2px #9B28BF;">
@@ -244,11 +236,10 @@
 								Code snippets, Screenshots of projects
 								-->
 
-							<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b
-								class="silkscreen"><img class="masthead-avatar px-1 mb-0"
-									src="assets/images/greenAcademy.png"
-									alt="UlsanGreenComputerAcademy"
-									title="Ulsan Green Computer Academy" height=auto width=200px />
+							<li class="rounded" style="background-color: rgba(0, 0, 0, 0.3);"><b class="silkscreen"><img
+										class="masthead-avatar px-1 mb-0" src="assets/images/greenAcademy.png"
+										alt="UlsanGreenComputerAcademy" title="Ulsan Green Computer Academy" height=auto
+										width=200px />
 									Ulsan Green Computer Academy <span class="fw-light"> |</span>
 									[K-Digital Training] IoT-Based Smart Healthcare Web Service
 									Development Bootcamp <!-- <span
@@ -261,7 +252,8 @@
 										teamwork and problem-solving. The program also developed my
 										capabilities in project management, communication, and
 										creative thinking, proving instrumental in laying a solid
-										foundation for my career as an AI research scientist.</p></li>
+										foundation for my career as an AI research scientist.</p>
+							</li>
 							<!--  Coursera | Planned for 2024 "Machine Learning
 							Specialization" "Deep Learning for NLP" "Ethics in AI" This set
 							of courses aims to deepen my specialization in machine learning
@@ -273,8 +265,8 @@
 
 			</div>
 			<div class="controls">
-				<a href="#about"><button class="btn btn_auto">Prev</button></a> <a
-					href="#skills"><button class="btn btn_auto">Next</button></a>
+				<a href="#about"><button class="btn btn_auto">Prev</button></a> <a href="#skills"><button
+						class="btn btn_auto">Next</button></a>
 			</div>
 		</div>
 	</section>
@@ -286,8 +278,7 @@
 		<div class="container outer">
 			<div class="title-bar">
 				<div>
-					<span class="navbar-brand title-bar__title"><a
-						href="#page-top" id="windowTitle">Skills</a></span>
+					<span class="navbar-brand title-bar__title"><a href="#page-top" id="windowTitle">Skills</a></span>
 				</div>
 			</div>
 			<div class="container">
@@ -296,8 +287,7 @@
 						<source src="videos/tunnel.mp4" type="video/mp4">
 					</video>
 					<!-- Skills Section Heading-->
-					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
+					<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
 						Skills</h2>
 					<div class="row mx-3 mb-3 rounded"
 						style="background-color: rgba(0, 0, 0, 0.2); color: white; font-size: 0.8rem; text-shadow: 1px 1px 2px #5D2FDA;">
@@ -353,8 +343,7 @@
 		<div class="container outer">
 			<div class="title-bar">
 				<div>
-					<span class="title-bar__title"><a href="#page-top"
-						id="windowTitle">Project List</a></span>
+					<span class="title-bar__title"><a href="#page-top" id="windowTitle">Project List</a></span>
 				</div>
 			</div>
 
@@ -366,14 +355,12 @@
 						<source src="videos/purple.mp4" type="video/mp4">
 					</video>
 					<!-- Project Section Heading-->
-					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">AI
+					<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">AI
 						Research Project List</h2>
 					<div class="lead text-start rounded text-white pt-0 pb-1"
 						style="word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
 						<p class="lead text-start">
-							Upcoming exciting AI projects will be showcased here.<img
-								src="assets/images/favicon.ico" />
+							Upcoming exciting AI projects will be showcased here.<img src="assets/images/favicon.ico" />
 						</p>
 					</div>
 
@@ -381,9 +368,8 @@
 			</div>
 			<div class="title-bar">
 				<div>
-					<span class="title-bar__title"><a href="#page-top"
-						id="windowTitle"> <!-- Yeongjin's portfolio -->
-					</a></span>
+					<span class="title-bar__title"><a href="#page-top" id="windowTitle"> <!-- Yeongjin's portfolio -->
+						</a></span>
 				</div>
 			</div>
 
@@ -394,32 +380,31 @@
 						<source src="videos/purple.mp4" type="video/mp4">
 					</video>
 					<!-- Project Section Heading-->
-					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">AI
+					<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">AI
 						Development Project List</h2>
 					<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
 						MovieSense: Empowering Movie Reviews with AI
 					</h2>
-					<p style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
+					<p
+						style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
 						Aug - Sep 2024 Enhancements
 						(Individual Project)
 					</p>
 					<table>
 						<tr>
 							<p class="lead text-start text-center">
-								<img class="portImg px-1 mt-3 mb-0"
-									src="assets/images/AI1_positive.png" alt="nlpProject1_1"
-									height=auto width=400px /> <img class="portImg px-1 mt-3 mb-0"
-									src="assets/images/AI1_negative.png" alt="nlpProject1_2"
-									height=auto width=400px />
+								<img class="portImg px-1 mt-3 mb-0" src="assets/images/AI1_positive.png"
+									alt="nlpProject1_1" height=auto width=400px /> <img class="portImg px-1 mt-3 mb-0"
+									src="assets/images/AI1_negative.png" alt="nlpProject1_2" height=auto width=400px />
 							</p>
 							<div class="lead text-start rounded text-white pt-0 pb-1"
 								style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
 								<p class="lead" style="text-align: justify;">
-									In this project, I focused on deepening my understanding of various NLP 
-									(Natural Language Processing) techniques by developing <b>MovieSense</b>, 
-									a tool that leverages state-of-the-art models to analyze and enhance movie reviews. 
-									<b>MovieSense</b> combines sentiment analysis, summarization, translation, and text generation 
+									In this project, I focused on deepening my understanding of various NLP
+									(Natural Language Processing) techniques by developing <b>MovieSense</b>,
+									a tool that leverages state-of-the-art models to analyze and enhance movie reviews.
+									<b>MovieSense</b> combines sentiment analysis, summarization, translation, and text
+									generation
 									to enrich user engagement with movie critiques across different languages.
 								</p>
 								<div class="row mx-3 mb-3">
@@ -429,13 +414,13 @@
 											Features:
 										</b>
 									</div>
-									<div class="col-md-8 col-sm-12 mb-1"
-										 style="text-align: justify;">
+									<div class="col-md-8 col-sm-12 mb-1" style="text-align: justify;">
 										<li>
 											<b>Sentiment Analysis:</b> <br>
 											Utilizes a pre-trained <b>BERT</b> model
 											(<b>`distilbert-base-uncased-finetuned-sst-2-english`</b>)
-											for accurate sentiment classification, improving on the initial Naive Bayes approach.
+											for accurate sentiment classification, improving on the initial Naive Bayes
+											approach.
 										</li>
 										<li>
 											<b>Dynamic Summarisation:</b> <br>
@@ -450,8 +435,10 @@
 										</li>
 										<li>
 											<b>Text Generation:</b> <br>
-											Produces coherent movie reviews based on user prompts using the <b>GPT-2</b> model
-											and the enhanced <b>GPT-3.5-turbo</b> with <b>Retrieval-Augmented Generation (RAG)</b>
+											Produces coherent movie reviews based on user prompts using the <b>GPT-2</b>
+											model
+											and the enhanced <b>GPT-3.5-turbo</b> with <b>Retrieval-Augmented Generation
+												(RAG)</b>
 											for greater contextual accuracy.
 										</li>
 									</div>
@@ -463,10 +450,10 @@
 										</b>
 									</div>
 									<div class="col-md-8 col-sm-12 mb-1">
-										<a href="https://github.com/yjyuwisely/MovieSense_NLP"
-										   title="GitHub repository" target="_blank">
+										<a href="https://github.com/yjyuwisely/MovieSense_NLP" title="GitHub repository"
+											target="_blank">
 											https://github.com/yjyuwisely/MovieSense_NLP<img class="mb-1"
-																							 src="assets/images/newWindow.svg" />
+												src="assets/images/newWindow.svg" />
 										</a>
 									</div>
 									<br>
@@ -498,11 +485,13 @@
 											Transformers)
 										</li>
 										<li>
-											<b>Text Generation: GPT-2</b>, <b>GPT-3.5-turbo</b> with Retrieval-Augmented Generation (RAG)
+											<b>Text Generation: GPT-2</b>, <b>GPT-3.5-turbo</b> with Retrieval-Augmented
+											Generation (RAG)
 										</li>
 									</div>
 									<div class="col-md-4 col-sm-12 mb-1">
-										<img class="me-1" src="assets/images/moonStars.svg" /> <b>Frameworks/Libraries</b>
+										<img class="me-1" src="assets/images/moonStars.svg" />
+										<b>Frameworks/Libraries</b>
 									</div>
 									<div class="col-md-8 col-sm-12 mb-1">
 										NLTK, Transformers
@@ -516,7 +505,7 @@
 										Bootstrap, CSS3, HTML5
 									</div>
 									<p class="lead" style="text-align: justify;">
-										Check out the GitHub repository to explore the code, 
+										Check out the GitHub repository to explore the code,
 										experiment with the models, or contribute to further development.
 									</p>
 						</tr>
@@ -525,9 +514,8 @@
 			</div>
 			<div class="title-bar">
 				<div>
-					<span class="title-bar__title"><a href="#page-top"
-						id="windowTitle"> <!-- Yeongjin's portfolio -->
-					</a></span>
+					<span class="title-bar__title"><a href="#page-top" id="windowTitle"> <!-- Yeongjin's portfolio -->
+						</a></span>
 				</div>
 			</div>
 
@@ -538,8 +526,7 @@
 						<source src="videos/purple.mp4" type="video/mp4">
 					</video>
 					<!-- Project Section Heading-->
-					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Web
+					<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Web
 						Project List (2023)</h2>
 					<div class="lead text-start rounded text-white pt-0 pb-1"
 						style="word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
@@ -554,16 +541,15 @@
 							show the web projects, please click the button below.</p>
 						<!-- Icon/Button to Show Web Projects -->
 						<div class="d-flex justify-content-center">
-							<button id="showWebProjectsButton"
-								class="btn btn_auto show-button mb-4">Show</button>
+							<button id="showWebProjectsButton" class="btn btn_auto show-button mb-4">Show</button>
 						</div>
 					</div>
 
 				</div>
 			</div>
 			<div class="controls" id="controlsDiv">
-				<a href="#skills"><button class="btn btn_auto">Prev</button></a> <a
-					href="#archiving"><button class="btn btn_auto">Next</button></a>
+				<a href="#skills"><button class="btn btn_auto">Prev</button></a> <a href="#archiving"><button
+						class="btn btn_auto">Next</button></a>
 			</div>
 			<!-- <div class="title-bar">
 				<div>
@@ -574,8 +560,7 @@
 			</div> -->
 
 			<!-- Container for Web Projects (Initially Hidden) -->
-			<div id="webProjectsContainer" class="web-projects-container"
-				style="display: none;">
+			<div id="webProjectsContainer" class="web-projects-container" style="display: none;">
 
 				<!-- Team project 3 section -->
 				<div class="container web-project">
@@ -583,8 +568,7 @@
 						<video id="background-video" autoplay loop muted>
 							<source src="videos/purple.mp4" type="video/mp4">
 						</video>
-						<h2
-							class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
+						<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
 							Hospital Medical Supply Process Implementation
 							<!-- Implementation of Medical Supplies Procurement Process from a
 						Hospital's Perspective -->
@@ -596,12 +580,10 @@
 						<table>
 							<tr>
 								<p class="lead text-start text-center">
-									<img class="portImg px-1 mt-3 mb-0"
-										src="assets/images/Team3Capture4.png" alt="Team3Capture1"
-										height=auto width=400px /> <img
-										class="portImg px-1 mt-3 mb-0"
-										src="assets/images/Team3Capture1.png" alt="Team3Capture2"
-										height=auto width=400px />
+									<img class="portImg px-1 mt-3 mb-0" src="assets/images/Team3Capture4.png"
+										alt="Team3Capture1" height=auto width=400px /> <img
+										class="portImg px-1 mt-3 mb-0" src="assets/images/Team3Capture1.png"
+										alt="Team3Capture2" height=auto width=400px />
 									<!-- <img class="portImg px-1 mt-3 mb-0"
 									src="assets/images/Team3Capture3.png" alt="Team3Capture3"
 									height=auto width=200px /> -->
@@ -616,8 +598,8 @@
 											<img class="me-1" src="assets/images/moonStars.svg" /> <b>Key
 												Features</b>
 										</div>
-										<div class="col-md-9 col-sm-12 mb-1"
-											style="text-align: justify;">Comprehensive list of
+										<div class="col-md-9 col-sm-12 mb-1" style="text-align: justify;">Comprehensive
+											list of
 											items; Detailed item view; List of discontinued items;
 											Procurement registration; Registration of new items; Outgoing
 											registration; Outgoing history; Admin login and account
@@ -626,8 +608,8 @@
 											<img class="me-1" src="assets/images/moonStars.svg" /> <b>My
 												Role</b>
 										</div>
-										<div class="col-md-9 col-sm-12 mb-1"
-											style="text-align: justify;">Implemented features for
+										<div class="col-md-9 col-sm-12 mb-1" style="text-align: justify;">Implemented
+											features for
 											the detailed item view page, list of discontinued items page,
 											and the outgoing history page; Implemented image upload for
 											the new item registration page; Designed the UI and planning
@@ -638,8 +620,7 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨/Team%20Project%203%EF%B8%8F⃣"
+											<a href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨/Team%20Project%203%EF%B8%8F⃣"
 												title="티스토리 블로그로 이동" target="_blank">
 												https://yjyuwisely.tistory.com Go to the project section on
 												my blog<img class="mb-1" src="assets/images/newWindow.svg" />
@@ -652,11 +633,11 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://www.canva.com/design/DAFlkWXD5LY/2-d_Gex81kgq6jMMvCjbAw/view?utm_content=DAFlkWXD5LY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
-												title="Go to the presentation slideshow" target="_blank">https://www.canva.com/design
+											<a href="https://www.canva.com/design/DAFlkWXD5LY/2-d_Gex81kgq6jMMvCjbAw/view?utm_content=DAFlkWXD5LY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+												title="Go to the presentation slideshow"
+												target="_blank">https://www.canva.com/design
 												Go to the presentation slideshow<img class="mb-1"
-												src="assets/images/newWindow.svg" />
+													src="assets/images/newWindow.svg" />
 											</a>
 										</div>
 
@@ -666,11 +647,10 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://yjyuwisely.tistory.com/entry/medical-supplies-procurement"
+											<a href="https://yjyuwisely.tistory.com/entry/medical-supplies-procurement"
 												title="View video and screenshots in my blog"
 												target="_blank">https://yjyuwisely.tistory.com/entry/medical-supplies-procurement<img
-												class="mb-1" src="assets/images/newWindow.svg" /></a>
+													class="mb-1" src="assets/images/newWindow.svg" /></a>
 										</div>
 
 										<br>
@@ -682,8 +662,8 @@
 										<div class="col-md-9 col-sm-12 mb-1">
 											<a href="https://github.com/yjyuwisely/MedEquipXProject"
 												title="View the repository" target="_blank">
-												https://github.com/yjyuwisely/MedEquipXProject<img
-												class="mb-1" src="assets/images/newWindow.svg" />
+												https://github.com/yjyuwisely/MedEquipXProject<img class="mb-1"
+													src="assets/images/newWindow.svg" />
 											</a>
 										</div>
 										<br>
@@ -704,9 +684,9 @@
 				</div>
 				<div class="title-bar">
 					<div>
-						<span class="title-bar__title"><a href="#page-top"
-							id="windowTitle"> <!-- Yeongjin's portfolio -->
-						</a></span>
+						<span class="title-bar__title"><a href="#page-top" id="windowTitle">
+								<!-- Yeongjin's portfolio -->
+							</a></span>
 					</div>
 				</div>
 
@@ -717,8 +697,7 @@
 							<source src="videos/purple.mp4" type="video/mp4">
 						</video>
 						<!-- Project Section Heading-->
-						<h2
-							class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
+						<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
 							Hospital Indoor GPS Navigation Responsive Web</h2>
 						<p
 							style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
@@ -726,15 +705,12 @@
 						<table>
 							<tr>
 								<p class="lead text-start text-center">
-									<img class="portImg px-1 mt-3 mb-0"
-										src="assets/images/Team2Capture1.png" alt="TeamProject2Img1"
-										height=auto width=200px /> <img
-										class="portImg px-1 mt-3 mb-0"
-										src="assets/images/Team2Capture2.png" alt="TeamProject2Img2"
-										height=auto width=200px /> <img
-										class="portImg px-1 mt-3 mb-0"
-										src="assets/images/Team2Capture3.png" alt="TeamProject2Img3"
-										height=auto width=200px />
+									<img class="portImg px-1 mt-3 mb-0" src="assets/images/Team2Capture1.png"
+										alt="TeamProject2Img1" height=auto width=200px /> <img
+										class="portImg px-1 mt-3 mb-0" src="assets/images/Team2Capture2.png"
+										alt="TeamProject2Img2" height=auto width=200px /> <img
+										class="portImg px-1 mt-3 mb-0" src="assets/images/Team2Capture3.png"
+										alt="TeamProject2Img3" height=auto width=200px />
 								</p>
 								<div class="lead text-start rounded text-white pt-0 pb-1"
 									style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
@@ -746,8 +722,8 @@
 											<img class="me-1" src="assets/images/moonStars.svg" /> <b>Key
 												Features</b>
 										</div>
-										<div class="col-md-9 col-sm-12 mb-1"
-											style="text-align: justify;">Detect user's current
+										<div class="col-md-9 col-sm-12 mb-1" style="text-align: justify;">Detect user's
+											current
 											location using GPS and pinpoint the desired hospital
 											department or amenities on the user-selected floor.</div>
 
@@ -755,8 +731,8 @@
 											<img class="me-1" src="assets/images/moonStars.svg" /> <b>My
 												Role</b>
 										</div>
-										<div class="col-md-9 col-sm-12 mb-1"
-											style="text-align: justify;">Implemented the responsive
+										<div class="col-md-9 col-sm-12 mb-1" style="text-align: justify;">Implemented
+											the responsive
 											web pages (partially using Start Bootstrap) and managed
 											frontend development; Customized and enhanced features of the
 											Kakao Maps API; Designed UI and planned in Figma; Created the
@@ -768,8 +744,7 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨/Team%20Project%202%EF%B8%8F⃣"
+											<a href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨/Team%20Project%202%EF%B8%8F⃣"
 												title="Go to the project section on my blog" target="_blank">
 												https://yjyuwisely.tistory.com Go to the project section on
 												my blog<img class="mb-1" src="assets/images/newWindow.svg" />
@@ -781,11 +756,11 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://www.canva.com/design/DAFl614BXq4/mUcLWhtB0eM7qJg3ITFuew/view?utm_content=DAFl614BXq4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
-												title="Go to the presentation slideshow" target="_blank">https://www.canva.com/design
+											<a href="https://www.canva.com/design/DAFl614BXq4/mUcLWhtB0eM7qJg3ITFuew/view?utm_content=DAFl614BXq4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+												title="Go to the presentation slideshow"
+												target="_blank">https://www.canva.com/design
 												Go to the presentation slideshow<img class="mb-1"
-												src="assets/images/newWindow.svg" />
+													src="assets/images/newWindow.svg" />
 											</a>
 										</div>
 										<div class="col-md-3 col-sm-12 mb-1">
@@ -794,11 +769,10 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://yjyuwisely.tistory.com/entry/hospital-indoor-map-navigator"
+											<a href="https://yjyuwisely.tistory.com/entry/hospital-indoor-map-navigator"
 												title="View video and screenshots in my blog"
 												target="_blank">https://yjyuwisely.tistory.com/entry/hospital-indoor-map-navigator<img
-												class="mb-1" src="assets/images/newWindow.svg" /></a>
+													class="mb-1" src="assets/images/newWindow.svg" /></a>
 										</div>
 										<br>
 										<div class="col-md-3 col-sm-12 mb-1">
@@ -809,8 +783,8 @@
 										<div class="col-md-9 col-sm-12 mb-1">
 											<a href="https://github.com/yjyuwisely/SpringGeoProject"
 												title="View the repository" target="_blank">
-												https://github.com/yjyuwisely/SpringGeoProject<img
-												class="mb-1" src="assets/images/newWindow.svg" />
+												https://github.com/yjyuwisely/SpringGeoProject<img class="mb-1"
+													src="assets/images/newWindow.svg" />
 											</a>
 										</div>
 										<br>
@@ -820,11 +794,10 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator"
+											<a href="https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator"
 												title="View the repository" target="_blank">
 												https://github.com/yjyuwisely/Hospital-Indoor-Map-Navigator<img
-												class="mb-1" src="assets/images/newWindow.svg" />
+													class="mb-1" src="assets/images/newWindow.svg" />
 											</a>
 										</div>
 										<div class="col-md-3 col-sm-12 mb-1">
@@ -844,9 +817,9 @@
 				</div>
 				<div class="title-bar">
 					<div>
-						<span class="title-bar__title"><a href="#page-top"
-							id="windowTitle"> <!-- Yeongjin's portfolio -->
-						</a></span>
+						<span class="title-bar__title"><a href="#page-top" id="windowTitle">
+								<!-- Yeongjin's portfolio -->
+							</a></span>
 					</div>
 				</div>
 				<!-- Team project 1 section -->
@@ -856,8 +829,7 @@
 							<source src="videos/purple.mp4" type="video/mp4">
 						</video>
 						<!-- Project Section Heading-->
-						<h2
-							class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">A
+						<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">A
 							Medical Certificate Download Service Website</h2>
 						<p
 							style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
@@ -866,12 +838,10 @@
 						<table>
 							<tr>
 								<p class="lead text-start text-center">
-									<img class="portImg px-1 mt-3 mb-0"
-										src="assets/images/Team1Capture1.png" alt="TeamProject1Img1"
-										height=auto width=400px /> <img
-										class="portImg px-1 mt-3 mb-0"
-										src="assets/images/Team1Capture3.png" alt="TeamProject1Img3"
-										height=auto width=400px />
+									<img class="portImg px-1 mt-3 mb-0" src="assets/images/Team1Capture1.png"
+										alt="TeamProject1Img1" height=auto width=400px /> <img
+										class="portImg px-1 mt-3 mb-0" src="assets/images/Team1Capture3.png"
+										alt="TeamProject1Img3" height=auto width=400px />
 								</p>
 								<div class="lead text-start rounded text-white pt-0 pb-1"
 									style="background-color: rgba(0, 0, 0, 0.2); word-break: break-word; text-shadow: 1px 1px 2px #5D2FDA;">
@@ -882,8 +852,7 @@
 											<img class="me-1" src="assets/images/moonStars.svg" /> <b>Key
 												Features</b>
 										</div>
-										<div class="col-md-9 col-sm-12 mb-1"
-											style="text-align: justify;">User (patient)
+										<div class="col-md-9 col-sm-12 mb-1" style="text-align: justify;">User (patient)
 											registration and login followed by a feature allowing them to
 											print medical-related certificates; An admin (doctor) feature
 											to create and modify diagnostic reports.</div>
@@ -891,8 +860,8 @@
 											<img class="me-1" src="assets/images/moonStars.svg" /> <b>My
 												Role</b>
 										</div>
-										<div class="col-md-9 col-sm-12 mb-1"
-											style="text-align: justify;">Implemented a feature for
+										<div class="col-md-9 col-sm-12 mb-1" style="text-align: justify;">Implemented a
+											feature for
 											users to preview and download the certificate details after
 											applying for online certificate issuance; Implemented user
 											registration validation; Developed responsive web pages using
@@ -904,8 +873,7 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨/Team%20Project%201%EF%B8%8F⃣"
+											<a href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨/Team%20Project%201%EF%B8%8F⃣"
 												title="View project section on my blog" target="_blank">
 												https://yjyuwisely.tistory.com Go to the project section on
 												my blog<img class="mb-1" src="assets/images/newWindow.svg" />
@@ -917,9 +885,9 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://www.canva.com/design/DAFl675D1XU/zlFPwMEx7atc7YZ5xq6RJA/view?utm_content=DAFl675D1XU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
-												title="View the presentation slideshow" target="_blank">https://www.canva.com/design
+											<a href="https://www.canva.com/design/DAFl675D1XU/zlFPwMEx7atc7YZ5xq6RJA/view?utm_content=DAFl675D1XU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+												title="View the presentation slideshow"
+												target="_blank">https://www.canva.com/design
 												Go to the presentation slideshow </a><img
 												src="assets/images/newWindow.svg" />
 										</div>
@@ -929,8 +897,7 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://yjyuwisely.tistory.com/entry/medical-certificate-download-service"
+											<a href="https://yjyuwisely.tistory.com/entry/medical-certificate-download-service"
 												title="View video and screenshots in my blog"
 												target="_blank">https://yjyuwisely.tistory.com/entry/medical-certificate-download-service</a><img
 												src="assets/images/newWindow.svg" />
@@ -954,8 +921,7 @@
 											</b>
 										</div>
 										<div class="col-md-9 col-sm-12 mb-1">
-											<a
-												href="https://github.com/yjyuwisely/Medical-Certificate-Download-Service"
+											<a href="https://github.com/yjyuwisely/Medical-Certificate-Download-Service"
 												title="View the repository" target="_blank">
 												https://github.com/yjyuwisely/Medical-Certificate-Download-Service</a><img
 												src="assets/images/newWindow.svg" />
@@ -977,9 +943,9 @@
 				</div>
 				<div class="title-bar">
 					<div>
-						<span class="title-bar__title"><a href="#page-top"
-							id="windowTitle"> <!-- Yeongjin's portfolio -->
-						</a></span>
+						<span class="title-bar__title"><a href="#page-top" id="windowTitle">
+								<!-- Yeongjin's portfolio -->
+							</a></span>
 					</div>
 				</div>
 				<!-- Portfolio section -->
@@ -988,8 +954,7 @@
 						<video id="background-video" autoplay loop muted>
 							<source src="videos/road.mp4" type="video/mp4">
 						</video>
-						<h2
-							class="page-section-heading text-center text-uppercase text-secondary text-light">PORTFOLIO
+						<h2 class="page-section-heading text-center text-uppercase text-secondary text-light">PORTFOLIO
 							WEBSITE</h2>
 						<p
 							style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
@@ -997,12 +962,10 @@
 						<table>
 							<tr>
 								<p class="lead text-start text-center">
-									<img class="portImg px-1 mt-3 mb-0"
-										src="assets/images/portCapture1.png" alt="Project2Img1"
-										height=auto width=400px /> <img
-										class="portImg px-1 mt-3 mb-0"
-										src="assets/images/portCapture2.png" alt="Project2Img2"
-										height=auto width=400px />
+									<img class="portImg px-1 mt-3 mb-0" src="assets/images/portCapture1.png"
+										alt="Project2Img1" height=auto width=400px /> <img
+										class="portImg px-1 mt-3 mb-0" src="assets/images/portCapture2.png"
+										alt="Project2Img2" height=auto width=400px />
 								</p>
 							</tr>
 							<tr>
@@ -1025,8 +988,8 @@
 												<img class="me-1" src="assets/images/moonStars.svg" /> <b>Key
 													Features</b>
 											</div>
-											<div class="col-md-9 col-sm-12 mb-1"
-												style="text-align: justify;">Personal introduction;
+											<div class="col-md-9 col-sm-12 mb-1" style="text-align: justify;">Personal
+												introduction;
 												List of skills; Project listings; Links to my blog/GitHub;
 												Training/Education overview; Awards description; Backend web
 												page capabilities for user registration, login, and profile
@@ -1037,8 +1000,7 @@
 												</b>
 											</div>
 											<div class="col-md-9 col-sm-12 mb-1">
-												<a
-													href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨/My%20Portfolio%20Website"
+												<a href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨/My%20Portfolio%20Website"
 													title="View the project section on my blog" target="_blank">
 													https://yjyuwisely.tistory.com Go to the project section on
 													my blog</a><img class="mb-1" src="assets/images/newWindow.svg" />
@@ -1049,9 +1011,9 @@
 												</b>
 											</div>
 											<div class="col-md-9 col-sm-12 mb-1">
-												<a
-													href="https://yjyuwisely.tistory.com/entry/full-stack-developer-portfolio"
-													title="View screenshots in my blog" target="_blank">https://yjyuwisely.tistory.com/entry/full-stack-developer-portfolio</a><img
+												<a href="https://yjyuwisely.tistory.com/entry/full-stack-developer-portfolio"
+													title="View screenshots in my blog"
+													target="_blank">https://yjyuwisely.tistory.com/entry/full-stack-developer-portfolio</a><img
 													src="assets/images/newWindow.svg" />
 											</div>
 											<br>
@@ -1061,8 +1023,7 @@
 												</b>
 											</div>
 											<div class="col-md-9 col-sm-12 mb-1">
-												<a
-													href="https://github.com/yjyuwisely/Full-Stack-Developer-Portfolio.git"
+												<a href="https://github.com/yjyuwisely/Full-Stack-Developer-Portfolio.git"
 													title="View the repository" target="_blank">
 													github.com/yjyuwisely/Full-Stack-Developer-Portfolio.git</a><img
 													src="assets/images/newWindow.svg" />
@@ -1086,9 +1047,9 @@
 				</div>
 				<div class="title-bar">
 					<div>
-						<span class="title-bar__title"><a href="#page-top"
-							id="windowTitle"> <!-- Yeongjin's portfolio -->
-						</a></span>
+						<span class="title-bar__title"><a href="#page-top" id="windowTitle">
+								<!-- Yeongjin's portfolio -->
+							</a></span>
 					</div>
 				</div>
 				<!-- Individual project section -->
@@ -1097,8 +1058,8 @@
 						<video id="background-video" autoplay loop muted>
 							<source src="videos/tunnel.mp4" type="video/mp4">
 						</video>
-						<h2
-							class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">TRAVEL
+						<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">
+							TRAVEL
 							WEBSITE FOR ULJU COUNTY, ULSAN</h2>
 						<p
 							style="margin: 0; padding: 0; color: white; text-align: center; text-shadow: 1px 1px 2px #5D2FDA;">
@@ -1106,12 +1067,10 @@
 						<table>
 							<tr>
 								<p class="lead text-center">
-									<img class="portImg px-3 mt-3 mb-0"
-										src="assets/images/uljuCapture1.png" alt="Project1Img1"
-										height=auto width=400px /> <img
-										class="portImg px-3 mt-3 mb-0"
-										src="assets/images/uljuCapture3.png" alt="Project1Img2"
-										height=auto width=400px />
+									<img class="portImg px-3 mt-3 mb-0" src="assets/images/uljuCapture1.png"
+										alt="Project1Img1" height=auto width=400px /> <img
+										class="portImg px-3 mt-3 mb-0" src="assets/images/uljuCapture3.png"
+										alt="Project1Img2" height=auto width=400px />
 								</p>
 								<td>
 									<div class="lead text-start rounded text-white pt-0 pb-1"
@@ -1137,11 +1096,9 @@
 												</b>
 											</div>
 											<div class="col-md-9 col-sm-12 mb-1">
-												<a
-													href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨/Individual%20project%201%EF%B8%8F⃣"
+												<a href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨/Individual%20project%201%EF%B8%8F⃣"
 													title="Go to the project section on
-												my blog"
-													target="_blank"> https://yjyuwisely.tistory.com Go to
+												my blog" target="_blank"> https://yjyuwisely.tistory.com Go to
 													the project section on my blog</a><img class="mb-1"
 													src="assets/images/newWindow.svg" />
 											</div>
@@ -1151,9 +1108,9 @@
 												</b>
 											</div>
 											<div class="col-md-9 col-sm-12 mb-1">
-												<a
-													href="https://yjyuwisely.tistory.com/entry/traveling-from-ulju-gun"
-													title="View screenshots of the project" target="_blank">https://yjyuwisely.tistory.com/entry/traveling-from-ulju-gun</a><img
+												<a href="https://yjyuwisely.tistory.com/entry/traveling-from-ulju-gun"
+													title="View screenshots of the project"
+													target="_blank">https://yjyuwisely.tistory.com/entry/traveling-from-ulju-gun</a><img
 													src="assets/images/newWindow.svg" />
 											</div>
 											<br>
@@ -1163,8 +1120,7 @@
 												</b>
 											</div>
 											<div class="col-md-9 col-sm-12 mb-1">
-												<a
-													href="https://github.com/yjyuwisely/My-First-Project-Traveling-from-Ulju-gun"
+												<a href="https://github.com/yjyuwisely/My-First-Project-Traveling-from-Ulju-gun"
 													title="View the repository" target="_blank">
 													github.com/yjyuwisely/Traveling-from-Ulju-gun</a><img
 													src="assets/images/newWindow.svg" />
@@ -1186,8 +1142,8 @@
 								projects, please click the button below.</p>
 							<!-- Icon/Button to Hide Web Projects (Initially Hidden) -->
 							<div class="d-flex justify-content-center">
-								<button id="hideWebProjectsButton"
-									class="btn btn_auto hide-button mb-2" style="display: none;">HIDE
+								<button id="hideWebProjectsButton" class="btn btn_auto hide-button mb-2"
+									style="display: none;">HIDE
 								</button>
 							</div>
 						</div>
@@ -1195,8 +1151,8 @@
 					</div>
 				</div>
 				<div class="controls">
-					<a href="#skills"><button class="btn btn_auto">Prev</button></a> <a
-						href="#archiving"><button class="btn btn_auto">Next</button></a>
+					<a href="#skills"><button class="btn btn_auto">Prev</button></a> <a href="#archiving"><button
+							class="btn btn_auto">Next</button></a>
 				</div>
 			</div>
 		</div>
@@ -1211,8 +1167,7 @@
 			<div class="title-bar">
 				<div>
 					<!-- 레트로 윈도우 창 -->
-					<span class="title-bar__title"><a href="#page-top"
-						id="windowTitle">Blog & Github</a></span>
+					<span class="title-bar__title"><a href="#page-top" id="windowTitle">Blog & Github</a></span>
 				</div>
 			</div>
 			<!-- Contents -->
@@ -1222,64 +1177,56 @@
 						<source src="videos/purple.mp4" type="video/mp4">
 					</video>
 					<!-- Blog Section Heading-->
-					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Blog
+					<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Blog
 						& Github</h2>
 					<!-- Project Grid Items-->
-					<div class="row justify-content-center"
-						style="text-shadow: 1px 1px 2px #5D2FDA;">
+					<div class="row justify-content-center" style="text-shadow: 1px 1px 2px #5D2FDA;">
 						<!-- #9B28BF -->
 						<!-- Blog-->
 						<div class="col-md-6 col-lg-5 my-3 mx-3 text-white rounded"
 							style="background-color: rgba(0, 0, 0, 0.1);">
 							<p class="lead" style="text-align: justify;">
-								<a href="https://yjyuwisely.tistory.com" title="Go to the blog"
-									target="_blank"> <img class="img-fluid"
-									src="assets/images/Tistory.png" height=100px width=200px
-									alt="Blog" /></a><br> <a
-									href="https://yjyuwisely.tistory.com" title="Go to the blog"
-									target="_blank"> <b
-									style="font-family: 'Paytone One', sans-serif;" class="fs-5">yjyuwisely.tistory.com</b><img
-									class="mb-1" src="assets/images/newWindow.svg" /><br></a> I
+								<a href="https://yjyuwisely.tistory.com" title="Go to the blog" target="_blank"> <img
+										class="img-fluid" src="assets/images/Tistory.png" height=100px width=200px
+										alt="Blog" /></a><br> <a href="https://yjyuwisely.tistory.com"
+									title="Go to the blog" target="_blank"> <b
+										style="font-family: 'Paytone One', sans-serif;"
+										class="fs-5">yjyuwisely.tistory.com</b><img class="mb-1"
+										src="assets/images/newWindow.svg" /><br></a> I
 								created this blog to store and share what I've learned. It
 								features various sections, including:
 							</p>
 							<ul style="list-style-type: square; font-size: 0.9rem;">
-								<li><a
-									href="https://yjyuwisely.tistory.com/category/🌳AI%20Learning%20%26%20Career%20Paths🛤%EF%B8%8F✨"
-									title="Go to the Tistory blog." target="_blank"><b>AI
+								<li><a href="https://yjyuwisely.tistory.com/category/🌳AI%20Learning%20%26%20Career%20Paths🛤%EF%B8%8F✨"
+										title="Go to the Tistory blog." target="_blank"><b>AI
 											Learning & Career Paths</b><img class="mb-1"
-										src="assets/images/newWindow.svg" /><br>This includes
+											src="assets/images/newWindow.svg" /><br>This includes
 										book reviews, memorable development columns, and various
 										helpful links.</a></li>
 								<br>
 								<p style="font-size: 0.9rem; text-align: justify;">The posts
 									in the following lists were written during my bootcamp in 2023
 									and are mostly in Korean:</p>
-								<li><a
-									href="https://yjyuwisely.tistory.com/category/💻Bootcamp%20Self-Study%20Revision✨"
-									title="Go to the Tistory blog." target="_blank"><b>Bootcamp
+								<li><a href="https://yjyuwisely.tistory.com/category/💻Bootcamp%20Self-Study%20Revision✨"
+										title="Go to the Tistory blog." target="_blank"><b>Bootcamp
 											Self-Study Revision</b><img class="mb-1"
-										src="assets/images/newWindow.svg" /><br>New learnings
+											src="assets/images/newWindow.svg" /><br>New learnings
 										and revisited concepts encountered during project progression.</a></li>
-								<li><a
-									href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨"
-									title="Go to the Tistory blog." target="_blank"><b>My
+								<li><a href="https://yjyuwisely.tistory.com/category/💖My%20Bootcamp%20Projects%20Logs✨"
+										title="Go to the Tistory blog." target="_blank"><b>My
 											Bootcamp Projects Logs</b><img class="mb-1"
-										src="assets/images/newWindow.svg" /> <br>A detailed
+											src="assets/images/newWindow.svg" /> <br>A detailed
 										record of the progress and processes involved in my projects.</a></li>
-								<li><a
-									href="https://yjyuwisely.tistory.com/category/🌳Bootcamp%20Revision%202023✨"
-									title="Go to the Tistory blog." target="_blank"><b>Bootcamp
+								<li><a href="https://yjyuwisely.tistory.com/category/🌳Bootcamp%20Revision%202023✨"
+										title="Go to the Tistory blog." target="_blank"><b>Bootcamp
 											Revision 2023</b><img class="mb-1"
-										src="assets/images/newWindow.svg" /><br>Content I
+											src="assets/images/newWindow.svg" /><br>Content I
 										reviewed following lectures in the K-Digital Training Program
 										(Web Bootcamp) in 2023.</a></li>
-								<li><a
-									href="https://yjyuwisely.tistory.com/category/🌳List%20of%20Materials✨"
-									title="Go to the Tistory blog." target="_blank"><b>List
-											of Materials</b><img class="mb-1"
-										src="assets/images/newWindow.svg" /><br>A collection of
+								<li><a href="https://yjyuwisely.tistory.com/category/🌳List%20of%20Materials✨"
+										title="Go to the Tistory blog." target="_blank"><b>List
+											of Materials</b><img class="mb-1" src="assets/images/newWindow.svg" /><br>A
+										collection of
 										links pertaining to development studies and technology stacks.</a></li>
 							</ul>
 						</div>
@@ -1287,16 +1234,14 @@
 						<div class="col-md-6 col-lg-5 my-3 mx-3 text-white rounded"
 							style="background-color: rgba(0, 0, 0, 0.1);">
 							<p class="lead text-start">
-								<a href="https://www.github.com/yjyuwisely" title="Go to GitHub"
-									target="_blank"> <img class="img-fluid"
-									src="assets/images/github-mark.png" height=30px width=50px
-									alt="github-mark" /> <img class="img-fluid"
-									src="assets/images/GitHub_Logo.png" height=100px width=120px
-									alt="Github_Logo" style="margin: 2px;" /></a> <br> <a
-									href="https://www.github.com/yjyuwisely" title="Go to GitHub"
-									target="_blank"> <b
-									style="font-family: 'Paytone One', sans-serif;" class="fs-5">github.com/yjyuwisely</b><img
-									class="mb-1" src="assets/images/newWindow.svg" /><br></a>
+								<a href="https://www.github.com/yjyuwisely" title="Go to GitHub" target="_blank"> <img
+										class="img-fluid" src="assets/images/github-mark.png" height=30px width=50px
+										alt="github-mark" /> <img class="img-fluid" src="assets/images/GitHub_Logo.png"
+										height=100px width=120px alt="Github_Logo" style="margin: 2px;" /></a> <br> <a
+									href="https://www.github.com/yjyuwisely" title="Go to GitHub" target="_blank"> <b
+										style="font-family: 'Paytone One', sans-serif;"
+										class="fs-5">github.com/yjyuwisely</b><img class="mb-1"
+										src="assets/images/newWindow.svg" /><br></a>
 								This is the repository for project source codes. <br> <br>
 							</p>
 							<ul style="list-style-type: square; font-size: 0.9rem;">
@@ -1309,8 +1254,8 @@
 				</div>
 			</div>
 			<div class="controls">
-				<a href="#projects"><button class="btn btn_auto">Prev</button></a> <a
-					href="#achievements"><button class="btn btn_auto">Next</button></a>
+				<a href="#projects"><button class="btn btn_auto">Prev</button></a> <a href="#achievements"><button
+						class="btn btn_auto">Next</button></a>
 			</div>
 		</div>
 	</section>
@@ -1321,8 +1266,7 @@
 			<div class="title-bar">
 				<div>
 					<!-- 레트로 윈도우 창 -->
-					<span class="title-bar__title"><a href="#page-top"
-						id="windowTitle">Achievements</a></span>
+					<span class="title-bar__title"><a href="#page-top" id="windowTitle">Achievements</a></span>
 				</div>
 			</div>
 			<!-- Contents -->
@@ -1332,19 +1276,17 @@
 						<source src="videos/discolights.mp4" type="video/mp4">
 					</video>
 					<!-- Experience Section Heading -->
-					<h2
-						class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Awards</h2>
+					<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-light">Awards
+					</h2>
 					<div class="text-white rounded"
 						style="background-color: rgba(0, 0, 0, 0.3); text-shadow: 1px 1px 2px #9B28BF;">
-						<p class="lead text-start text-center mx-2 pb-0 mb-0 fs-3"
-							id="TopTitle">'MO BAO AWARD'</p>
+						<p class="lead text-start text-center mx-2 pb-0 mb-0 fs-3" id="TopTitle">'MO BAO AWARD'</p>
 						<p class="lead text-start text-center mx-2 pb-0">
 							<b class="silkscreen">Outstanding Performance in the Field<br>
 								International Studio of Art and Culture
 							</b>
 						</p>
-						<p class="lead lh-lg mx-2"
-							style="text-indent: 1rem; text-align: justify;">I
+						<p class="lead lh-lg mx-2" style="text-indent: 1rem; text-align: justify;">I
 							participated in the International Studio of Art and Culture
 							program in Bali, Indonesia, as part of the architecture and
 							design department during my undergraduate studies. Through this
@@ -1376,8 +1318,7 @@
 	</div>
 	<!-- Copyright © Your Website 2023 -->
 	<!-- Bootstrap core JS-->
-	<script
-		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 	<!-- Core theme JS-->
 	<script src="js/scripts.js"></script>
 	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
@@ -1387,4 +1328,5 @@
 	<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 	<script src="js/projectListToggle.js"></script>
 </body>
+
 </html>

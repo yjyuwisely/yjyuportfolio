@@ -1,14 +1,12 @@
-# AI Research Scientist Portfolio: Showcasing My Aspirations and Evolving Expertise
+# Statistics & Data Analytics Portfolio: Showcasing My Aspirations and Evolving Expertise
 
-<p align="justify">
-Welcome to my portfolio, a dynamic reflection of my journey towards becoming an AI research scientist. Since embarking on this path on March 31, 2023, I have been exploring the vast and diverse field of Artificial Intelligence, seeking to discover and specialize in areas that resonate with my interests and expertise. As my expertise grows, so will this space, reflecting my evolving skills and contributions across the diverse spectrum of Artificial Intelligence.
-</p>
-<br>
+Applied Machine Learning | Strong Foundations in Mathematics
+<p align="justify"> Welcome to my portfolio. This space documents my academic background, technical skill development, and project work in statistics, data analysis, and applied machine learning. </p> <p align="justify"> With a strong foundation in mathematics and statistics, I focus on building rigorous, interpretable, and practical data-driven solutions. This portfolio evolves as I develop industry-ready projects and deepen my analytical expertise. </p> <br>
 
 ## Project Overview
 
 <p align="justify">
-This portfolio is a canvas where I illustrate my exploration and growth in AI. As I delve into various branches of AI, I am excited to share my developments, experiments, and learnings. While specific AI endeavors are on the horizon, I've dedicated this portfolio to showcase my upcoming AI projects.
+This portfolio is a canvas where I illustrate my exploration and growth in AI. As I delve into various branches of AI, I am excited to share my developments, experiments, and learnings. While specific AI endeavors are on the horizon, I've dedicated this portfolio to showcase my upcoming AI projects. Also, this portfolio showcases projects that reflect my training in statistical modelling, data analysis, and applied machine learning. The emphasis is on real-world datasets, reproducible analysis, and clear communication of insights. </p> <p align="justify"> Projects include exploratory data analysis, predictive modelling, and machine learning applications developed using Python, R, and related tools. 
 </p>  
 
 Access all projects, spanning my past endeavors and future pursuits, via my portfolio:  
@@ -18,8 +16,15 @@ Access all projects, spanning my past endeavors and future pursuits, via my port
 
 ## Focus Areas in AI
 
+<p align="justify"> My current focus areas include: </p>
+
+- Statistical modelling and inference
+- Data analysis and visualisation
+- Applied machine learning for structured data
+- Introductory applications of computer vision and predictive modelling
+
 <p align="justify">
-While I am currently exploring various domains within AI, my portfolio will showcase a range of projects that reflect my learning curve and contributions to different areas of AI. From potential ventures into Computer Vision to exploratory projects in other AI fields, this space will evolve as I solidify my research interests.
+While I am currently exploring various domains within AI, my portfolio will showcase a range of projects that reflect my learning curve and contributions to different areas of AI. From potential ventures into Computer Vision to exploratory projects in other AI fields, this space will evolve as I solidify my research interests. Over time, this portfolio will expand to include more advanced machine learning and research-oriented work as my professional experience grows. 
 </p>
 
 <!-- 
@@ -32,9 +37,11 @@ While I am currently exploring various domains within AI, my portfolio will show
 
 ## Technologies Used
 
+- **Statistics & Data Analysis**: Python, R, SQL
+- **Machine Learning**: scikit-learn, PyTorch (applied use), TensorFlow, HuggingFace, etc.  
 - **AI Research**: Technologies and tools to be determined as projects evolve.  
-- **AI Development**: TensorFlow, PyTorch, HuggingFace, etc.  
-- **Web Development**: HTML, CSS, Bootstrap, Vanilla JavaScript, jQuery.  
+- **Data Tools**: pandas, NumPy, tidyverse, ggplot2
+- **Web**: HTML, CSS, JavaScript
 
 
 <!-- 
@@ -46,7 +53,7 @@ While I am currently exploring various domains within AI, my portfolio will show
 ## Stay Tuned!
 
 <p align="justify">
-As I navigate through the exciting field of AI, my commitment to contributing meaningful research and innovation and enthusiasm remains unwavering. While the AI journey is in its infancy, I am dedicated, excited, and ready to plunge into the deep end. Watch this space for updates on my journey, new project additions, and breakthroughs in AI research!
+In the longer term, I aim to progress into more advanced machine learning and research-oriented roles after establishing strong analytical and professional foundations. </p> <p align="justify"> This repository will be updated regularly as new projects are completed. As I navigate through the exciting field of AI, my commitment to contributing meaningful research and innovation and enthusiasm remains unwavering. While the AI journey is in its infancy, I am dedicated, excited, and ready to plunge into the deep end. Watch this space for updates on my journey, new project additions, and breakthroughs in AI research!
 </p>
 <br>
 

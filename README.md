@@ -14,7 +14,7 @@ Access all projects, spanning my past endeavors and future pursuits, via my port
 <br>
 <br>
 
-## Focus Areas in AI
+## Focus Areas
 
 <p align="justify"> My current focus areas include: </p>
 

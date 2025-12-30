@@ -62,5 +62,4 @@ In the longer term, I aim to progress into more advanced machine learning and re
 <p align="justify">
 Here's a screenshot of the introduction section:
 </p>
-
-![Introduction Section](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FC1M7O%2FbtsxrZOSqws%2FC8DtpCTzByGDc4jKuQ4Ew0%2Fimg.png)
+<img width="2964" height="1596" alt="image" src="https://github.com/user-attachments/assets/79e098a7-3a6b-4104-abe1-6533f50d6dd9" />
